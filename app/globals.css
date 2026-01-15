@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-paper text-ink;
+}
+
+/* Nice readable links */
+a { @apply underline-offset-4; }
+
+/* Utility */
+.container-page { @apply max-w-6xl mx-auto px-6; }

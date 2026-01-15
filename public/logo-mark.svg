@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TPB mark">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2b3e26"/>
+      <stop offset="1" stop-color="#5f8a54"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#g)"/>
+  <circle cx="32" cy="32" r="28" fill="none" stroke="#faf8f4" stroke-width="2" opacity="0.65"/>
+  <text x="32" y="40" text-anchor="middle" font-family="Georgia,Times,serif" font-size="20" fill="#faf8f4" letter-spacing="1">TPB</text>
+</svg>

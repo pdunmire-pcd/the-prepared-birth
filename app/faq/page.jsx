@@ -1,0 +1,72 @@
+export const metadata = { title: "FAQ" };
+
+const faqs = [
+  {
+    q: "What do you offer?",
+    a: "Private, relationship-based birth preparation and consulting. This work is educational and supportive in nature and focuses on clarity, steadiness, and thoughtful preparation.",
+  },
+  {
+    q: "Do you attend births?",
+    a: "No. I do not provide labor support or attend births.",
+  },
+  {
+    q: "How is this different from a doula or a class?",
+    a: "This work centers on preparation rather than presence or curriculum. Families often choose it when they want fewer voices, steadier guidance, and space to think things through.",
+  },
+  {
+    q: "Who do you work with?",
+    a: "Families planning hospital or birth-center care who value calm, experienced guidance.",
+  },
+  {
+    q: "How do we begin?",
+    a: "Most families begin with a private Birth Clarity Session to determine fit.",
+  },
+  {
+    q: "Do you list prices publicly?",
+    a: "Only the Birth Clarity Session fee is listed publicly. Ongoing work is discussed privately once scope and alignment are clear.",
+  },
+  {
+    q: "Do you take insurance?",
+    a: "At this time, I do not accept insurance. However, many clients are able to get partial reimbursement from their insurance or HSA/FSA by submitting a letter or invoice from me. I'm happy to provide that upon request.",
+  },
+];
+
+function AccordionItem({ q, a }) {
+  return (
+    <details className="rounded-xl2 bg-white shadow-soft border border-black/10 p-6">
+      <summary className="cursor-pointer font-semibold">
+        {q}
+      </summary>
+      <p className="mt-3 opacity-85">{a}</p>
+    </details>
+  );
+}
+
+export default function FAQPage() {
+  return (
+    <div>
+      <section className="container-page py-14 md:py-20">
+        <h1 className="text-4xl md:text-5xl font-serif">Frequently Asked Questions</h1>
+        <p className="mt-4 text-lg opacity-90 max-w-3xl">
+          Quick clarity on what this service is, how it works, and whether it’s a fit.
+        </p>
+
+        {/* Not a full-bleed hero; image is supportive, not dominant */}
+        <div className="mt-10 grid lg:grid-cols-3 gap-6 items-start">
+          <div className="lg:col-span-2 grid gap-4">
+            {faqs.map((item) => (
+              <AccordionItem key={item.q} {...item} />
+            ))}
+          </div>
+          <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
+            <img
+              src="/images/faq-moment.png"
+              alt="Support during labor"
+              className="w-full h-[360px] object-cover"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
