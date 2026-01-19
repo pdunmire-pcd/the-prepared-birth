@@ -38,7 +38,7 @@ export default function WorkingWithMePage() {
             </div>
 
             <div>
-              <h2 className="font-semibold text-lg">Experience &amp; qualifications</h2>
+              <h2 className="font-semibold text-lg">Experience & qualifications</h2>
               <ul className="mt-2 grid gap-2 opacity-85 list-disc pl-5">
                 <li>Supported over 400 births across roles in birth and early postpartum care</li>
                 <li>Twelve years working within a birth center setting, alongside midwives and care teams</li>
@@ -49,8 +49,7 @@ export default function WorkingWithMePage() {
 
             <div>
               <p className="text-sm opacity-80">
-                Most families begin with a <Link className="no-underline underline" href="/inquiry">Birth Clarity Session</Link> to
-                determine fit.
+                Most families begin with a <Link className="no-underline underline" href="/inquiry">Birth Clarity Session</Link> to determine fit.
               </p>
             </div>
           </div>
@@ -59,9 +58,9 @@ export default function WorkingWithMePage() {
         <aside className="grid gap-6">
           <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
             <img
-              src="/images/birth-tub.jpg"
-              alt="Quiet support and connection after birth"
-              className="w-full h-[420px] object-cover"
+              src="/images/sarah-photo.jpg"
+              alt="Sarah, childbirth educator and birth consultant"
+              className="w-full h-[520px] object-cover object-top"
             />
           </div>
           <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
@@ -70,10 +69,10 @@ export default function WorkingWithMePage() {
               Our work happens through focused, private conversations during pregnancy and often into postpartum. Some families opt for extended personalized guidance through pregnancy and early postpartum. This is a concierge-style option.
             </p>
             <ul className="mt-4 grid gap-2 text-sm opacity-90">
-              <li>• Clarify options and priorites prior to selecting your care team and choice of birth setting</li>
+              <li>• Clarify options and priorities prior to selecting your care team and choice of birth setting</li>
               <li>• Make sense of recommendations and next steps</li>
-              <li>• Assist with Deciphering medical terms and various interventions</li>
-              <li>• Highest level of support is offerred with upon request</li>
+              <li>• Assist with deciphering medical terms and various interventions</li>
+              <li>• Highest level of support is offered upon request</li>
             </ul>
             <p className="mt-4 text-sm opacity-80">
               Postpartum support focuses on integration, recovery, and settling into early family life with steadiness and

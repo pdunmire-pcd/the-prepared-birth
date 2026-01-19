@@ -50,14 +50,14 @@ export default function AboutPage() {
           <div className="lg:col-span-2">
             <Card title="About The Prepared Birth">
               <p>
-                The Prepared Birth offers <strong>childbirth education and decison support</strong> for families who want to understand their options amd feel prepared before birth.
+                The Prepared Birth offers <strong>childbirth education and decision support</strong> for families who want to understand their options and feel prepared before birth.
               </p>
               <p className="mt-4">
-                This work is <strong>non-medical and does not incloude birth attendance.</strong> Instead, support happens beofre birth - helping you make sense of recommendations, prepare for prenatal visits, and think clearly when decisions matter. Preparation for postpartum is a key part of birth planning. 
+                This work is <strong>non-medical and does not include birth attendance.</strong> Instead, support happens before birth - helping you make sense of recommendations, prepare for prenatal visits, and think clearly when decisions matter. Preparation for postpartum is a key part of birth planning.
               </p>
 
-              <p>
-                Families choose The Prepared Birth when information feels overwhelming when a recommendation is needed or when they want education tailored to their hospital or birth center care. <strong>The Goal is Simple</strong>: clear understanding, confident decisions, and steady guidance when decision feel heavy. 
+              <p className="mt-4">
+                Families choose The Prepared Birth when information feels overwhelming, when a recommendation is needed, or when they want education tailored to their hospital or birth center care. <strong>The goal is simple</strong>: clear understanding, confident decisions, and steady guidance when decisions feel heavy.
               </p>
 
               <div className="mt-7 rounded-xl2 bg-paper border border-black/10 p-5">
@@ -86,84 +86,42 @@ export default function AboutPage() {
           </aside>
         </div>
 
+        <div className="mt-12 grid lg:grid-cols-2 gap-6 items-center">
+          <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
+            <img
+              src="/images/birth-tub.jpg"
+              alt="Quiet support and connection after birth"
+              className="w-full h-[380px] object-cover"
+            />
+          </div>
+          <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-8">
+            <h3 className="font-serif text-2xl">A calm, supportive environment</h3>
+            <p className="mt-4 opacity-85 text-base">
+              Birth preparation is about creating clarity and confidence for the journey ahead. Whether you're planning hospital or birth-center care, having experienced guidance helps families feel oriented rather than overwhelmed.
+            </p>
+            <p className="mt-4 opacity-85 text-base">
+              The work focuses on understanding your options, preparing for decisions, and feeling steady as you navigate pregnancy, birth, and early postpartum life.
+            </p>
+          </div>
+        </div>
+
         <h2 className="mt-16 text-3xl md:text-4xl font-serif">Offerings</h2>
         <p className="mt-4 opacity-85 max-w-3xl">
           All families begin with a Birth Clarity Session. Ongoing support is discussed privately once fit and scope are clear.
         </p>
 
-        <div id="clarity" className="mt-10 grid lg:grid-cols-3 gap-6 items-start">
-          <div className="lg:col-span-2">
-            <Card title="Birth Clarity Session">
-              <p>
-                The Birth Clarity Session is a 90-minute, private birth preparation consultation. You will be able to tell me your story, express your hopes, and thoughts about your personal birth journey. Together we will discuss any fears, or concerns of the unknown surrounding birth. Offering real life guidance and perspective based upon your birth preferences and my experience.
-                <br></br>
-                <br></br>
-                
-                We look at your full picture - your values , your care setting, and what's coming next - and sort through decisions without pressure or overwhelm. The purpose isn't to direct your choices, but to help you understand your options and make informed, confident decisions within your hospital or birth center care. 
+        <div id="packages" className="mt-10 grid lg:grid-cols-3 gap-6 items-stretch">
+          <PackageCard
+            title="Birth Clarity Session"
+            subtitle="90-minute consultation"
+            bullets={[
+              "Private one-on-one session to understand your story",
+              "Clarify medical recommendations and options",
+              "Prepare for confident engagement with your care team",
+              "Foundation for all ongoing work",
+            ]}
+          />
 
-                We also clarify medical recommendations - wahts being suggested, why, and what alternatives exist we will work teogether to prepare you to engage confidently and thoughtfully with your care team. For many families this session brings focus, confidents, and clear next steps.
-                
-              </p>
-              <p className="mt-4">
-                This session is educational and consultative. It is not medical care and does not replace care from your providers.
-              </p>
-
-              <div className="mt-6 grid md:grid-cols-2 gap-6 text-sm md:text-base">
-                <div>
-                  <div className="font-semibold">Format</div>
-                  <p className="mt-2 opacity-85">
-                    Consultations are offered virtually, or held in person on Tuesdays at The Birthing Inn Birth Center in Tacoma.
-                  </p>
-                </div>
-                <div>
-                  <div className="font-semibold">Availability</div>
-                  <p className="mt-2 opacity-85">
-                    Clarity Sessions are offered on Tuesdays to accommodate your needs. 
-                  </p>
-                </div>
-              </div>
-
-              <div className="mt-6 rounded-xl2 bg-paper border border-black/10 p-5">
-                <div className="font-semibold">Investment</div>
-                <div className="mt-1 text-2xl font-serif">$350</div>
-                <p className="mt-2 text-sm opacity-80">Paid in full at booking.</p>
-              </div>
-
-              <div className="mt-7 flex flex-wrap gap-3">
-                <Link
-                  href="/inquiry"
-                  className="no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
-                >
-                  Begin with a Clarity Session
-                </Link>
-              </div>
-
-              <div className="mt-8 text-sm opacity-85">
-                <h3 className="font-semibold">Clarity Session Fee &amp; Payment</h3>
-                <p className="mt-2">Clarity Sessions are $350 and are 90 minutes in length.</p>
-                <p className="mt-2">Payment is required at the time of booking to reserve your session.</p>
-                <p className="mt-2">
-                  Because sessions are limited and held within a single day each week, requests to reschedule must be made at least 48 hours in advance.
-                </p>
-                <p className="mt-2">
-                  Sessions canceled or rescheduled with less than 48 hours’ notice are non-refundable and may not be accommodated.
-                </p>
-                <p className="mt-2">
-                  When all Tuesday sessions are filled, clients may request placement on a waitlist and will be contacted if an opening becomes available.
-                </p>
-              </div>
-            </Card>
-          </div>
-
-          <aside className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
-            <div className="font-semibold">Note</div>
-            <p className="mt-2 text-sm opacity-80">
-              Ongoing work is shared privately after the Clarity Session once scope and alignment are clear.
-            </p>
-          </aside>
-        </div>
-
-        <div id="packages" className="mt-16 grid lg:grid-cols-3 gap-6 items-stretch">
           <PackageCard
             title="Prepared Birth Education"
             subtitle="Focused prenatal preparation"
@@ -183,10 +141,8 @@ export default function AboutPage() {
               "Postpartum integration, recovery, and settling in",
               "Feeding support (breast, bottle, or combination)",
               "Early newborn rhythm and emotional integration",
-              "Expanded but defined consulting access",
             ]}
           />
-
         </div>
 
         <div className="mt-16 rounded-xl2 bg-white shadow-soft border border-black/10 p-7">

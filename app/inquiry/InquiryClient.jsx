@@ -146,6 +146,15 @@ export default function InquiryPage() {
                   For families seeking concierge-style midwifery care, I often point people toward this highly experienced midwife known for her steady, long-standing presence in the Tacoma birth community. Her practice reflects many years of experience and a relationship-centered approach balancing holistic support with medical care
                 </p>
               </li>
+              <br />
+              <li>
+                <Link href="https://www.multicare.org/provider/lacey-ballard/" target="_blank" className="underline">
+                Lacey Ballard, Hospital Based Midwifery
+                </Link>
+                <p>
+                  For hospitals based midwifery care I align with: Lacey Ballard DNP, CNM is a board - certified nurse midwife and doctor of nursing practice providing comprehensive care across pregnancy, birth, and postpartum. Her work centers physiological birth, informed decision-making, and individualized care within the hospital setting.
+                </p>
+              </li>
               <li>
                 <br></br>
                 <p>
