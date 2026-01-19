@@ -60,24 +60,24 @@ export default function SiteFooter() {
             rel="noopener noreferrer"
             className="relative inline-block px-6 py-3 text-sm font-medium tracking-wide no-underline transition-all duration-300 hover:-translate-y-0.5"
             style={{
-              background: 'linear-gradient(135deg, #f4e4c1 0%, #e8d5b7 100%)',
-              color: '#3d2f1f',
-              border: '2px solid #a0826d',
+              background: 'linear-gradient(135deg, #f9f7f4 0%, #f0ebe3 100%)',
+              color: '#4a4a4a',
+              border: '1.5px solid #d4cfc7',
               letterSpacing: '0.5px'
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.background = 'linear-gradient(135deg, #e8d5b7 0%, #a0826d 100%)';
-              e.currentTarget.style.color = '#f4e4c1';
-              e.currentTarget.style.boxShadow = '0 6px 20px rgba(139, 115, 85, 0.4)';
+              e.currentTarget.style.background = 'linear-gradient(135deg, #e8e3dc 0%, #d9d4cc 100%)';
+              e.currentTarget.style.color = '#2a2a2a';
+              e.currentTarget.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.08)';
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.background = 'linear-gradient(135deg, #f4e4c1 0%, #e8d5b7 100%)';
-              e.currentTarget.style.color = '#3d2f1f';
+              e.currentTarget.style.background = 'linear-gradient(135deg, #f9f7f4 0%, #f0ebe3 100%)';
+              e.currentTarget.style.color = '#4a4a4a';
               e.currentTarget.style.boxShadow = 'none';
             }}
           >
-            <span className="absolute top-[-8px] left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-b-8" style={{ borderBottomColor: '#a0826d' }}></span>
-            <span className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8" style={{ borderTopColor: '#a0826d' }}></span>
+            <span className="absolute top-[-8px] left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-b-8" style={{ borderBottomColor: '#d4cfc7' }}></span>
+            <span className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8" style={{ borderTopColor: '#d4cfc7' }}></span>
             Site by Paris Allkurti
           </a>
         </div>
