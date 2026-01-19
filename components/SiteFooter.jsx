@@ -39,6 +39,9 @@ export default function SiteFooter() {
               <Link href="https://allaboutbirthmidwifery.com" target="_blank" className="no-underline hover:underline">
                 All About Birth Midwifery
               </Link>
+              <Link href="https://www.multicare.org/provider/lacey-ballard/" target="_blank" className="underline">
+                Lacey Ballard, Hospital Based Midwifery
+                </Link>
             </div>
           </div>
 
