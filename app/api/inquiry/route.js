@@ -9,9 +9,33 @@ export async function POST(request) {
     else data[key] = [data[key], value];
   }
 
-  // TODO: Wire this to your real email service / CRM.
-  // For now, we simply log and return a friendly JSON response.
-  console.log("[Inquiry]", data);
+  console.log("[Inquiry] Data received:", data);
 
-  return Response.json({ ok: true });
+  try {
+    console.log("[Inquiry] Sending to Formspree...");
+    
+    const response = await fetch('https://formspree.io/f/mkooblrn', {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+
+    console.log("[Inquiry] Formspree response status:", response.status);
+    const responseData = await response.json();
+    console.log("[Inquiry] Formspree response data:", responseData);
+
+    if (!response.ok) {
+      throw new Error('Formspree submission failed');
+    }
+
+    return Response.json({ ok: true });
+  } catch (error) {
+    console.error('[Inquiry] Form submission error:', error);
+    return Response.json(
+      { error: 'Failed to submit form' },
+      { status: 500 }
+    );
+  }
 }
