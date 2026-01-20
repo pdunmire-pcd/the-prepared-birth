@@ -14,7 +14,7 @@ export async function POST(request) {
   try {
     console.log("[Inquiry] Sending to Formspree...");
     
-    const response = await fetch('https://formspree.io/f/mkooblrn', {
+    const response = await fetch('https://formspree.io/f/mlggwyqy', {
       method: 'POST',
       body: formData,
       headers: {
