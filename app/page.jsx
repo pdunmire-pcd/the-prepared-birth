@@ -58,6 +58,7 @@ export default function HomePage() {
           <div className="mt-6 grid md:grid-cols-3 gap-6 text-sm md:text-base">
             <div>
               <p>Many families come to this work feeling generally informed - but not fully settled. They've read, taken a class, or talked with their provider, yet still have questions they don't know where to place. This work is about slowing things down and helping you think clearly, calmly, and in context.</p>
+              <br />
               <div className="font-semibold">1) Begin with a Clarity Session</div>
               <p className="mt-2 opacity-80">
                 A focused conversation to sort through your questions, priorities, and options - and clarify what preparation will be most useful for your birth
