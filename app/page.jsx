@@ -47,8 +47,7 @@ export default function HomePage() {
           </div>
           <div className="absolute -bottom-6 -left-6 bg-paper rounded-xl2 border border-black/10 shadow-soft p-5 max-w-sm">
             <p className="text-sm opacity-80">
-              <span className="font-semibold">Experience:</span> 400+ births supported across roles in birth and early
-              postpartum care, including 12 years in a birth center alongside midwives and care teams.
+              <span className="font-semibold">Make Birth Decisions before you're in Labor</span> Feel oriented and confident going in.... not overwhelmed or confused.
             </p>
           </div>
         </div>
