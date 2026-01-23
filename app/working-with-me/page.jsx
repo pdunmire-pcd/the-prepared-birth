@@ -30,7 +30,7 @@ export default function WorkingWithMePage() {
             <div>
               <h2 className="font-semibold text-lg">Consultation format</h2>
               <p className="mt-2 opacity-85">
-                Consultations are offered virtually, or in person on Tuesdays at The Birthing Inn in Tacoma.
+                Consultations are offered virtually, or in person by appointment at The Birthing Inn in Tacoma.
               </p>
               <p className="mt-3 text-sm opacity-80">
                 This work is education-based and non-medical. I do not attend births in this role.
