@@ -120,9 +120,18 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <h2 className="mt-16 text-3xl md:text-4xl font-serif">Offerings</h2>
+        <h2 className="mt-16 text-3xl md:text-4xl font-serif">Preparation Pathways</h2>
         <p className="mt-4 opacity-85 max-w-3xl">
-          All families begin with a Birth Clarity Session. Ongoing support is discussed privately once fit and scope are clear.
+          For families who want more than a single conversation, I offered Preparation Pathways - a guided way to prepare for birth with clarity, intentions, and steadiness.<br />
+          <br />
+          Preparation Pathways combine:
+          <ul className="mt-2 list-disc list-inside">
+            <li>Individualized childbirth education</li>
+            <li>Birth planning and thoughtful decision support</li>
+            <li>Postpartum preparation, including feeding and early recovery</li>
+          </ul>
+          <br />
+          Each pathway is tailored to your needs and paced to avoid overwhelm. The goal is steady, thoughtful preparation - not information overload. Specific pathway options are shared after a Clarity Session, once we've had time to understand what kind of preparation would be most helpful.
         </p>
 
         <div id="packages" className="mt-10 grid lg:grid-cols-3 gap-6 items-stretch">
