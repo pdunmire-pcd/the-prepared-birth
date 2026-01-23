@@ -13,7 +13,7 @@ function Card({ title, children }) {
   );
 }
 
-function PackageCard({ title, subtitle, bullets }) {
+function PackageCard({ title, subtitle, bullets, description }) {
   return (
     <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
       <div className="flex items-start justify-between gap-6">
@@ -30,9 +30,13 @@ function PackageCard({ title, subtitle, bullets }) {
           </li>
         ))}
       </ul>
+      {description ? (
+        <p className="mt-6 text-sm opacity-70">{description}</p>
+      ) : (
       <p className="mt-6 text-sm opacity-70">
         Pricing for ongoing work is shared privately after the Clarity Session once scope and fit are clear.
       </p>
+    )}
     </div>
   );
 }
@@ -43,16 +47,19 @@ export default function AboutPage() {
       <section className="container-page py-14 md:py-20">
         <h1 className="text-4xl md:text-5xl font-serif">About</h1>
         <p className="mt-4 text-lg opacity-90 max-w-3xl">
-          Quiet, experienced birth preparation and consultation for families planning hospital or birth-center care in the Puget Sound region. Respect, choice, and consent - always.
+          The Prepared Birth offers thoughtful birth education and consultation for people who want to feel clear, grounded, and prepared as they move through pregnancy, birth planning, and early postpartum. <br />
+          <br />
+          I work with families who value steady guidance and honest conversation - especially those preparing for hospital or birth-center care and looking for support that complements, rather than replaces, their medical team.
         </p>
 
         <div className="mt-10 grid lg:grid-cols-3 gap-6 items-start">
           <div className="lg:col-span-2">
             <Card title="About The Prepared Birth">
               <p>
-                The Prepared Birth offers <strong>childbirth education and decision support</strong> for families who want to understand their options and feel prepared before birth.
+                The Prepared Birth offers <strong>childbirth education and decision support</strong> for families who want to understand their options and feel prepared before birth, clarity without noise. if you're feeling overwhelmed by information, unsure how to interpret recommendations, or simply want experienced guidance without adding another person to your birth room, this kind of support can be deeply grounding.
               </p>
               <p className="mt-4">
+                I don't offer a philosophy to follow or a "right way" to give birth. I offer perspective shaped by years of experience, practical preparation, and space to think things through - so you can make decisions that fit your values, your care setting, and your real life.
                 This work is <strong>non-medical and does not include birth attendance.</strong> Instead, support happens before birth - helping you make sense of recommendations, prepare for prenatal visits, and think clearly when decisions matter. Preparation for postpartum is a key part of birth planning.
               </p>
 
@@ -62,6 +69,9 @@ export default function AboutPage() {
 
               <div className="mt-7 rounded-xl2 bg-paper border border-black/10 p-5">
                 <div className="font-semibold">Experience</div>
+                <p>I've spent more than 15 years working in birth - supporting over 400 families in hospital and birth-center settings. My background includes work as a certified childbirth educator, birth and postpartum doula, and midwife assistant, alongside midwives and maternity care teams.<br />
+                <br /> 
+                Over time, I chose to focus exclusively on education and consultation. I don't attend births. Instead, I offer thoughtful preparation, clear explanations, and steady guidance - so families feel informed, grounded, and confident as they move through pregnancy, birth planning, and early postpartum</p>
                 <ul className="mt-3 grid gap-2 text-sm md:text-base">
                   <li>Supported over 400 births across roles in birth and early postpartum care</li>
                   <li>Twelve years working within a birth-center setting alongside midwives and care teams</li>
@@ -69,10 +79,15 @@ export default function AboutPage() {
                   <li>Background as a midwife assistant, birth doula, and postpartum doula</li>
                 </ul>
               </div>
+              <p>
+                  <br />You don't need to have everything figured out right now. Most people don't. What helps is having a place to talk things through - with someone steady, experienced, and outside the swirl of opinions. <br />
+                  <br />
+                  If that sounds supportive, the best place to begin is with a Birth Clarity Session.
+              </p>
             </Card>
           </div>
 
-          <aside className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
+          <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
             <div className="font-semibold">Start here</div>
             <p className="mt-2 text-sm opacity-80">
               Most families begin with a brief inquiry to confirm fit before scheduling.
@@ -83,7 +98,7 @@ export default function AboutPage() {
             >
               Begin with a Clarity Session
             </Link>
-          </aside>
+          </div>
         </div>
 
         <div className="mt-12 grid lg:grid-cols-2 gap-6 items-center">
@@ -115,13 +130,14 @@ export default function AboutPage() {
             title="Birth Clarity Session"
             subtitle="90-minute consultation"
             bullets={[
-              "Private one-on-one session to understand your story",
-              "Clarify medical recommendations and options",
-              "Prepare for confident engagement with your care team",
-              "Foundation for all ongoing work",
+              "your care setting and what to realistically expect",
+              "Questions coming up in prenatal visits",
+              "Options you're weighing(and how to think them through)",
+              "Birth preferences and flexibility",
+              "Early pospartum and feeding condsiderations",
             ]}
+            description="The session is tailored to you - there's no set agenda. The Birth Clarity Session is a 90-minute, one-on-one conversation designed to help you feel oriented, grounded, and clear about what matters most as you prepare for birth. This is not a checklist or a class. It's a focused, thoughtful space to talk through your questions, concerns, and decisions with someone who understands birth deeply and can help you make sense of the information you're already carrying."
           />
-
           <PackageCard
             title="Prepared Birth Education"
             subtitle="Focused prenatal preparation"
