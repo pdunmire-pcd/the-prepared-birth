@@ -75,6 +75,7 @@ export default function HomePage() {
                 This work is education-based and non-medical — designed to complement your care team and support informed decision-making.
               </p>
             </div>
+            <p>Most families don't need more information - they need help thinking clearly before decisions start coming fast.</p>
           </div>
         </div>
       </section>
