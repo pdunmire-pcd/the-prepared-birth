@@ -29,6 +29,22 @@ const faqs = [
     q: "Do you take insurance?",
     a: "At this time, I do not accept insurance. However, many clients are able to get partial reimbursement from their insurance or HSA/FSA by submitting a letter or invoice from me. I'm happy to provide that upon request.",
   },
+  {
+    q: "Is this a doula service?",
+    a: "No. This is education and preparation only. I dont attend births, but I offer thoughtful guidance to help parents feel ready and informed beforehand.",
+  },
+  {
+    q: "What happens during a Birth Clarity Session?",
+    a: "We focus on your questions, concerns, and preferences. You'll receive tailored clear information, practical guidance, and help sorting through your options so you can feel more confident moving forward.",
+  },
+  {
+    q: "Is this a sales call?",
+    a: "No. This session stands on its own. There's no pressure to book anything else - it's simply a space to get clarity and feel supported.",
+  },
+  {
+    q: "What if I'm scared - or not sure what I want yet?",
+    a: "That's completely normal! Many parents feel uncertain or anxious. My role is to help you navigate those feelings with clear information and steady support so you can make the best decisions for you and your family. Preparation doesn't require certainty - it helps create clarity over time",
+  },
 ];
 
 function AccordionItem({ q, a }) {
