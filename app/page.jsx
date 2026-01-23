@@ -61,20 +61,19 @@ export default function HomePage() {
             <div>
               <div className="font-semibold">1) Begin with a Clarity Session</div>
               <p className="mt-2 opacity-80">
-                A focused starting point to orient, prepare, and determine fit.
+                A focused conversation to sort through your questions, priorities, and options - and clarify what preparation will be most useful for your birth
               </p>
             </div>
             <div>
-              <div className="font-semibold">2) Continue if it supports you</div>
+              <div className="font-semibold">2) Continue, if it supports you</div>
               <p className="mt-2 opacity-80">
-                Ongoing preparation and education are available for families who want deeper support through pregnancy
-                and early postpartum.
+                Additional education and guidance are available for families who want steady support through pregancy and early postpartum.
               </p>
             </div>
             <div>
               <div className="font-semibold">3) Keep it calm and practical</div>
               <p className="mt-2 opacity-80">
-                This work is education-based and non-medical — designed to complement your providers, not replace them.
+                This work is education-based and non-medical — designed to complement your care team and support informed decision-making.
               </p>
             </div>
           </div>
