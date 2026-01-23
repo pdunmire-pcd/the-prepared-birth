@@ -122,13 +122,13 @@ export default function AboutPage() {
 
         <h2 className="mt-16 text-3xl md:text-4xl font-serif">Preparation Pathways</h2>
         <p className="mt-4 opacity-85 max-w-3xl">
-          For families who want more than a single conversation, I offered Preparation Pathways - a guided way to prepare for birth with clarity, intentions, and steadiness.<br />
+          For families who want more than a single conversation, I offer Preparation Pathways - a guided way to prepare for birth with clarity, intentions, and steadiness.<br />
           <br />
           Preparation Pathways combine:
           <ul className="mt-2 list-disc list-inside">
-            <li>Individualized childbirth education</li>
-            <li>Birth planning and thoughtful decision support</li>
-            <li>Postpartum preparation, including feeding and early recovery</li>
+            <li>Individualized childbirth education private sessions and small classes designed around your values, your questions, and your birth setting</li>
+            <li>Birth planning & decision support - Time and space to think through options before labor - so decisions don't happen under pressure.</li>
+            <li>Postpartum preparation - Feeding, recovery, and early weeks support grounded in realism, not overwhelm.</li>
           </ul>
           <br />
           Each pathway is tailored to your needs and paced to avoid overwhelm. The goal is steady, thoughtful preparation - not information overload. Specific pathway options are shared after a Clarity Session, once we've had time to understand what kind of preparation would be most helpful.
