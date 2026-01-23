@@ -10,7 +10,7 @@ export default function WorkingWithMePage() {
           <h1 className="text-4xl md:text-5xl font-serif">Working With Me</h1>
           <p className="mt-5 text-lg opacity-90">
             I maintain an independent, small-volume consultation practice. I work with families preparing for birth in
-            hospital and birth-center settings throughout the Puget Sound region.
+            hospital and birth-center settings throughout the Puget Sound region. Many families I work with don’t want a doula at their birth — they want to feel calm, informed, and steady going in. The Prepared Birth offers thoughtful birth education and consultation for people who want clarity during pregnancy without adding another person present during labor.
           </p>
 
           <div className="mt-8 grid gap-6">
@@ -64,8 +64,15 @@ export default function WorkingWithMePage() {
             />
           </div>
           <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
-            <h2 className="font-serif text-2xl">What looking together looks like</h2>
+            <h2 className="font-serif text-2xl">What this Support Looks Like</h2>
             <p className="mt-3 opacity-85">
+              I help families: <n />
+              Understand their options <n />
+              Prepare for decisions before labor begins <n />
+              Feel oriented rather than overwhelmed <n />
+              Gain confidence through clarity
+            </p>
+            <p className="mt-4 opacity-85">
               Our work happens through focused, private conversations during pregnancy and often into postpartum. Some families opt for extended personalized guidance through pregnancy and early postpartum. This is a concierge-style option.
             </p>
             <ul className="mt-4 grid gap-2 text-sm opacity-90">
