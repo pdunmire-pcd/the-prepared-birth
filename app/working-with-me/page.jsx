@@ -66,24 +66,25 @@ export default function WorkingWithMePage() {
           <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
             <h2 className="font-serif text-2xl">What this Support Looks Like</h2>
             <p className="mt-3 opacity-85">
-              I help families: <n />
-              Understand their options <n />
-              Prepare for decisions before labor begins <n />
-              Feel oriented rather than overwhelmed <n />
-              Gain confidence through clarity
+              I help families: 
+              <ul>
+                <li>- Understand their options</li>
+                <li>- Prepare for decisions before labor begins</li>
+                <li>- Feel oriented rather than overwhelmed</li>
+                <li>- Gain confidence through clarity</li>
+              </ul>            
             </p>
             <p className="mt-4 opacity-85">
               Our work happens through focused, private conversations during pregnancy and often into postpartum. Some families opt for extended personalized guidance through pregnancy and early postpartum. This is a concierge-style option.
             </p>
             <ul className="mt-4 grid gap-2 text-sm opacity-90">
-              <li>• Clarify options and priorities prior to selecting your care team and choice of birth setting</li>
-              <li>• Make sense of recommendations and next steps</li>
-              <li>• Assist with deciphering medical terms and various interventions</li>
-              <li>• Highest level of support is offered upon request</li>
+              <p> This work is a good fit if you:</p>
+              <li>• Want fewer voices during labor, not more</li>
+              <li>• Value preparation and perspective</li>
+              <li>• Prefer calm, experience-based guidance</li>
             </ul>
             <p className="mt-4 text-sm opacity-80">
-              Postpartum support focuses on integration, recovery, and settling into early family life with steadiness and
-              perspective.
+              Most families begin with a private Birth Clarity Session to orient themselves and ask questions before deciding what kind of preparation they want. Appointments are limited. Postpartum support focuses on integration, recovery, and settling into early family life with steadiness and perspective.
             </p>
           </div>
         </aside>
