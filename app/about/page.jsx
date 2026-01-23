@@ -43,7 +43,7 @@ export default function AboutPage() {
       <section className="container-page py-14 md:py-20">
         <h1 className="text-4xl md:text-5xl font-serif">About</h1>
         <p className="mt-4 text-lg opacity-90 max-w-3xl">
-          Quiet, experienced birth preparation and consultation for families planning hospital or birth-center care in the Puget Sound region.
+          Quiet, experienced birth preparation and consultation for families planning hospital or birth-center care in the Puget Sound region. Respect, choice, and consent - always.
         </p>
 
         <div className="mt-10 grid lg:grid-cols-3 gap-6 items-start">
