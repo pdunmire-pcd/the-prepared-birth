@@ -19,21 +19,6 @@ export default function HomePage() {
               Begin with a Clarity Session
             </Link>
           </div>
-
-          {/* <div className="mt-8 grid grid-cols-3 gap-4 text-sm">
-            <div className="rounded-xl2 bg-white border border-black/10 p-4 shadow-soft">
-              <div className="font-semibold">Decision Clarity</div>
-              <div className="mt-1 opacity-80">Clear Guidance without overwhelm.</div>
-            </div>
-            <div className="rounded-xl2 bg-white border border-black/10 p-4 shadow-soft">
-              <div className="font-semibold">Non-medical</div>
-              <div className="mt-1 opacity-80">Education-based support.</div>
-            </div>
-            <div className="rounded-xl2 bg-white border border-black/10 p-4 shadow-soft">
-              <div className="font-semibold">Tailored Advice</div>
-              <div className="mt-1 opacity-80">Centered on your Individual Priorities and Choices.</div>
-            </div>
-          </div> */}
         </div>
 
         <div className="relative">
@@ -44,11 +29,11 @@ export default function HomePage() {
               className="w-full h-[420px] md:h-[520px] object-cover"
             />
           </div>
-          <div className="absolute -bottom-6 -left-6 bg-paper rounded-xl2 border border-black/10 shadow-soft p-5 max-w-sm">
+          {/* <div className="absolute -bottom-6 -left-6 bg-paper rounded-xl2 border border-black/10 shadow-soft p-5 max-w-sm">
             <p className="text-sm opacity-80">
               <span className="font-semibold">Make Birth Decisions before you're in Labor</span> Feel oriented and confident going in.... not overwhelmed or confused.
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
 
