@@ -6,14 +6,6 @@ const faqs = [
     a: "Private, relationship-based birth preparation and consulting. This work is educational and supportive in nature and focuses on clarity, steadiness, and thoughtful preparation.",
   },
   {
-    q: "Do you attend births?",
-    a: "No. I do not provide labor support or attend births.",
-  },
-  {
-    q: "How is this different from a doula or a class?",
-    a: "This work centers on preparation rather than presence or curriculum. Families often choose it when they want fewer voices, steadier guidance, and space to think things through.",
-  },
-  {
     q: "Who do you work with?",
     a: "Families planning hospital or birth-center care who value calm, experienced guidance.",
   },
@@ -24,6 +16,10 @@ const faqs = [
   {
     q: "Do you list prices publicly?",
     a: "Only the Birth Clarity Session fee is listed publicly. Ongoing work is discussed privately once scope and alignment are clear.",
+  },
+  {
+    q: "Do you offer childbirth education classes?",
+    a: "Yes, these can be scheduled and are taught privately upon request.",
   },
   {
     q: "Do you take insurance?",
