@@ -1,0 +1,11 @@
+# Netlify-specific files
+netlify.toml
+.netlify/
+
+# Netlify build outputs
+.netlify
+
+# Other common ignore patterns (optional, but good practice)
+.env*.local
+*.log
+.DS_Store
