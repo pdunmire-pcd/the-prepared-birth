@@ -37,7 +37,7 @@ export default function WorkingWithMePage() {
               </p>
             </div>
 
-            <div>
+            {/* <div>
               <h2 className="font-semibold text-lg">Experience & qualifications</h2>
               <ul className="mt-2 grid gap-2 opacity-85 list-disc pl-5">
                 <li>Supported over 400 births across roles in birth and early postpartum care</li>
@@ -45,7 +45,7 @@ export default function WorkingWithMePage() {
                 <li>Experience collaborating within hospital-based maternity care environments</li>
                 <li>Certified childbirth educator, with background experience as a midwife assistant and postpartum doula</li>
               </ul>
-            </div>
+            </div> */}
 
             {/* <div>
               <p className="text-sm opacity-80">
