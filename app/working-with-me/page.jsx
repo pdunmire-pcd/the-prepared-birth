@@ -47,11 +47,11 @@ export default function WorkingWithMePage() {
               </ul>
             </div>
 
-            <div>
+            {/* <div>
               <p className="text-sm opacity-80">
                 Most families begin with a <Link className="no-underline underline" href="/inquiry">Birth Clarity Session</Link> to determine fit.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 

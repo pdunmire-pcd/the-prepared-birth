@@ -8,8 +8,7 @@ export default function HomePage() {
           <p className="text-sm tracking-wide uppercase opacity-70">Education • Planning • Postpartum</p>
           <h1 className="mt-3 text-4xl md:text-6xl font-serif leading-tight">The Prepared Birth</h1>
           <p className="mt-5 text-lg md:text-xl opacity-90 max-w-xl">
-            Quiet, experienced birth guidance for families preparing for hospital or birth-center care in the Puget Sound
-            region.
+            Quiet, experienced birth guidance for families preparing for hospital or birth-center care in the Puget Sound region. Thoughtful birth education and consultation - for clarity during pregnancy. Support without adding another person at your birth.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -21,7 +20,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="mt-8 grid grid-cols-3 gap-4 text-sm">
+          {/* <div className="mt-8 grid grid-cols-3 gap-4 text-sm">
             <div className="rounded-xl2 bg-white border border-black/10 p-4 shadow-soft">
               <div className="font-semibold">Decision Clarity</div>
               <div className="mt-1 opacity-80">Clear Guidance without overwhelm.</div>
@@ -34,7 +33,7 @@ export default function HomePage() {
               <div className="font-semibold">Tailored Advice</div>
               <div className="mt-1 opacity-80">Centered on your Individual Priorities and Choices.</div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="relative">
