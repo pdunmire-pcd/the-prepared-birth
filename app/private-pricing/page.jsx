@@ -110,7 +110,7 @@ export default function PrivatePricingPage() {
           </ol>
 
           <div className="mt-6">
-            <a className="inline-flex w-full items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white hover:opacity-90" href="/docs/The_Prepared_Birth_Service_Agreement,pdf.pdf" download>
+            <a className="inline-flex w-full items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white hover:opacity-90" href="/docs/The_Prepared_Birth_Service_Agreement.pdf" download>
               Download service agreement (PDF)
             </a>
           </div>
