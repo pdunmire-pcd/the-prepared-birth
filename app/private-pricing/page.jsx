@@ -21,6 +21,7 @@ export default function PrivatePricingPage() {
             <PriceBlock title="Birth Clarity Session" price="$300" />
             <p className="text-sm opacity-80 mt-3">
               90-minute one-on-one consultation. This is the starting point for all clients. <br />
+              <br />
               In this session, we will discuss:
               <ul>
                 <li>~Your care setting and what to realistically expect</li>
@@ -63,16 +64,27 @@ export default function PrivatePricingPage() {
             <h3 className="font-medium mb-2">Includes</h3>
             <ul className="text-sm opacity-80 list-disc pl-5 space-y-1">
               <li>One Birth Clarity Session (90 minutes)</li>
-              <li>Four extended prenatal preparation sessions (75 minutes each)</li>
-              <li>Integrated childbirth education and partner preparation</li>
-              <li>Structured prenatal communication throughout your pregnancy</li>
-              <li>Two scheduled postpartum virtual visits (30 minutes each) during the first three weeks after birth</li>
+              <li>Four extended prenatal preparation sessions (75 minutes each or 5 hours total)</li>
+              <li>Ongoing guidance through pregnancy as questions and decisions arise</li>
+              <li>Questions and guidance supported through scheduled check-ins and email between sessions</li>
+              <li>Two virtual postpartum visits (30 minutes each) during the first three weeks after birth</li>
             </ul>
 
             <Divider />
 
             <p className="text-sm opacity-80">
               <span className="font-medium">Important:</span> Postpartum support is virtual only and time-limited. This package does not include birth attendance or on-call support.
+            </p>
+          </Card>
+
+          <Card>
+            <h3 className="font-medium mb-2">Private Childbirth Education</h3>
+            <PriceBlock price="$350" />
+            <p className="text-sm opacity-80">
+              Two private sessions (2-2.5 hours each)
+              Available in person locally or virtually nationwide.
+              Hospital- and epidural-friendly
+              Partner welcome
             </p>
           </Card>
 
