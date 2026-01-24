@@ -1,5 +1,19 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "The Prepared Birth - Thoughtful Birth Education in Tacoma, WA",
+  description: "Individualized birth guidance for families preparing for hospital or birth-center care in the Puget Sound region. Education and consultation without adding another person at your birth.",
+  keywords: "birth education, childbirth classes, Tacoma birth support, Puget Sound doula, hospital birth preparation, birth-center care, prenatal education",
+  openGraph: {
+    title: "The Prepared Birth - Thoughtful Birth Education in Tacoma",
+    description: "Individualized birth guidance for families in the Puget Sound region. Feel settled, informed, and confident.",
+    url: "https://thepreparedbirth.com",
+    siteName: "The Prepared Birth",
+    locale: "en_US",
+    type: "website",
+  }
+};
+
 export default function HomePage() {
   return (
     <div>
