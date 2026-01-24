@@ -169,17 +169,6 @@ export default function AboutPage() {
             ]}
           />
         </div>
-
-        <div className="mt-16 rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
-          <h2 className="font-serif text-2xl">Practical notes</h2>
-          <ul className="mt-4 grid gap-2 opacity-90">
-            <li>Services are education-based and non-medical</li>
-            <li>No labor or birth attendance</li>
-            <li>No insurance accepted</li>
-            <li>In-person sessions prioritized when possible</li>
-            <li>Availability is limited each month</li>
-          </ul>
-        </div>
       </section>
     </div>
   );
