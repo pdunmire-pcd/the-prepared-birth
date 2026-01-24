@@ -20,14 +20,16 @@ export default function PrivatePricingPage() {
           <Card title="Public entry point">
             <PriceBlock title="Birth Clarity Session" price="$300" />
             <p className="text-sm opacity-80 mt-3">
-              90-minute one-on-one consultation. This is the starting point for all clients. 
+              90-minute one-on-one consultation. This is the starting point for all clients. <br />
+              In this session, we will discuss:
               <ul>
-                <li>Your care setting and what to realistically expect</li>
-                <li>Questions coming up in prenatal visits</li>
-                <li>Options you're weighing(and how to think them through)</li>
-                <li>Birth preferences and flexibiltiy</li>
-                <li>Early postpartum and feeding considerations</li>
+                <li>~Your care setting and what to realistically expect</li>
+                <li>~Questions coming up in prenatal visits</li>
+                <li>~Options you're weighing(and how to think them through)</li>
+                <li>~Birth preferences and flexibiltiy</li>
+                <li>~Early postpartum and feeding considerations</li>
               </ul>
+              <br />
               If you enroll in a preparation package, $150 of this fee will be applied toward the package total. The session is tailored to you - there's no set agenda. The Birth Clarity Session is a 90-minute, one-on-one conversation designed to help you feel oriented, grounded, and clear about what matters most as you prepare for birth. This is not a checklist or a class. It's a focused, thoughtful space to talk through your questions, concerns, and decisions with someone who understands birth deeply and can help you make sense of the information you're already carrying.
             </p>
           </Card>
