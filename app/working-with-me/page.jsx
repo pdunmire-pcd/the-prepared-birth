@@ -37,12 +37,6 @@ export default function WorkingWithMePage() {
               <p className="mt-4 text-sm opacity-80">
                 Most families begin with a private Birth Clarity Session to orient themselves and ask questions before deciding what kind of preparation they want. Appointments are limited. Postpartum support focuses on integration, recovery, and settling into early family life with steadiness and perspective.
               </p>
-              <p className="mt-2 opacity-85">
-                Consultations are offered virtually, or in person by appointment at The Birthing Inn in Tacoma.
-              </p>
-              <p className="mt-3 text-sm opacity-80">
-                This work is education-based and non-medical. I do not attend births in this role.
-              </p>
             </div>
           </div>
         </div>
