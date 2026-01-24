@@ -72,12 +72,6 @@ export default function AboutPage() {
                 <p>I've spent more than 15 years working in birth - supporting over 400 families in hospital and birth-center settings. My background includes work as a certified childbirth educator, birth and postpartum doula, and midwife assistant, alongside midwives and maternity care teams.<br />
                 <br /> 
                 Over time, I chose to focus exclusively on education and consultation. I don't attend births. Instead, I offer thoughtful preparation, clear explanations, and steady guidance - so families feel informed, grounded, and confident as they move through pregnancy, birth planning, and early postpartum</p>
-                <ul className="mt-3 grid gap-2 text-sm md:text-base">
-                  <li>Supported over 400 births across roles in birth and early postpartum care</li>
-                  <li>Twelve years working within a birth-center setting alongside midwives and care teams</li>
-                  <li>Certified childbirth educator</li>
-                  <li>Background as a midwife assistant, birth doula, and postpartum doula</li>
-                </ul>
               </div>
               <p>
                   <br />You don't need to have everything figured out right now. Most people don't. What helps is having a place to talk things through - with someone steady, experienced, and outside the swirl of opinions. <br />
@@ -86,19 +80,12 @@ export default function AboutPage() {
               </p>
             </Card>
           </div>
-
-          <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
-            <div className="font-semibold">Start here</div>
-            <p className="mt-2 text-sm opacity-80">
-              Most families begin with a brief inquiry to confirm fit before scheduling.
-            </p>
-            <Link
+          <Link
               href="/inquiry"
               className="mt-5 inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
             >
               Begin with a Clarity Session
-            </Link>
-          </div>
+          </Link>
         </div>
 
         <div className="mt-12 grid lg:grid-cols-2 gap-6 items-center">
