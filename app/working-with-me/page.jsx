@@ -1,6 +1,18 @@
 import Link from "next/link";
 
-export const metadata = { title: "Working With Me" };
+export const metadata = {
+  title: "Working With Me - The Prepared Birth",
+  description: "Independent birth education and consultation practice serving families in the Puget Sound region. Calm, experienced guidance for hospital and birth-center births without adding another person at your birth.",
+  keywords: "birth consultant Tacoma, childbirth educator Puget Sound, hospital birth preparation, birth-center support, prenatal consultation",
+  openGraph: {
+    title: "Working With Me - The Prepared Birth",
+    description: "Thoughtful birth education and consultation for families who want clarity during pregnancy without adding another person present during labor.",
+    url: "https://thepreparedbirth.com/working-with-me",
+    siteName: "The Prepared Birth",
+    locale: "en_US",
+    type: "website",
+  }
+};
 
 export default function WorkingWithMePage() {
   return (
@@ -10,7 +22,7 @@ export default function WorkingWithMePage() {
           <h1 className="text-4xl md:text-5xl font-serif">Working With Me</h1>
           <p className="mt-5 text-lg opacity-90">
             I maintain an independent, small-volume consultation practice. I work with families preparing for birth in
-            hospital and birth-center settings throughout the Puget Sound region. Many families I work with don’t want a doula at their birth — they want to feel calm, informed, and steady going in. The Prepared Birth offers thoughtful birth education and consultation for people who want clarity during pregnancy without adding another person present during labor.
+            hospital and birth-center settings throughout the Puget Sound region. Many families I work with don't want a doula at their birth — they want to feel calm, informed, and steady going in. The Prepared Birth offers thoughtful birth education and consultation for people who want clarity during pregnancy without adding another person present during labor.
           </p>
 
           <div className="mt-8 grid gap-6">
