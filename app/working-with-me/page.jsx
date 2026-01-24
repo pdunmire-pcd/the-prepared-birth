@@ -28,9 +28,8 @@ export default function WorkingWithMePage() {
             </div>
 
             <div>
-              <h2 className="font-semibold text-lg">Consultation format</h2>
+              <h2 className="font-semibold text-lg">This work is a good fit if you:</h2>
               <ul className="mt-4 grid gap-2 text-sm opacity-90">
-              <p> This work is a good fit if you:</p>
               <li>• Want fewer voices during labor, not more</li>
               <li>• Value preparation and perspective</li>
               <li>• Prefer calm, experience-based guidance</li>
