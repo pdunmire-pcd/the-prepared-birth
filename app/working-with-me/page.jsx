@@ -36,22 +36,6 @@ export default function WorkingWithMePage() {
                 This work is education-based and non-medical. I do not attend births in this role.
               </p>
             </div>
-
-            {/* <div>
-              <h2 className="font-semibold text-lg">Experience & qualifications</h2>
-              <ul className="mt-2 grid gap-2 opacity-85 list-disc pl-5">
-                <li>Supported over 400 births across roles in birth and early postpartum care</li>
-                <li>Twelve years working within a birth center setting, alongside midwives and care teams</li>
-                <li>Experience collaborating within hospital-based maternity care environments</li>
-                <li>Certified childbirth educator, with background experience as a midwife assistant and postpartum doula</li>
-              </ul>
-            </div> */}
-
-            {/* <div>
-              <p className="text-sm opacity-80">
-                Most families begin with a <Link className="no-underline underline" href="/inquiry">Birth Clarity Session</Link> to determine fit.
-              </p>
-            </div> */}
           </div>
         </div>
 
@@ -65,6 +49,9 @@ export default function WorkingWithMePage() {
           </div>
           <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
             <h2 className="font-serif text-2xl">What this Support Looks Like</h2>
+            <p className="mt-3 opacity-85">
+              People usually find their way here because they feel stuck - overewhelmed by information, unsure how to interpret recommendations, or wanting support that doesn't add pressure or another role to their birth.
+            </p>
             <p className="mt-3 opacity-85">
               I help families: 
               <ul>
