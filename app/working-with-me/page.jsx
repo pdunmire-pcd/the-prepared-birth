@@ -29,6 +29,15 @@ export default function WorkingWithMePage() {
 
             <div>
               <h2 className="font-semibold text-lg">Consultation format</h2>
+              <ul className="mt-4 grid gap-2 text-sm opacity-90">
+              <p> This work is a good fit if you:</p>
+              <li>• Want fewer voices during labor, not more</li>
+              <li>• Value preparation and perspective</li>
+              <li>• Prefer calm, experience-based guidance</li>
+              </ul>
+              <p className="mt-4 text-sm opacity-80">
+                Most families begin with a private Birth Clarity Session to orient themselves and ask questions before deciding what kind of preparation they want. Appointments are limited. Postpartum support focuses on integration, recovery, and settling into early family life with steadiness and perspective.
+              </p>
               <p className="mt-2 opacity-85">
                 Consultations are offered virtually, or in person by appointment at The Birthing Inn in Tacoma.
               </p>
@@ -50,7 +59,7 @@ export default function WorkingWithMePage() {
           <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
             <h2 className="font-serif text-2xl">What this Support Looks Like</h2>
             <p className="mt-3 opacity-85">
-              People usually find their way here because they feel stuck - overewhelmed by information, unsure how to interpret recommendations, or wanting support that doesn't add pressure or another role to their birth.
+              People usually find their way here because they feel stuck - overwhelmed by information, unsure how to interpret recommendations, or wanting support that doesn't add pressure or another role to their birth.
             </p>
             <p className="mt-3 opacity-85">
               I help families: 
@@ -63,15 +72,6 @@ export default function WorkingWithMePage() {
             </p>
             <p className="mt-4 opacity-85">
               Our work happens through focused, private conversations during pregnancy and often into postpartum. Some families opt for extended personalized guidance through pregnancy and early postpartum. This is a concierge-style option.
-            </p>
-            <ul className="mt-4 grid gap-2 text-sm opacity-90">
-              <p> This work is a good fit if you:</p>
-              <li>• Want fewer voices during labor, not more</li>
-              <li>• Value preparation and perspective</li>
-              <li>• Prefer calm, experience-based guidance</li>
-            </ul>
-            <p className="mt-4 text-sm opacity-80">
-              Most families begin with a private Birth Clarity Session to orient themselves and ask questions before deciding what kind of preparation they want. Appointments are limited. Postpartum support focuses on integration, recovery, and settling into early family life with steadiness and perspective.
             </p>
           </div>
         </aside>
