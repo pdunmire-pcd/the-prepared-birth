@@ -86,6 +86,11 @@ export default function PrivatePricingPage() {
               Hospital- and epidural-friendly
               Partner welcome
             </p>
+            <h3 className="font-medium mb-2 mt-4">What we cover</h3>
+            <PriceBlock price="495" />
+            <p className="text-sm opacity-80 mt-3">
+              Includes two private childbirth education sessions plus one scheduled follow-up conversation (30-45 minutes)
+            </p>
           </Card>
 
           <Card>
