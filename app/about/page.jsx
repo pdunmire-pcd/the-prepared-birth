@@ -155,6 +155,19 @@ export default function AboutPage() {
               "Early newborn rhythm and emotional integration",
             ]}
           />
+          <PackageCard>
+            <h3 className="font-medium mb-2">Private Childbirth Education</h3>
+            <p className="text-sm opacity-80">
+              Two private sessions (2-2.5 hours each)
+              Available in person locally or virtually nationwide.
+              Hospital- and epidural-friendly
+              Partner welcome
+            </p>
+            <h3 className="font-medium mb-2 mt-4">Private Childbirth Education + Follow-Up</h3>
+            <p className="text-sm opacity-80 mt-3">
+              Includes two private childbirth education sessions plus one scheduled follow-up conversation (30-45 minutes)
+            </p>
+          </PackageCard>
         </div>
       </section>
     </div>
