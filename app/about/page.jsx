@@ -1,7 +1,17 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About",
+  title: "About - The Prepared Birth",
+  description: "Learn about The Prepared Birth - thoughtful birth education and consultation for families in the Puget Sound region. Over 15 years of experience supporting hospital and birth-center births with calm, experienced guidance.",
+  keywords: "about birth educator Tacoma, childbirth education experience, Puget Sound birth support, hospital birth preparation, birth-center education",
+  openGraph: {
+    title: "About - The Prepared Birth",
+    description: "Thoughtful birth education and consultation for people who want to feel clear, grounded, and prepared as they move through pregnancy and birth planning.",
+    url: "https://thepreparedbirth.com/about",
+    siteName: "The Prepared Birth",
+    locale: "en_US",
+    type: "website",
+  }
 };
 
 function Card({ title, children }) {

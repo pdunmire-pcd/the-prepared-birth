@@ -1,4 +1,16 @@
-export const metadata = { title: "FAQ" };
+export const metadata = {
+  title: "FAQ - The Prepared Birth",
+  description: "Frequently asked questions about birth education and consultation services. Learn about the Birth Clarity Session, pricing, insurance, and how we work with families in the Puget Sound region.",
+  keywords: "birth education FAQ, childbirth class questions, Tacoma birth support, doula vs educator, birth preparation questions",
+  openGraph: {
+    title: "FAQ - The Prepared Birth",
+    description: "Quick clarity on what this service is, how it works, and whether it's a fit for your family.",
+    url: "https://thepreparedbirth.com/faq",
+    siteName: "The Prepared Birth",
+    locale: "en_US",
+    type: "website",
+  }
+};
 
 const faqs = [
   {
@@ -60,7 +72,7 @@ export default function FAQPage() {
       <section className="container-page py-14 md:py-20">
         <h1 className="text-4xl md:text-5xl font-serif">Frequently Asked Questions</h1>
         <p className="mt-4 text-lg opacity-90 max-w-3xl">
-          Quick clarity on what this service is, how it works, and whether it’s a fit.
+          Quick clarity on what this service is, how it works, and whether it's a fit.
         </p>
 
         {/* Not a full-bleed hero; image is supportive, not dominant */}
