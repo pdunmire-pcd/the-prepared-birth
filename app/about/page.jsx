@@ -185,11 +185,15 @@ export default function AboutPage() {
           <PackageCard
             title="Birth & Early Postpartum Guidance"
             subtitle="Prenatal preparation + early postpartum support · Most popular for first-time families"
+            description="Continuous guidance across pregnancy and into early postpartum. This is not event-based care - it is steady, relationship-based support that begins in pregnancy and continues as you settle into life with your newborn."
             bullets={[
-              "Prenatal preparation across pregnancy",
-              "Postpartum integration, recovery, and settling in",
+              "Ongoing prenatal preparation across the full nine months",
+              "two childbirth education (4 hours total), divided across the two sessions and tailored to your planned birth setting",
+              "Decision-making support and collaborative birth planning",
+              "Orientation early postpartum guidance focused on recovery and settling in",
               "Feeding support (breast, bottle, or combination)",
-              "Early newborn rhythm and emotional integration",
+              "Support around early newborn rhythm and emotional adjustment",
+              "Defined consulting access throughout pregnancy and early postpartum"
             ]}
           />
         </div>
