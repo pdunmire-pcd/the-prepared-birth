@@ -42,9 +42,9 @@ export default function WorkingWithMePage() {
             <div>
               <h2 className="font-semibold text-lg">This work is a good fit if you:</h2>
               <ul className="mt-4 grid gap-2 text-sm opacity-90">
-              <li>• Want fewer voices during labor, not more</li>
-              <li>• Value preparation and perspective</li>
-              <li>• Prefer calm, experience-based guidance</li>
+                <li>• Want fewer voices during labor, not more</li>
+                <li>• Value preparation and perspective</li>
+                <li>• Prefer calm, experience-based guidance</li>
               </ul>
               <p className="mt-4 text-sm opacity-80">
                 Most families begin with a private Birth Clarity Session to orient themselves and ask questions before deciding what kind of preparation they want. Appointments are limited. Postpartum support focuses on integration, recovery, and settling into early family life with steadiness and perspective.
@@ -61,6 +61,20 @@ export default function WorkingWithMePage() {
               className="w-full h-[520px] object-cover object-top"
             />
           </div>
+          
+          <div className="rounded-xl2 bg-paper border border-black/10 p-7">
+            <h2 className="font-serif text-2xl mb-3">Listen to The Prepared Birth</h2>
+            <p className="text-sm opacity-85 mb-4">
+              Short, focused conversations about birth preparation, decision-making, and what clarity actually means when you're planning for birth.
+            </p>
+            <a href="https://open.spotify.com/show/5XI2jRfhvve3eGbRhN9KZB?si=zm6VaP2aQRqVd6HlvHvcnQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition">
+              Listen on Spotify
+            </a>
+          </div>
+
           <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
             <h2 className="font-serif text-2xl">What this Support Looks Like</h2>
             <p className="mt-3 opacity-85">
@@ -68,13 +82,13 @@ export default function WorkingWithMePage() {
             </p>
             <p className="mt-3 opacity-85">
               I help families: 
-              <ul>
-                <li>- Understand their options</li>
-                <li>- Prepare for decisions before labor begins</li>
-                <li>- Feel oriented rather than overwhelmed</li>
-                <li>- Gain confidence through clarity</li>
-              </ul>            
             </p>
+            <ul className="mt-2">
+              <li>- Understand their options</li>
+              <li>- Prepare for decisions before labor begins</li>
+              <li>- Feel oriented rather than overwhelmed</li>
+              <li>- Gain confidence through clarity</li>
+            </ul>
             <p className="mt-4 opacity-85">
               Our work happens through focused, private conversations during pregnancy and often into postpartum. Some families opt for extended personalized guidance through pregnancy and early postpartum. This is a concierge-style option.
             </p>

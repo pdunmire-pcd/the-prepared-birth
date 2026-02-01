@@ -46,10 +46,6 @@ const faqs = [
     a: "We focus on your questions, concerns, and preferences. You'll receive tailored clear information, practical guidance, and help sorting through your options so you can feel more confident moving forward.",
   },
   {
-    q: "Is this a sales call?",
-    a: "No. This session stands on its own. There's no pressure to book anything else - it's simply a space to get clarity and feel supported.",
-  },
-  {
     q: "What if I'm scared - or not sure what I want yet?",
     a: "That's completely normal! Many parents feel uncertain or anxious. My role is to help you navigate those feelings with clear information and steady support so you can make the best decisions for you and your family. Preparation doesn't require certainty - it helps create clarity over time",
   },
