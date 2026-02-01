@@ -90,12 +90,19 @@ export default function AboutPage() {
               </p>
             </Card>
           </div>
-          <Link
+          
+          <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
+            <div className="font-semibold mb-3">Start here</div>
+            <p className="text-sm opacity-80 mb-5">
+              Most families begin with a brief inquiry to confirm fit before scheduling.
+            </p>
+            <Link
               href="/inquiry"
-              className="mt-5 inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
+              className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
             >
               Begin with a Clarity Session
-          </Link>
+            </Link>
+          </div>
         </div>
 
         <div className="mt-12 grid lg:grid-cols-2 gap-6 items-center">
@@ -117,6 +124,19 @@ export default function AboutPage() {
           </div>
         </div>
 
+        <div className="mt-16 rounded-xl2 bg-paper border border-black/10 p-8">
+          <h2 className="font-serif text-2xl mb-4">What Clarity Means Here</h2>
+          <p className="opacity-90">
+            Clarity isn't about having all the answers or following a perfect plan. It's about understanding your options well enough to make decisions that feel right for you - even when things shift or don't go as expected.
+          </p>
+          <p className="mt-4 opacity-90">
+            In birth, clarity means knowing what questions to ask, recognizing what matters most to you, and feeling steady enough to navigate uncertainty without second-guessing yourself. It's the difference between feeling informed and feeling overwhelmed - between making choices from a grounded place and reacting under pressure.
+          </p>
+          <p className="mt-4 opacity-90">
+            My role is to help you get there. Not by telling you what to do, but by offering perspective, helping you sort through information, and creating space to think things through before decisions need to be made. Clarity doesn't eliminate unknowns - it helps you move through them with more confidence and less noise.
+          </p>
+        </div>
+
         <h2 className="mt-16 text-3xl md:text-4xl font-serif">Preparation Pathways</h2>
         <p className="mt-4 opacity-85 max-w-3xl">
           For families who want more than a single conversation, I offer Preparation Pathways - a guided way to prepare for birth with clarity, intentions, and steadiness.<br />
@@ -134,7 +154,7 @@ export default function AboutPage() {
         <div id="packages" className="mt-10 grid lg:grid-cols-3 gap-6 items-stretch">
           <PackageCard
             title="Birth Clarity Session"
-            subtitle="90-minute consultation"
+            subtitle="A focused conversation to help you feel oriented and clear · Everyone starts here..."
             bullets={[
               "your care setting and what to realistically expect",
               "Questions coming up in prenatal visits",
@@ -146,7 +166,7 @@ export default function AboutPage() {
           />
           <PackageCard
             title="Prepared Birth Education"
-            subtitle="Focused prenatal preparation"
+            subtitle="Focused prenatal preparation · Ideal for families seeking steady guidance tailored based one there new circumstances. Typically not new comers"
             bullets={[
               "Private sessions paced for clarity, not overwhelm",
               "Decision-making support and birth planning",
@@ -157,27 +177,12 @@ export default function AboutPage() {
 
           <PackageCard
             title="Birth & Early Postpartum Guidance"
-            subtitle="Prenatal preparation + early postpartum support"
+            subtitle="Prenatal preparation + early postpartum support · Most popular for first-time families"
             bullets={[
               "Prenatal preparation across pregnancy",
               "Postpartum integration, recovery, and settling in",
               "Feeding support (breast, bottle, or combination)",
               "Early newborn rhythm and emotional integration",
-            ]}
-          />
-
-          <PackageCard
-            title="Private Childbirth Education"
-            bullets={[
-              "Two private sessions (2-2.5 hours each) Available in person locally or virtually nationwide",
-              "Hospital- and epidural-friendly Partner welcome",
-            ]}
-          />
-
-          <PackageCard
-            title="Private Childbirth Education + Follow-Up"
-            bullets={[
-              "Includes two private childbirth education sessions plus one scheduled follow-up conversation (30-45 minutes)",
             ]}
           />
         </div>
