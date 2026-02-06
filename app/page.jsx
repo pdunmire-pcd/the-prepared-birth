@@ -61,9 +61,6 @@ export default function HomePage() {
               <p className="opacity-80">
                 A focused conversation to sort through your questions, priorities, and options - and clarify what preparation will be most useful for your birth.
               </p>
-              <p className="mt-3 opacity-70 text-sm">
-                Most families don't need more information - they need help thinking clearly before decisions start coming fast.
-              </p>
             </div>
             
             <div>
@@ -80,6 +77,10 @@ export default function HomePage() {
               </p>
             </div>
           </div>
+
+          <p className="mt-6 opacity-70 text-sm md:text-base max-w-2xl">
+            Most families don't need more information - they need help thinking clearly before decisions start coming fast.
+          </p>
         </div>
       </section>
     </div>
