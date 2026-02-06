@@ -32,10 +32,10 @@ function PackageCard({ title, subtitle, bullets, description }) {
           <p className="mt-1 text-sm opacity-75">{subtitle}</p>
         </div>
       </div>
-      <ul className="mt-5 grid gap-2">
+      <ul className="mt-5 grid gap-3">
         {bullets.map((b) => (
           <li key={b} className="flex gap-3">
-            <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-sage-700" />
+            <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-sage-700 flex-shrink-0" />
             <span className="opacity-90">{b}</span>
           </li>
         ))}
@@ -151,7 +151,7 @@ export default function AboutPage() {
           Each pathway is tailored to your needs and paced to avoid overwhelm. The goal is steady, thoughtful preparation - not information overload. Specific pathway options are shared after a Clarity Session, once we've had time to understand what kind of preparation would be most helpful.
         </p>
 
-        <div id="packages" className="mt-10 grid lg:grid-cols-3 gap-9 items-stretch">
+        <div id="packages" className="mt-10 grid lg:grid-cols-3 gap-6 items-stretch">
           <PackageCard
             title="Birth Clarity Session"
             subtitle="A focused conversation to help you feel oriented and clear · Everyone starts here..."
