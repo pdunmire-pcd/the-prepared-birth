@@ -23,7 +23,7 @@ function Card({ title, children }) {
   );
 }
 
-function PackageCard({ title, subtitle, bullets, description }) {
+function PackageCard({ title, subtitle, bullets, description, footer, noteSection }) {
   return (
     <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
       <div className="flex items-start justify-between gap-6">
@@ -163,6 +163,8 @@ export default function AboutPage() {
               "Early pospartum and feeding condsiderations",
             ]}
             description="The session is tailored to you - there's no set agenda. The Birth Clarity Session is a 90-minute, one-on-one conversation designed to help you feel oriented, grounded, and clear about what matters most as you prepare for birth. This is not a checklist or a class. It's a focused, thoughtful space to talk through your questions, concerns, and decisions with someone who understands birth deeply and can help you make sense of the information you're already carrying."
+            footer="Many families describe leacing this session feeling calmer, more oriented, and better able to move forward with confidence"
+            noteSection={"Investment is $350. Further support is offered only if it feels appropriate and aligned. Pricing for ongoing work is shared after the session, once scope and fit are clear."}
           />
           <PackageCard
             title="Prepared Birth Education"
