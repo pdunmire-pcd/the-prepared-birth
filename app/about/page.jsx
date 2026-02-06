@@ -151,7 +151,7 @@ export default function AboutPage() {
           Each pathway is tailored to your needs and paced to avoid overwhelm. The goal is steady, thoughtful preparation - not information overload. Specific pathway options are shared after a Clarity Session, once we've had time to understand what kind of preparation would be most helpful.
         </p>
 
-        <div id="packages" className="mt-10 grid lg:grid-cols-3 gap-6 items-stretch">
+        <div id="packages" className="mt-10 grid lg:grid-cols-3 gap-9 items-stretch">
           <PackageCard
             title="Birth Clarity Session"
             subtitle="A focused conversation to help you feel oriented and clear · Everyone starts here..."
