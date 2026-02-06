@@ -43,10 +43,18 @@ function PackageCard({ title, subtitle, bullets, description, footer, noteSectio
       {description ? (
         <p className="mt-6 text-sm opacity-70">{description}</p>
       ) : (
-      <p className="mt-6 text-sm opacity-70">
-        Pricing for ongoing work is shared privately after the Clarity Session once scope and fit are clear.
-      </p>
-    )}
+        <p className="mt-6 text-sm opacity-70">
+          Pricing for ongoing work is shared privately after the Clarity Session once scope and fit are clear.
+        </p>
+      )}
+      {footer && (
+        <p className="mt-4 text-sm opacity-70">{footer}</p>
+      )}
+      {noteSection && (
+        <div className="mt-4 rounded-lg bg-paper border border-black/10 p-4 text-sm opacity-75">
+          {noteSection}
+        </div>
+      )}
     </div>
   );
 }
