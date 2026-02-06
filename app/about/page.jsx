@@ -178,7 +178,7 @@ export default function AboutPage() {
                 <div className="mt-4 pt-4 border-t border-black/10">
                   <h3 className="font-semibold text-base mb-2">Listen to The Prepared Birth</h3>
                   <p className="text-sm opacity-85 mb-4">
-                    Short, focused conversations about birth preparation, decision-making, and what clarity actually means when you're planning for birth.
+                    Short, thoughtful conversations about birth preparation, decision-making, and what clarity actually means when you're planning for birth. Listen first and see if a Clarity Session is for you
                   </p>
                   <a 
           href="https://open.spotify.com/show/5XI2jRfhvve3eGbRhN9KZB?si=zm6VaP2aQRqVd6HlvHvcnQ"
