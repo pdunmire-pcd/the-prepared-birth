@@ -208,6 +208,18 @@ export default function AboutPage() {
           />
         </div>
       </section>
+      <div className="rounded-xl2 bg-paper border border-black/10 p-7">
+            <h2 className="font-serif text-2xl mb-3">Listen to The Prepared Birth</h2>
+            <p className="text-sm opacity-85 mb-4">
+              Short, focused conversations about birth preparation, decision-making, and what clarity actually means when you're planning for birth.
+            </p>
+            <a href="https://open.spotify.com/show/5XI2jRfhvve3eGbRhN9KZB?si=zm6VaP2aQRqVd6HlvHvcnQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition">
+              Listen on Spotify
+            </a>
+          </div>
     </div>
   );
 }
