@@ -22,7 +22,7 @@ export default function HomePage() {
           <p className="text-sm tracking-wide uppercase opacity-70">Education • Planning • Postpartum</p>
           <h1 className="mt-3 text-4xl md:text-6xl font-serif leading-tight">The Prepared Birth</h1>
           <p className="mt-5 text-lg md:text-xl opacity-90 max-w-xl">
-            Individualized, quiet, experienced birth guidance for families preparing for hospital or birth-center care in the Puget Sound region. Thoughtful birth education and consultation - feel settled, informed, and confident - clarity during pregnancy. Support without adding another person at your birth.
+            Individualized birth education for Puget Sound families who want expert guidance during pregnancy, but privacy during labor. Feel settled, informed, and confident with 1:1 consultation that prepares you for hospital or birth-center care - professional support without adding another person to your birth place.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
