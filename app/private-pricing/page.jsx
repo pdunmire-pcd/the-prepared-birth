@@ -18,7 +18,7 @@ export default function PrivatePricingPage() {
       <div className="mt-12 grid gap-10 lg:grid-cols-3 items-start">
         <div className="lg:col-span-2 grid gap-8">
           <Card title="Public entry point">
-            <PriceBlock title="Birth Clarity Session" price="$300" />
+            <PriceBlock title="Birth Clarity Session" price="$350" />
             <p className="text-sm opacity-80 mt-3">
               90-minute one-on-one consultation. This is the starting point for all clients. <br />
               <br />
