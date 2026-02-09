@@ -192,7 +192,7 @@ export default function AboutPage() {
   }
 />
           <PackageCard
-            title="Prepared Birth Education"
+            title="Guided Birth Education"
             subtitle="Focused prenatal preparation · Ideal for families seeking steady guidance tailored based one there new circumstances. Typically not new comers"
             description="Individualized prenatal preparation and private childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
             bullets={[
@@ -201,11 +201,11 @@ export default function AboutPage() {
               "Support with decision-making and collaborative birth planning",
               "Clear orientation to common hospital and birth-center care pathways",
               "Defined consulting access between sessions, with clear boundaries",
-              "Guidance on what questions are most helpful at different stages of prenatal care",
               "Support in understanding provider recommendations and common clinical thresholds",
               "Tools for asking questions and discussing options without common creating tension",
-              "Clarifying timelines, alternatives, and when decision is time-sensitive",
-              "Practical frameworks for shared decision-making during prenatal visits and labor"            
+              "Clarifying timelines, explaining common interventions, as well as alternatives before decisions become time-sensitive",
+              "Practical frameworks for shared decision-making during prenatal visits and labor",
+              "general postpartum preparation (1.5 hrs ; addressing recovery and early adjustment)"           
             ]}
           />
 
