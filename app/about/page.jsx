@@ -172,7 +172,7 @@ export default function AboutPage() {
             }
             bullets={[
               "What to realistically expect in your specific care setting",
-              "Questions arising and prenatal visits and how to think them through",
+              "Questions arising in and around prenatal visits and how to think them through",
               "Options you're weighing, interventions, and explanations surrounding these",
               "Your birth priorities, preferences and where flexibility matters most",
               "Early pospartum and feeding condsiderations, so fewer things feel unexpected",
