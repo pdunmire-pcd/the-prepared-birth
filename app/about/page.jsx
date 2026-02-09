@@ -205,7 +205,7 @@ export default function AboutPage() {
               "Tools for asking questions and discussing options without common creating tension",
               "Clarifying timelines, explaining common interventions, as well as alternatives before decisions become time-sensitive",
               "Practical frameworks for shared decision-making during prenatal visits and labor",
-              "general postpartum preparation (1.5 hrs ; addressing recovery and early adjustment)"           
+              "General postpartum preparation (1.5 hrs ; addressing recovery and early adjustment)"           
             ]}
           />
 
@@ -220,7 +220,10 @@ export default function AboutPage() {
               "Orientation early postpartum guidance focused on recovery and settling in",
               "Feeding support (breast, bottle, or combination)",
               "Support around early newborn rhythm and emotional adjustment",
-              "Defined consulting access throughout pregnancy and early postpartum"
+              "Defined consulting access throughout pregnancy and early postpartum",
+              "4 (1hr) Postpartum check-ins within the first 6 weeks after birth",
+              "...including: This is steady, relationship based guidance that begins in pregnancy and supports you through the early weeks after birth;",
+              "Session Formats: Virtual, In person at The Birthing Inn, Over the Phone"
             ]}
           />
         </div>
