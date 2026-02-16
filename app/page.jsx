@@ -29,6 +29,16 @@ export default function HomePage() {
         </div>
       </section>
 
+      <div className="relative">
+          <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
+            <img
+              src="/images/hero.jpg"
+              alt="The Prepared Birth"
+              className="w-full h-[420px] md:h-[520px] object-cover"
+            />
+          </div>
+        </div>
+
           {/* Who This Is For / Not For Section */}
       <section className="container-page mt-12 md:mt-16">
         <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-8 md:p-10">
@@ -51,16 +61,6 @@ export default function HomePage() {
                 <li>• You're seeking medical advice or clinical decision-making</li>
               </ul>
             </div>
-          </div>
-        </div>
-
-         <div className="relative">
-          <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
-            <img
-              src="/images/hero.jpg"
-              alt="The Prepared Birth"
-              className="w-full h-[420px] md:h-[520px] object-cover"
-            />
           </div>
         </div>
       </section>
