@@ -96,10 +96,7 @@ export default function AboutPage() {
                   <br />
                   If that sounds supportive, the best place to begin is with a Birth Clarity Session.
               </p>
-            </Card>
-          </div>
-          
-          <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
+              <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
             <div className="font-semibold mb-3">Start here</div>
             <p className="text-sm opacity-80 mb-5">
               Most families begin with a brief inquiry to confirm fit before scheduling.
@@ -110,6 +107,8 @@ export default function AboutPage() {
             >
               Begin with a Clarity Session
             </Link>
+          </div>
+            </Card>
           </div>
         </div>
 
