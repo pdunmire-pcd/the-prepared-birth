@@ -27,9 +27,7 @@ export default function HomePage() {
             If you're pregnant and overwhelmed by advice, opinions, and options, I help you decide what actually matters — and let go of the rest. Serving families in Tacoma and nationwide with private birth preparation that focuses on clarity, because skilled care doesn't always mean explained care.
           </p>
         </div>
-      </section>
-
-      <div className="relative">
+        <div className="relative">
           <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
             <img
               src="/images/hero.jpg"
@@ -38,6 +36,9 @@ export default function HomePage() {
             />
           </div>
         </div>
+      </section>
+
+      
 
           {/* Who This Is For / Not For Section */}
       <section className="container-page mt-12 md:mt-16">
