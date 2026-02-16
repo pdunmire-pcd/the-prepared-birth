@@ -88,12 +88,6 @@ export default function HomePage() {
           </p>
 
           <div className="mt-8 grid md:grid-cols-3 gap-8 text-sm md:text-base">
-            <div>
-              <div className="text-xl font-semibold mb-3">1) Begin with a Clarity Session</div>
-              <p className="opacity-80">
-                A focused conversation to sort through your questions, priorities, and options - and clarify what preparation will be most useful for your birth.
-              </p>
-            </div>
             
             <div>
               <div className="text-xl font-semibold mb-3">2) Continue, if it supports you</div>
