@@ -163,7 +163,7 @@ export default function AboutPage() {
         <div id="packages" className="mt-8 grid lg:grid-cols-3 gap-6 items-stretch">
           <PackageCard
             title="Birth Clarity Session"
-            subtitle="A private 90-minute conversation to help you feel grounded, oriented, and clear about your next steps in birth"
+            subtitle="A private 75-minute conversation to help you feel grounded, oriented, and clear about your next steps in birth"
             description={
               <>
                 <p className="mb-4">
@@ -198,9 +198,9 @@ export default function AboutPage() {
             }
           />
           <PackageCard
-            title="Guided Birth Education"
-            subtitle="Focused prenatal preparation · Ideal for families seeking steady guidance tailored based one there new circumstances. Typically not new comers"
-            description="Individualized prenatal preparation and private childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
+            title="The Prepared Birth"
+            subtitle="Focused prenatal & postpartum preparation · Ideal for families seeking steady guidance tailored based on their new circumstances."
+            description="Three 60 minute private sessions providing individualized preparation and private childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
             bullets={[
               "Two one-on-one prenatal education sessions, paced for understanding",
               "Private childbirth education (4 hours total), divided across the two sessions and tailored to the planned birth setting",
@@ -211,11 +211,21 @@ export default function AboutPage() {
               "Tools for asking questions and discussing options without common creating tension",
               "Clarifying timelines, explaining common interventions, as well as alternatives before decisions become time-sensitive",
               "Practical frameworks for shared decision-making during prenatal visits and labor",
-              "General postpartum preparation (1.5 hrs ; addressing recovery and early adjustment)"           
+              "General postpartum preparation (1.5 hrs ; addressing recovery and early adjustment)",
+              "Ongoing prenatal preparation across the full pregnancy",
+              "two childbirth education (4 hours total), divided across the two sessions and tailored to your planned birth setting",
+              "Decision-making support and collaborative birth planning",
+              "Orientation early postpartum guidance focused on recovery and settling in",
+              "Feeding support (breast, bottle, or combination)",
+              "Support around early newborn rhythm and emotional adjustment",
+              "Defined consulting access throughout pregnancy and early postpartum",
+              "4 (1hr) Postpartum check-ins within the first 6 weeks after birth",
+              "...including: This is steady, relationship based guidance that begins in pregnancy and supports you through the early weeks after birth;",
+              "Session Formats: Virtual, In person at The Birthing Inn, Over the Phone"           
             ]}
           />
 
-          <PackageCard
+          {/* <PackageCard
             title="Birth & Early Postpartum Guidance"
             subtitle="Prenatal preparation + early postpartum support · Most popular for first-time families"
             description="Continuous guidance across pregnancy and into early postpartum. This is not event-based care - it is steady, relationship-based support that begins in pregnancy and continues as you settle into life with your newborn."
@@ -231,7 +241,7 @@ export default function AboutPage() {
               "...including: This is steady, relationship based guidance that begins in pregnancy and supports you through the early weeks after birth;",
               "Session Formats: Virtual, In person at The Birthing Inn, Over the Phone"
             ]}
-          />
+          /> */}
         </div>
       </section>
     </div>
