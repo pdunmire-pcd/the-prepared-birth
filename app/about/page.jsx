@@ -12,7 +12,7 @@ export default function AboutPage() {
       </section>
 
       {/* Main Content */}
-      <section className="container-page pb-16 md:pb-24">
+      {/* <section className="container-page pb-16 md:pb-24"> */}
         <div className="grid lg:grid-cols-3 gap-6 items-start">
           <div className="lg:col-span-2">
             <Card title="About The Prepared Birth">
@@ -176,7 +176,7 @@ export default function AboutPage() {
             ]}
           />
         </div>
-      </section>
+      {/* </section> */}
     </div>
   );
 }
