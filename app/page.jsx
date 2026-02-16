@@ -52,19 +52,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-          <div className="mt-8">
-            <Link
-              href="/inquiry"
-              className="inline-block no-underline px-6 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
-            >
-              Book a Clarity Session
-            </Link>
-            <p className="mt-3 text-sm opacity-70">
-              90-minute private session • Tacoma (select Tuesdays) + virtual nationwide<br/>
-              Not a doula • No labor attendance • Non-medical
-            </p>
-          </div>
         </div>
 
         <div className="relative">
