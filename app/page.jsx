@@ -21,10 +21,10 @@ export default function HomePage() {
       <section className="container-page py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight">
-            Private birth preparation for people who want clarity — without adding another person to the birth room.
+            Understand birth before decisions start happening fast.
           </h1>
           <p className="mt-5 text-lg md:text-xl opacity-90">
-            If you're pregnant and overwhelmed by advice, opinions, and options, I help you decide what actually matters — and let go of the rest.
+            If you're pregnant and overwhelmed by advice, opinions, and options, I help you decide what actually matters — and let go of the rest. Serving families in Tacoma and nationwide with private birth preparation that focuses on clarity, because skilled care doesn't always mean explained care.
           </p>
 
           <div className="mt-8">
