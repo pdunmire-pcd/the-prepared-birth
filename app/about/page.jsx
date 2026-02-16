@@ -33,8 +33,8 @@ function PackageCard({ title, subtitle, bullets, description, footer, noteSectio
         </div>
       </div>
       <ul className="mt-5 grid gap-3">
-        {bullets.map((b) => (
-          <li key={b} className="flex gap-3">
+        {bullets.map((b, index) => (
+          <li key={index} className="flex gap-3">
             <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-sage-700 flex-shrink-0" />
             <span className="opacity-90">{b}</span>
           </li>
@@ -160,14 +160,14 @@ export default function AboutPage() {
         </p>
 
         {/* Package Cards */}
-        <div id="packages" className="mt-8 grid lg:grid-cols-3 gap-6 items-stretch">
+        <div id="packages" className="mt-8 grid lg:grid-cols-2 gap-6 items-stretch">
           <PackageCard
             title="Birth Clarity Session"
             subtitle="A private 75-minute conversation to help you feel grounded, oriented, and clear about your next steps in birth"
             description={
               <>
                 <p className="mb-4">
-                  If your feeling overwhelmed by information, unsure how to interpret recommendation, or sensing that "just taking another class" isn't what you need - this session is designed to slow everything down.'
+                  If you're feeling overwhelmed by information, unsure how to interpret recommendations, or sensing that "just taking another class" isn't what you need - this session is designed to slow everything down.
                 </p>
               </>
             }
@@ -176,7 +176,7 @@ export default function AboutPage() {
               "Questions arising in and around prenatal visits and how to think them through",
               "Options you're weighing, interventions, and explanations surrounding these",
               "Your birth priorities, preferences and where flexibility matters most",
-              "Early pospartum and feeding condsiderations, so fewer things feel unexpected",
+              "Early postpartum and feeding considerations, so fewer things feel unexpected",
             ]}
             noteSection={
               <>
@@ -199,49 +199,25 @@ export default function AboutPage() {
           />
           <PackageCard
             title="The Prepared Birth"
-            subtitle="Focused prenatal & postpartum preparation · Ideal for families seeking steady guidance tailored based on their new circumstances."
-            description="Three 60 minute private sessions providing individualized preparation and private childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
+            subtitle="Focused prenatal & postpartum preparation · Ideal for families seeking steady guidance tailored to their circumstances"
+            description="Three 60-minute private sessions providing individualized preparation and childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
             bullets={[
-              "Two one-on-one prenatal education sessions, paced for understanding",
-              "Private childbirth education (4 hours total), divided across the two sessions and tailored to the planned birth setting",
+              "Three one-on-one prenatal education sessions, paced for understanding",
+              "Private childbirth education tailored to your planned birth setting",
               "Support with decision-making and collaborative birth planning",
               "Clear orientation to common hospital and birth-center care pathways",
               "Defined consulting access between sessions, with clear boundaries",
               "Support in understanding provider recommendations and common clinical thresholds",
-              "Tools for asking questions and discussing options without common creating tension",
-              "Clarifying timelines, explaining common interventions, as well as alternatives before decisions become time-sensitive",
+              "Tools for asking questions and discussing options without creating tension",
+              "Clarifying timelines, explaining common interventions, and alternatives before decisions become time-sensitive",
               "Practical frameworks for shared decision-making during prenatal visits and labor",
-              "General postpartum preparation (1.5 hrs ; addressing recovery and early adjustment)",
-              "Ongoing prenatal preparation across the full pregnancy",
-              "two childbirth education (4 hours total), divided across the two sessions and tailored to your planned birth setting",
-              "Decision-making support and collaborative birth planning",
-              "Orientation early postpartum guidance focused on recovery and settling in",
+              "Postpartum preparation addressing recovery and early adjustment",
               "Feeding support (breast, bottle, or combination)",
               "Support around early newborn rhythm and emotional adjustment",
-              "Defined consulting access throughout pregnancy and early postpartum",
-              "4 (1hr) Postpartum check-ins within the first 6 weeks after birth",
-              "...including: This is steady, relationship based guidance that begins in pregnancy and supports you through the early weeks after birth;",
-              "Session Formats: Virtual, In person at The Birthing Inn, Over the Phone"           
+              "Four 60-minute postpartum check-ins within the first 6 weeks after birth",
+              "Session Formats: Virtual, In-person at The Birthing Inn, or Over the Phone"           
             ]}
           />
-
-          {/* <PackageCard
-            title="Birth & Early Postpartum Guidance"
-            subtitle="Prenatal preparation + early postpartum support · Most popular for first-time families"
-            description="Continuous guidance across pregnancy and into early postpartum. This is not event-based care - it is steady, relationship-based support that begins in pregnancy and continues as you settle into life with your newborn."
-            bullets={[
-              "Ongoing prenatal preparation across the full pregnancy",
-              "two childbirth education (4 hours total), divided across the two sessions and tailored to your planned birth setting",
-              "Decision-making support and collaborative birth planning",
-              "Orientation early postpartum guidance focused on recovery and settling in",
-              "Feeding support (breast, bottle, or combination)",
-              "Support around early newborn rhythm and emotional adjustment",
-              "Defined consulting access throughout pregnancy and early postpartum",
-              "4 (1hr) Postpartum check-ins within the first 6 weeks after birth",
-              "...including: This is steady, relationship based guidance that begins in pregnancy and supports you through the early weeks after birth;",
-              "Session Formats: Virtual, In person at The Birthing Inn, Over the Phone"
-            ]}
-          /> */}
         </div>
       </section>
     </div>
