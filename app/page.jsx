@@ -105,7 +105,7 @@ export default function HomePage() {
           <p className="mt-2 text-lg opacity-80">Most families begin here.</p>
           
           <p className="mt-6 text-base md:text-lg opacity-90 max-w-3xl">
-            This is a private, 90-minute conversation where we:
+            This is a private, 75-minute conversation where we:
           </p>
 
           <ul className="mt-4 space-y-2 text-base md:text-lg opacity-85 max-w-3xl">
