@@ -69,7 +69,9 @@ export default function AboutPage() {
           <br />
           I work with families who value steady guidance and honest conversation - especially those preparing for hospital or birth-center care and looking for support that complements, rather than replaces, their medical team.
         </p>
+      </section>
 
+      <section className="container-page py-14 md:py-20">
         <div className="mt-10 grid lg:grid-cols-3 gap-6 items-start">
           <div className="lg:col-span-2">
             <Card title="About The Prepared Birth">
