@@ -1,3 +1,64 @@
+import Link from "next/link";
+
+export const metadata = {
+  title: "About - The Prepared Birth",
+  description: "Learn about The Prepared Birth - thoughtful birth education and consultation for families in the Puget Sound region. Over 15 years of experience supporting hospital and birth-center births with calm, experienced guidance.",
+  keywords: "about birth educator Tacoma, childbirth education experience, Puget Sound birth support, hospital birth preparation, birth-center education",
+  openGraph: {
+    title: "About - The Prepared Birth",
+    description: "Thoughtful birth education and consultation for people who want to feel clear, grounded, and prepared as they move through pregnancy and birth planning.",
+    url: "https://thepreparedbirth.com/about",
+    siteName: "The Prepared Birth",
+    locale: "en_US",
+    type: "website",
+  }
+};
+
+function Card({ title, children }) {
+  return (
+    <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
+      <h2 className="font-serif text-2xl">{title}</h2>
+      <div className="mt-4 opacity-90">{children}</div>
+    </div>
+  );
+}
+
+function PackageCard({ title, subtitle, bullets, description, footer, noteSection, }) {
+  return (
+    <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
+      <div className="flex items-start justify-between gap-6">
+        <div>
+          <h3 className="font-serif text-2xl">{title}</h3>
+          <p className="mt-1 text-sm opacity-75">{subtitle}</p>
+        </div>
+      </div>
+      <ul className="mt-5 grid gap-3">
+        {bullets.map((b) => (
+          <li key={b} className="flex gap-3">
+            <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-sage-700 flex-shrink-0" />
+            <span className="opacity-90">{b}</span>
+          </li>
+        ))}
+      </ul>
+      {description ? (
+        <p className="mt-6 text-sm opacity-70">{description}</p>
+      ) : (
+        <p className="mt-6 text-sm opacity-70">
+          Pricing for ongoing work is shared privately after the Clarity Session once scope and fit are clear.
+        </p>
+      )}
+      {footer && (
+        <p className="mt-4 text-sm opacity-70">{footer}</p>
+      )}
+      {noteSection && (
+        <div className="mt-4 rounded-lg bg-paper border border-black/10 p-4 text-sm opacity-75">
+          {noteSection}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function AboutPage() {
   return (
     <div>
@@ -12,7 +73,7 @@ export default function AboutPage() {
       </section>
 
       {/* Main Content */}
-      {/* <section className="container-page pb-16 md:pb-24"> */}
+      <section className="container-page pb-16 md:pb-24">
         <div className="grid lg:grid-cols-3 gap-6 items-start">
           <div className="lg:col-span-2">
             <Card title="About The Prepared Birth">
@@ -176,7 +237,7 @@ export default function AboutPage() {
             ]}
           />
         </div>
-      {/* </section> */}
+      </section>
     </div>
   );
 }
