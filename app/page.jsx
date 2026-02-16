@@ -131,6 +131,13 @@ export default function HomePage() {
                 Book a Clarity Session
               </Link>
             </div>
+            <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
+            I've spent over a decade inside birth spaces across hospitals and birth centers watching what actually helps — and what creates confusion.
+          </p>
+          
+          <p className="mt-4 text-lg md:text-xl opacity-90 max-w-2xl mx-auto font-medium">
+            The Prepared Birth exists because preparation matters most before labor begins.
+          </p>
           </div>
         </div>
       </section>
@@ -151,28 +158,6 @@ export default function HomePage() {
           <p className="mt-4 text-base md:text-lg opacity-90 max-w-3xl">
             I help you think through decisions before labor begins so you can enter birth feeling steady, informed, and confident — without adding another relationship or dynamic to the room.
           </p>
-        </div>
-      </section>
-
-      {/* Authority Framing */}
-      <section className="container-page mt-12 md:mt-16 mb-16">
-        <div className="rounded-xl2 bg-sage-50 border border-black/10 p-8 md:p-10 text-center">
-          <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
-            I've spent over a decade inside birth spaces across hospitals and birth centers watching what actually helps — and what creates confusion.
-          </p>
-          
-          <p className="mt-4 text-lg md:text-xl opacity-90 max-w-2xl mx-auto font-medium">
-            The Prepared Birth exists because preparation matters most before labor begins.
-          </p>
-
-          <div className="mt-8">
-            <Link
-              href="/inquiry"
-              className="inline-block no-underline px-6 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
-            >
-              Book a Clarity Session
-            </Link>
-          </div>
         </div>
       </section>
     </div>
