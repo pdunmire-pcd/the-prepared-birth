@@ -26,16 +26,6 @@ export default function HomePage() {
           <p className="mt-5 text-lg md:text-xl opacity-90">
             If you're pregnant and overwhelmed by advice, opinions, and options, I help you decide what actually matters — and let go of the rest. Serving families in Tacoma and nationwide with private birth preparation that focuses on clarity, because skilled care doesn't always mean explained care.
           </p>
-
-          <div className="relative">
-          <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
-            <img
-              src="/images/hero.jpg"
-              alt="The Prepared Birth"
-              className="w-full h-[420px] md:h-[520px] object-cover"
-            />
-          </div>
-        </div>
         </div>
       </section>
 
@@ -61,6 +51,16 @@ export default function HomePage() {
                 <li>• You're seeking medical advice or clinical decision-making</li>
               </ul>
             </div>
+          </div>
+        </div>
+
+         <div className="relative">
+          <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
+            <img
+              src="/images/hero.jpg"
+              alt="The Prepared Birth"
+              className="w-full h-[420px] md:h-[520px] object-cover"
+            />
           </div>
         </div>
       </section>
