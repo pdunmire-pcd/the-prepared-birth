@@ -36,6 +36,8 @@ export default function HomePage() {
             />
           </div>
         </div>
+        </div>
+      </section>
 
           {/* Who This Is For / Not For Section */}
       <section className="container-page mt-12 md:mt-16">
@@ -60,8 +62,6 @@ export default function HomePage() {
               </ul>
             </div>
           </div>
-        </div>
-      </section>
         </div>
       </section>
 
