@@ -74,44 +74,42 @@ export default function AboutPage() {
 
       {/* Main Content */}
       <section className="container-page pb-16 md:pb-24">
-        <div className="grid lg:grid-cols-3 gap-6 items-start">
-          <div className="lg:col-span-2">
-            <Card title="About The Prepared Birth">
-              <p>
-                The Prepared Birth offers <strong>childbirth education and decision support</strong> for families who want to understand their options and feel prepared before birth, clarity without noise. if you're feeling overwhelmed by information, unsure how to interpret recommendations, or simply want experienced guidance without adding another person to your birth room, this kind of support can be deeply grounding.
-              </p>
-              <p className="mt-4">
-                I don't offer a philosophy to follow or a "right way" to give birth. I offer perspective shaped by years of experience, practical preparation, and space to think things through - so you can make decisions that fit your values, your care setting, and your real life.
-                This work is <strong>non-medical and does not include birth attendance.</strong> Instead, support happens before birth - helping you make sense of recommendations, prepare for prenatal visits, and think clearly when decisions matter. Preparation for postpartum is a key part of birth planning.
-              </p>
+        <div className="max-w-4xl">
+          <Card title="About The Prepared Birth">
+            <p>
+              The Prepared Birth offers <strong>childbirth education and decision support</strong> for families who want to understand their options and feel prepared before birth, clarity without noise. if you're feeling overwhelmed by information, unsure how to interpret recommendations, or simply want experienced guidance without adding another person to your birth room, this kind of support can be deeply grounding.
+            </p>
+            <p className="mt-4">
+              I don't offer a philosophy to follow or a "right way" to give birth. I offer perspective shaped by years of experience, practical preparation, and space to think things through - so you can make decisions that fit your values, your care setting, and your real life.
+              This work is <strong>non-medical and does not include birth attendance.</strong> Instead, support happens before birth - helping you make sense of recommendations, prepare for prenatal visits, and think clearly when decisions matter. Preparation for postpartum is a key part of birth planning.
+            </p>
 
-              <p className="mt-4">
-                Families choose The Prepared Birth when information feels overwhelming, when a recommendation is needed, or when they want education tailored to their hospital or birth center care. <strong>The goal is simple</strong>: clear understanding, confident decisions, and steady guidance when decisions feel heavy.
-              </p>
+            <p className="mt-4">
+              Families choose The Prepared Birth when information feels overwhelming, when a recommendation is needed, or when they want education tailored to their hospital or birth center care. <strong>The goal is simple</strong>: clear understanding, confident decisions, and steady guidance when decisions feel heavy.
+            </p>
 
-              <div className="mt-6 rounded-xl2 bg-paper border border-black/10 p-5">
-                <div className="font-semibold">Experience</div>
-                <p className="mt-2">I've spent more than 15 years working in birth - supporting over 400 families in hospital and birth-center settings. My background includes work as a certified childbirth educator, birth and postpartum doula, and midwife assistant, alongside midwives and maternity care teams.<br />
-                <br /> 
-                Over time, I chose to focus exclusively on education and consultation. I don't attend births. Instead, I offer thoughtful preparation, clear explanations, and steady guidance - so families feel informed, grounded, and confident as they move through pregnancy, birth planning, and early postpartum</p>
-              </div>
+            <div className="mt-6 rounded-xl2 bg-paper border border-black/10 p-5">
+              <div className="font-semibold">Experience</div>
+              <p className="mt-2">I've spent more than 15 years working in birth - supporting over 400 families in hospital and birth-center settings. My background includes work as a certified childbirth educator, birth and postpartum doula, and midwife assistant, alongside midwives and maternity care teams.<br />
+              <br /> 
+              Over time, I chose to focus exclusively on education and consultation. I don't attend births. Instead, I offer thoughtful preparation, clear explanations, and steady guidance - so families feel informed, grounded, and confident as they move through pregnancy, birth planning, and early postpartum</p>
+            </div>
 
-              <p className="mt-6">
-                You don't need to have everything figured out right now. Most people don't. What helps is having a place to talk things through - with someone steady, experienced, and outside the swirl of opinions. <br />
-                <br />
-                If that sounds supportive, the best place to begin is with a Birth Clarity Session.
-              </p>
+            <p className="mt-6">
+              You don't need to have everything figured out right now. Most people don't. What helps is having a place to talk things through - with someone steady, experienced, and outside the swirl of opinions. <br />
+              <br />
+              If that sounds supportive, the best place to begin is with a Birth Clarity Session.
+            </p>
 
-              <div className="mt-6">
-                <Link
-                  href="/inquiry"
-                  className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
-                >
-                  Begin with a Clarity Session
-                </Link>
-              </div>
-            </Card>
-          </div>
+            <div className="mt-6">
+              <Link
+                href="/inquiry"
+                className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
+              >
+                Begin with a Clarity Session
+              </Link>
+            </div>
+          </Card>
         </div>
 
         {/* Image + Text Grid */}
