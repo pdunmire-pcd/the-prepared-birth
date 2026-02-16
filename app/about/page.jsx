@@ -1,68 +1,8 @@
-import Link from "next/link";
-
-export const metadata = {
-  title: "About - The Prepared Birth",
-  description: "Learn about The Prepared Birth - thoughtful birth education and consultation for families in the Puget Sound region. Over 15 years of experience supporting hospital and birth-center births with calm, experienced guidance.",
-  keywords: "about birth educator Tacoma, childbirth education experience, Puget Sound birth support, hospital birth preparation, birth-center education",
-  openGraph: {
-    title: "About - The Prepared Birth",
-    description: "Thoughtful birth education and consultation for people who want to feel clear, grounded, and prepared as they move through pregnancy and birth planning.",
-    url: "https://thepreparedbirth.com/about",
-    siteName: "The Prepared Birth",
-    locale: "en_US",
-    type: "website",
-  }
-};
-
-function Card({ title, children }) {
-  return (
-    <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
-      <h2 className="font-serif text-2xl">{title}</h2>
-      <div className="mt-4 opacity-90">{children}</div>
-    </div>
-  );
-}
-
-function PackageCard({ title, subtitle, bullets, description, footer, noteSection, }) {
-  return (
-    <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
-      <div className="flex items-start justify-between gap-6">
-        <div>
-          <h3 className="font-serif text-2xl">{title}</h3>
-          <p className="mt-1 text-sm opacity-75">{subtitle}</p>
-        </div>
-      </div>
-      <ul className="mt-5 grid gap-3">
-        {bullets.map((b) => (
-          <li key={b} className="flex gap-3">
-            <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-sage-700 flex-shrink-0" />
-            <span className="opacity-90">{b}</span>
-          </li>
-        ))}
-      </ul>
-      {description ? (
-        <p className="mt-6 text-sm opacity-70">{description}</p>
-      ) : (
-        <p className="mt-6 text-sm opacity-70">
-          Pricing for ongoing work is shared privately after the Clarity Session once scope and fit are clear.
-        </p>
-      )}
-      {footer && (
-        <p className="mt-4 text-sm opacity-70">{footer}</p>
-      )}
-      {noteSection && (
-        <div className="mt-4 rounded-lg bg-paper border border-black/10 p-4 text-sm opacity-75">
-          {noteSection}
-        </div>
-      )}
-    </div>
-  );
-}
-
 export default function AboutPage() {
   return (
     <div>
-      <section className="container-page py-14 md:py-20">
+      {/* Hero Section */}
+      <section className="container-page py-16 md:py-24">
         <h1 className="text-4xl md:text-5xl font-serif">About</h1>
         <p className="mt-4 text-lg opacity-90 max-w-3xl">
           The Prepared Birth offers thoughtful birth education and consultation for people who want to feel clear, grounded, and prepared as they move through pregnancy, birth planning, and early postpartum. <br />
@@ -71,8 +11,9 @@ export default function AboutPage() {
         </p>
       </section>
 
-      <section className="container-page py-14 md:py-20">
-        <div className="mt-10 grid lg:grid-cols-3 gap-6 items-start">
+      {/* Main Content */}
+      <section className="container-page pb-16 md:pb-24">
+        <div className="grid lg:grid-cols-3 gap-6 items-start">
           <div className="lg:col-span-2">
             <Card title="About The Prepared Birth">
               <p>
@@ -87,29 +28,32 @@ export default function AboutPage() {
                 Families choose The Prepared Birth when information feels overwhelming, when a recommendation is needed, or when they want education tailored to their hospital or birth center care. <strong>The goal is simple</strong>: clear understanding, confident decisions, and steady guidance when decisions feel heavy.
               </p>
 
-              <div className="mt-7 rounded-xl2 bg-paper border border-black/10 p-5">
+              <div className="mt-6 rounded-xl2 bg-paper border border-black/10 p-5">
                 <div className="font-semibold">Experience</div>
-                <p>I've spent more than 15 years working in birth - supporting over 400 families in hospital and birth-center settings. My background includes work as a certified childbirth educator, birth and postpartum doula, and midwife assistant, alongside midwives and maternity care teams.<br />
+                <p className="mt-2">I've spent more than 15 years working in birth - supporting over 400 families in hospital and birth-center settings. My background includes work as a certified childbirth educator, birth and postpartum doula, and midwife assistant, alongside midwives and maternity care teams.<br />
                 <br /> 
                 Over time, I chose to focus exclusively on education and consultation. I don't attend births. Instead, I offer thoughtful preparation, clear explanations, and steady guidance - so families feel informed, grounded, and confident as they move through pregnancy, birth planning, and early postpartum</p>
               </div>
-              <p>
-                  <br />You don't need to have everything figured out right now. Most people don't. What helps is having a place to talk things through - with someone steady, experienced, and outside the swirl of opinions. <br />
-                  <br />
-                  If that sounds supportive, the best place to begin is with a Birth Clarity Session.
+
+              <p className="mt-6">
+                You don't need to have everything figured out right now. Most people don't. What helps is having a place to talk things through - with someone steady, experienced, and outside the swirl of opinions. <br />
+                <br />
+                If that sounds supportive, the best place to begin is with a Birth Clarity Session.
               </p>
-              <div className="mt-7">
-              <Link
-                href="/inquiry"
-                className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
-             >
-                Begin with a Clarity Session
-              </Link>
+
+              <div className="mt-6">
+                <Link
+                  href="/inquiry"
+                  className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
+                >
+                  Begin with a Clarity Session
+                </Link>
               </div>
             </Card>
           </div>
         </div>
 
+        {/* Image + Text Grid */}
         <div className="mt-12 grid lg:grid-cols-2 gap-6 items-center">
           <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
             <img
@@ -129,7 +73,8 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className="mt-16 rounded-xl2 bg-paper border border-black/10 p-8">
+        {/* Clarity Definition */}
+        <div className="mt-12 rounded-xl2 bg-paper border border-black/10 p-8">
           <h2 className="font-serif text-2xl mb-4">What Clarity Means Here</h2>
           <p className="opacity-90">
             Clarity isn't about having all the answers or following a perfect plan. It's about understanding your options well enough to make decisions that feel right for you - even when things shift or don't go as expected.
@@ -142,6 +87,7 @@ export default function AboutPage() {
           </p>
         </div>
 
+        {/* Preparation Pathways Section */}
         <h2 className="mt-16 text-3xl md:text-4xl font-serif">Preparation Pathways</h2>
         <p className="mt-4 opacity-85 max-w-3xl">
           For families who want more than a single conversation, I offer Preparation Pathways - a guided way to prepare for birth with clarity, intentions, and steadiness.<br />
@@ -156,7 +102,8 @@ export default function AboutPage() {
           Each pathway is tailored to your needs and paced to avoid overwhelm. The goal is steady, thoughtful preparation - not information overload. Specific pathway options are shared after a Clarity Session, once we've had time to understand what kind of preparation would be most helpful.
         </p>
 
-        <div id="packages" className="mt-10 grid lg:grid-cols-3 gap-6 items-stretch">
+        {/* Package Cards */}
+        <div id="packages" className="mt-8 grid lg:grid-cols-3 gap-6 items-stretch">
           <PackageCard
             title="Birth Clarity Session"
             subtitle="A private 90-minute conversation to help you feel grounded, oriented, and clear about your next steps in birth"
@@ -183,16 +130,16 @@ export default function AboutPage() {
                     Short, focused conversations about birth preparation, decision-making, and what clarity actually means when you're planning for birth.
                   </p>
                   <a 
-          href="https://open.spotify.com/show/5XI2jRfhvve3eGbRhN9KZB?si=zm6VaP2aQRqVd6HlvHvcnQ"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition">
-          Listen on Spotify
-        </a>
-      </div>
-    </>
-  }
-/>
+                    href="https://open.spotify.com/show/5XI2jRfhvve3eGbRhN9KZB?si=zm6VaP2aQRqVd6HlvHvcnQ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition">
+                    Listen on Spotify
+                  </a>
+                </div>
+              </>
+            }
+          />
           <PackageCard
             title="Guided Birth Education"
             subtitle="Focused prenatal preparation · Ideal for families seeking steady guidance tailored based one there new circumstances. Typically not new comers"
