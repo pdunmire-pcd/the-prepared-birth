@@ -199,8 +199,8 @@ export default function AboutPage() {
           />
           <PackageCard
             title="The Prepared Birth"
-            subtitle="Focused prenatal & postpartum preparation · Ideal for families seeking steady guidance tailored to their circumstances"
-            description="Three 60-minute private sessions providing individualized preparation and childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
+            subtitle="Three 60-minute private sessions providing individualized preparation and childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
+            description="Focused prenatal & postpartum preparation · Ideal for families seeking steady guidance tailored to their circumstances"
             bullets={[
               "Three one-on-one prenatal education sessions, paced for understanding",
               "Private childbirth education tailored to your planned birth setting",
