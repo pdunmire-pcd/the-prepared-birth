@@ -27,32 +27,7 @@ export default function HomePage() {
             If you're pregnant and overwhelmed by advice, opinions, and options, I help you decide what actually matters — and let go of the rest. Serving families in Tacoma and nationwide with private birth preparation that focuses on clarity, because skilled care doesn't always mean explained care.
           </p>
 
-          <div className="mt-8">
-            <Link
-              href="/inquiry"
-              className="inline-block no-underline px-6 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
-            >
-              Book a Clarity Session
-            </Link>
-            <p className="mt-3 text-sm opacity-70">
-              90-minute private session • Tacoma (select Tuesdays) + virtual nationwide<br/>
-              Not a doula • No labor attendance • Non-medical
-            </p>
-          </div>
-        </div>
-
-        <div className="relative">
-          <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
-            <img
-              src="/images/hero.jpg"
-              alt="The Prepared Birth"
-              className="w-full h-[420px] md:h-[520px] object-cover"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Who This Is For / Not For Section */}
+          {/* Who This Is For / Not For Section */}
       <section className="container-page mt-12 md:mt-16">
         <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-8 md:p-10">
           <div className="grid md:grid-cols-2 gap-10">
@@ -74,6 +49,31 @@ export default function HomePage() {
                 <li>• You're seeking medical advice or clinical decision-making</li>
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+          <div className="mt-8">
+            <Link
+              href="/inquiry"
+              className="inline-block no-underline px-6 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
+            >
+              Book a Clarity Session
+            </Link>
+            <p className="mt-3 text-sm opacity-70">
+              90-minute private session • Tacoma (select Tuesdays) + virtual nationwide<br/>
+              Not a doula • No labor attendance • Non-medical
+            </p>
+          </div>
+        </div>
+
+        <div className="relative">
+          <div className="rounded-xl2 overflow-hidden shadow-soft border border-black/10">
+            <img
+              src="/images/hero.jpg"
+              alt="The Prepared Birth"
+              className="w-full h-[420px] md:h-[520px] object-cover"
+            />
           </div>
         </div>
       </section>
