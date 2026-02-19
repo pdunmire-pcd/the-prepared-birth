@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Card, PackageCard } from "../../components/AboutCards";
 
 export const metadata = {
   title: "About - The Prepared Birth",
@@ -13,51 +14,6 @@ export const metadata = {
     type: "website",
   }
 };
-
-function Card({ title, children }) {
-  return (
-    <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
-      <h2 className="font-serif text-2xl">{title}</h2>
-      <div className="mt-4 opacity-90">{children}</div>
-    </div>
-  );
-}
-
-function PackageCard({ title, subtitle, bullets, description, footer, noteSection, }) {
-  return (
-    <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
-      <div className="flex items-start justify-between gap-6">
-        <div>
-          <h3 className="font-serif text-2xl">{title}</h3>
-          <p className="mt-1 text-sm opacity-75">{subtitle}</p>
-        </div>
-      </div>
-      <ul className="mt-5 grid gap-3">
-        {bullets.map((b, index) => (
-          <li key={index} className="flex gap-3">
-            <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-sage-700 flex-shrink-0" />
-            <span className="opacity-90">{b}</span>
-          </li>
-        ))}
-      </ul>
-      {description ? (
-        <p className="mt-6 text-sm opacity-70">{description}</p>
-      ) : (
-        <p className="mt-6 text-sm opacity-70">
-          Pricing for ongoing work is shared privately after the Clarity Session once scope and fit are clear.
-        </p>
-      )}
-      {footer && (
-        <p className="mt-4 text-sm opacity-70">{footer}</p>
-      )}
-      {noteSection && (
-        <div className="mt-4 rounded-lg bg-paper border border-black/10 p-4 text-sm opacity-75">
-          {noteSection}
-        </div>
-      )}
-    </div>
-  );
-}
 
 export default function AboutPage() {
   return (
@@ -147,16 +103,17 @@ export default function AboutPage() {
         {/* Preparation Pathways Section */}
         <h2 className="mt-16 text-3xl md:text-4xl font-serif">Preparation Pathways</h2>
         <p className="mt-4 opacity-85 max-w-3xl">
-          For families who want more than a single conversation, I offer Preparation Pathways - a guided way to prepare for birth with clarity, intentions, and steadiness.<br />
-          <br />
-          Preparation Pathways combine:
-          <ul className="mt-2 list-disc list-inside">
-            <li>Individualized childbirth education private sessions and small classes designed around your values, your questions, and your birth setting</li>
-            <li>Birth planning & decision support - Time and space to think through options before labor - so decisions don't happen under pressure.</li>
-            <li>Postpartum preparation - Feeding, recovery, and early weeks support grounded in realism, not overwhelm.</li>
-          </ul>
-          <br />
-          Each pathway is tailored to your needs and paced to avoid overwhelm. The goal is steady, thoughtful preparation - not information overload. Specific pathway options are shared after a Clarity Session, once we've had time to understand what kind of preparation would be most helpful.
+          For families who want more than a single conversation, I offer Preparation Pathways - a guided way to prepare for birth with clarity, intentions, and steadiness.
+        <br /><br />
+        Preparation Pathways combine:
+        </p>
+        <ul className="mt-2 list-disc list-inside opacity-85 max-w-3xl">
+        <li>Individualized childbirth education private sessions and small classes designed around your values, your questions, and your birth setting</li>
+        <li>Birth planning & decision support - Time and space to think through options before labor - so decisions don't happen under pressure.</li>
+        <li>Postpartum preparation - Feeding, recovery, and early weeks support grounded in realism, not overwhelm.</li>
+        </ul>
+        <p className="mt-4 opacity-85 max-w-3xl">
+        Each pathway is tailored to your needs and paced to avoid overwhelm. The goal is steady, thoughtful preparation - not information overload. Specific pathway options are shared after a Clarity Session, once we've had time to understand what kind of preparation would be most helpful.
         </p>
 
         {/* Package Cards */}
