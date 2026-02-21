@@ -24,7 +24,7 @@ export default function HomePage() {
             Understand birth before decisions start happening fast.
           </h1>
           <p className="mt-5 text-lg md:text-xl opacity-90">
-            If you're pregnant and overwhelmed by advice, opinions, and options, I help you decide what actually matters — and let go of the rest. Serving families in Tacoma and nationwide with private birth preparation that focuses on clarity, because skilled care doesn't always mean explained care.
+            Private Birth Strategy & Childbirth Education in Tacoma, WA. <Strong>Tacoma's Private Birth Strategist</Strong>. Trusted, provider-connected preparation for families in Pierce County planning hospital or birth center birth. If you're pregnant and overwhelmed by advice, opinions, and options, I help you decide what actually matters — and let go of the rest. Skilled care doesn't always mean explained care.
           </p>
         </div>
         <div className="relative">
@@ -45,21 +45,12 @@ export default function HomePage() {
         <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-8 md:p-10">
           <div className="grid md:grid-cols-2 gap-10">
             <div>
-              <h2 className="font-serif text-2xl md:text-3xl mb-4">This work is for you if:</h2>
+              <h2 className="font-serif text-2xl md:text-3xl mb-4">Experience. Connected. Trusted. I help families:</h2>
               <ul className="space-y-3 text-base opacity-85">
-                <li>• You want calm, experienced guidance — not more opinions</li>
-                <li>• You don't want another person in the birth room</li>
-                <li>• You're birthing in a hospital or birth center and want help navigating options</li>
-                <li>• You value preparation, perspective, and clarity</li>
-              </ul>
-            </div>
-            
-            <div>
-              <h2 className="font-serif text-2xl md:text-3xl mb-4">This is not for you if:</h2>
-              <ul className="space-y-3 text-base opacity-85">
-                <li>• You're looking for labor or postpartum attendance</li>
-                <li>• You want a group class or one-size-fits-all education</li>
-                <li>• You're seeking medical advice or clinical decision-making</li>
+                <li>• Choose the right hospital or birth center</li>
+                <li>• Understand provider styles and care differences</li>
+                <li>• Prepare for labor with strategy, not guesswork</li>
+                <li>• Navigate Pierce County's birth systems confidently</li>
               </ul>
             </div>
           </div>
@@ -72,7 +63,7 @@ export default function HomePage() {
           <h2 className="font-serif text-2xl md:text-3xl">How it works</h2>
           
           <p className="mt-4 text-base md:text-lg opacity-85 max-w-3xl">
-            Many families come to this work feeling generally informed - but not fully settled. They've read, taken a class, or talked with their provider, yet still have questions they don't know where to place.
+            Many families come to this work feeling generally informed - but not fully settled. They've read, taken a class, or talked with their provider, yet still have questions they don't know where to place. This is private, strategic preparation rooted in real experience inside Tacoma's birth community. As a former midwife assistant, certified birth & postpartum doula, certified childbirth educator, and experience at the Birthing Inn. With me you are not learning from theory alone. You are preparing with someone who understands how birth works here. 
           </p>
 
           <div className="mt-8 grid md:grid-cols-3 gap-8 text-sm md:text-base">
@@ -85,23 +76,25 @@ export default function HomePage() {
             </div>
             
             <div>
-              <div className="text-xl font-semibold mb-3">3) Keep it calm and practical</div>
+              <div className="text-xl font-semibold mb-3">3) For families Who Want to Feel Ready</div>
               <p className="opacity-80">
-                This work is education-based and non-medical — designed to complement your care team and support informed decision-making.
+                If you're 20-35+ weeks and realizing birth is getting close, this is your moment to prepare intentionally. You deserve to walk into labor steady and informed - not overwhelmed.
+              </p>
+            </div>
+            <div>
+              <div className="text-xl font-semibold mb-3">3) Limited Private Clients Each Month</div>
+              <p className="opacity-80">
+                To ensure focused attention and meaningful preparation, I accept a limited number of private clients each month. Early booking is recommended.
               </p>
             </div>
           </div>
-
-          <p className="mt-6 opacity-70 text-sm md:text-base max-w-2xl">
-            Most families don't need more information - they need help thinking clearly before decisions start coming fast.
-          </p>
         </div>
       </section>
 
-      {/* Clarity Session Section */}
+      {/* Clarity Strategy Session Section */}
       <section className="container-page mt-12 md:mt-16">
         <div className="rounded-xl2 bg-sage-50 border border-black/10 p-8 md:p-10">
-          <h2 className="font-serif text-3xl md:text-4xl">Start with a Clarity Session</h2>
+          <h2 className="font-serif text-3xl md:text-4xl">Start with a Birth Strategy Session</h2>
           <p className="mt-2 text-lg opacity-80">Most families begin here.</p>
           
           <p className="mt-6 text-base md:text-lg opacity-90 max-w-3xl">
@@ -121,14 +114,14 @@ export default function HomePage() {
 
           <div className="mt-8 pt-6 border-t border-black/10">
             <p className="text-base font-medium">
-              Investment: $350 • In-person in Tacoma (select Tuesdays) or virtual nationwide
+              Investment: $295 • In-person in Tacoma (select Tuesdays) or virtual nationwide
             </p>
             <div className="mt-4">
               <Link
                 href="/inquiry"
                 className="inline-block no-underline px-6 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
               >
-                Book a Clarity Session
+                Book a Birth Strategy Session
               </Link>
             </div>
             <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
