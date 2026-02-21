@@ -69,20 +69,20 @@ export default function HomePage() {
           <div className="mt-8 grid md:grid-cols-3 gap-8 text-sm md:text-base">
             
             <div>
-              <div className="text-xl font-semibold mb-3">2) Continue, if it supports you</div>
+              <div className="text-xl font-semibold mb-3"> Continue, if it supports you</div>
               <p className="opacity-80">
                 Additional education and guidance are available for families who want steady support through pregnancy and early postpartum.
               </p>
             </div>
             
             <div>
-              <div className="text-xl font-semibold mb-3">3) For families Who Want to Feel Ready</div>
+              <div className="text-xl font-semibold mb-3"> For families Who Want to Feel Ready</div>
               <p className="opacity-80">
                 If you're 20-35+ weeks and realizing birth is getting close, this is your moment to prepare intentionally. You deserve to walk into labor steady and informed - not overwhelmed.
               </p>
             </div>
             <div>
-              <div className="text-xl font-semibold mb-3">3) Limited Private Clients Each Month</div>
+              <div className="text-xl font-semibold mb-3"> Limited Private Clients Each Month</div>
               <p className="opacity-80">
                 To ensure focused attention and meaningful preparation, I accept a limited number of private clients each month. Early booking is recommended.
               </p>
