@@ -24,7 +24,7 @@ export default function HomePage() {
             Understand birth before decisions start happening fast.
           </h1>
           <p className="mt-5 text-lg md:text-xl opacity-90">
-            Private Birth Strategy & Childbirth Education in Tacoma, WA. <Strong>Tacoma's Private Birth Strategist</Strong>. Trusted, provider-connected preparation for families in Pierce County planning hospital or birth center birth. If you're pregnant and overwhelmed by advice, opinions, and options, I help you decide what actually matters — and let go of the rest. Skilled care doesn't always mean explained care.
+            Private Birth Strategy & Childbirth Education in Tacoma, WA. Tacoma's Private Birth Strategist. Trusted, provider-connected preparation for families in Pierce County planning hospital or birth center birth. If you're pregnant and overwhelmed by advice, opinions, and options, I help you decide what actually matters — and let go of the rest. Skilled care doesn't always mean explained care.
           </p>
         </div>
         <div className="relative">
