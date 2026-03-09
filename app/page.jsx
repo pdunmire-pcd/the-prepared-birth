@@ -47,7 +47,7 @@ export default function HomePage() {
           <h2 className="font-serif text-2xl md:text-3xl">This is for you if...</h2>
           
           <ul className="mt-4 space-y-2 text-base md:text-lg opacity-85 max-w-3xl">
-            <li>• Your pregnant and planning birth in Tacoma or Pierce County</li>
+            <li>• You're pregnant and planning birth in Tacoma or Pierce County</li>
             <li>• You want to understand what labor actually looks like</li>
             <li>• You want to feel calm walking into the hospital or birth center</li>
             <li>• You want to know what questions to ask during prenatal appointments</li>
@@ -86,7 +86,7 @@ export default function HomePage() {
           <h2 className="font-serif text-2xl md:text-3xl">Common Birth Situations we prepare for :</h2>
           
           <ul className="mt-4 space-y-2 text-base md:text-lg opacity-85 max-w-3xl">
-            <li>• Arrive at the hospital in early labo</li>
+            <li>• Arrive at the hospital in early labor</li>
             <li>• When induction is recommended</li>
             <li>• When labor slows down or stalls</li>
             <li>• Understanding epidural timing</li>
