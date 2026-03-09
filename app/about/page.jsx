@@ -61,7 +61,7 @@ export default function AboutPage() {
               href="/inquiry"
               className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
             >
-              Begin with a Clarity Session
+              Begin with a Birth Strategy Session
             </Link>
           </div>
         </Card>
@@ -119,7 +119,7 @@ export default function AboutPage() {
         {/* Package Cards */}
         <div id="packages" className="mt-8 grid lg:grid-cols-2 gap-6 items-stretch">
           <PackageCard
-            title="Birth Clarity Session"
+            title="Birth Strategy Session"
             subtitle="A private 75-minute conversation to help you feel grounded, oriented, and clear about your next steps in birth"
             description={
               <>
@@ -137,7 +137,7 @@ export default function AboutPage() {
             ]}
             noteSection={
               <>
-                <p className="mb-4">Investment is $350. Further support is offered only if it feels appropriate and aligned. Pricing for ongoing work is shared after the session, once scope and fit are clear.</p>
+                <p className="mb-4">Investment is $295. Further support is offered only if it feels appropriate and aligned. Pricing for ongoing work is shared after the session, once scope and fit are clear.</p>
                 <div className="mt-4 pt-4 border-t border-black/10">
                   <h3 className="font-semibold text-base mb-2">Listen to The Prepared Birth</h3>
                   <p className="text-sm opacity-85 mb-4">
@@ -155,7 +155,7 @@ export default function AboutPage() {
             }
           />
           <PackageCard
-            title="The Prepared Birth"
+            title="Private Childbirth Education(core package)"
             subtitle="Three 60-minute private sessions providing individualized preparation and childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
             description="Focused prenatal & postpartum preparation · Ideal for families seeking steady guidance tailored to their circumstances"
             bullets={[
