@@ -53,7 +53,7 @@ export default function AboutPage() {
           <p className="mt-6">
             You don't need to have everything figured out right now. Most people don't. What helps is having a place to talk things through - with someone steady, experienced, and outside the swirl of opinions. <br />
             <br />
-            If that sounds supportive, the best place to begin is with a Birth Clarity Session.
+            If that sounds supportive, the best place to begin is with a Preparation Session.
           </p>
 
           <div className="mt-6">
@@ -61,7 +61,7 @@ export default function AboutPage() {
               href="/inquiry"
               className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
             >
-              Begin with a Birth Strategy Session
+              Book a Preparation Session Now
             </Link>
           </div>
         </Card>
@@ -117,27 +117,8 @@ export default function AboutPage() {
         </p>
 
         {/* Package Cards */}
-        <div id="packages" className="mt-8 grid lg:grid-cols-2 gap-6 items-stretch">
-          <PackageCard
-            title="Birth Strategy Session"
-            subtitle="A private 75-minute conversation to help you feel grounded, oriented, and clear about your next steps in birth"
-            description={
-              <>
-                <p className="mb-4">
-                  If you're feeling overwhelmed by information, unsure how to interpret recommendations, or sensing that "just taking another class" isn't what you need - this session is designed to slow everything down.
-                </p>
-              </>
-            }
-            bullets={[
-              "What to realistically expect in your specific care setting",
-              "Questions arising in and around prenatal visits and how to think them through",
-              "Options you're weighing, interventions, and explanations surrounding these",
-              "Your birth priorities, preferences and where flexibility matters most",
-              "Early postpartum and feeding considerations, so fewer things feel unexpected",
-            ]}
-            noteSection={
-              <>
-                <p className="mb-4">Investment is $295. Further support is offered only if it feels appropriate and aligned. Pricing for ongoing work is shared after the session, once scope and fit are clear.</p>
+            <div className="mt-8">
+              <div className="mt-4 pt-4 border-t border-black/10"></div>
                 <div className="mt-4 pt-4 border-t border-black/10">
                   <h3 className="font-semibold text-base mb-2">Listen to The Prepared Birth</h3>
                   <p className="text-sm opacity-85 mb-4">
@@ -150,12 +131,11 @@ export default function AboutPage() {
                     className="inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition">
                     Listen on Spotify
                   </a>
-                </div>
-              </>
-            }
-          />
+                </div>              
+        
+        <section className="container-page mt-12 md:mt-16">
           <PackageCard
-            title="Private Childbirth Education(core package)"
+            title="Private Childbirth Education(core packaged)"
             subtitle="Three 60-minute private sessions providing individualized preparation and childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
             description="Focused prenatal & postpartum preparation · Ideal for families seeking steady guidance tailored to their circumstances"
             bullets={[
@@ -175,7 +155,9 @@ export default function AboutPage() {
               "Session Formats: Virtual, In-person at The Birthing Inn, or Over the Phone"           
             ]}
           />
+          </section>
         </div>
+        
       </section>
     </div>
   );
