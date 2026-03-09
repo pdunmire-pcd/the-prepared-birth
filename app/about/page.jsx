@@ -86,20 +86,6 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Clarity Definition */}
-        <div className="mt-12 rounded-xl2 bg-paper border border-black/10 p-8">
-          <h2 className="font-serif text-2xl mb-4">What Clarity Means Here</h2>
-          <p className="opacity-90">
-            Clarity isn't about having all the answers or following a perfect plan. It's about understanding your options well enough to make decisions that feel right for you - even when things shift or don't go as expected.
-          </p>
-          <p className="mt-4 opacity-90">
-            In birth, clarity means knowing what questions to ask, recognizing what matters most to you, and feeling steady enough to navigate uncertainty without second-guessing yourself. It's the difference between feeling informed and feeling overwhelmed - between making choices from a grounded place and reacting under pressure.
-          </p>
-          <p className="mt-4 opacity-90">
-            My role is to help you get there. Not by telling you what to do, but by offering perspective, helping you sort through information, and creating space to think things through before decisions need to be made. Clarity doesn't eliminate unknowns - it helps you move through them with more confidence and less noise.
-          </p>
-        </div>
-
         {/* Preparation Pathways Section */}
         <h2 className="mt-16 text-3xl md:text-4xl font-serif">Preparation Pathways</h2>
         <p className="mt-4 opacity-85 max-w-3xl">
@@ -135,7 +121,7 @@ export default function AboutPage() {
         
         <section className="container-page mt-12 md:mt-16">
           <PackageCard
-            title="Private Childbirth Education(core packaged)"
+            title="Private Childbirth Education"
             subtitle="Three 60-minute private sessions providing individualized preparation and childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
             description="Focused prenatal & postpartum preparation · Ideal for families seeking steady guidance tailored to their circumstances"
             bullets={[
