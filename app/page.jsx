@@ -60,25 +60,22 @@ export default function HomePage() {
       </section>
 
       {/* Clarity Strategy Session Section */}
-      <section className="container-page mt-12 md:mt-16">
-        <div className="rounded-xl2 bg-sage-50 border border-black/10 p-8 md:p-10">
-          <h2 className="font-serif text-3xl md:text-4xl">Why Preparation Matters</h2>
-                  
-          <p className="mt-6 text-base md:text-lg opacity-90 max-w-3xl">
+      <section className="container-page mt-8 md:mt-12">
+        <div className="rounded-xl2 bg-sage-50 border border-black/10 p-5 md:p-6">
+          <h2 className="font-serif text-2xl md:text-3xl">Why Preparation Matters</h2>
+
+          <p className="mt-3 text-sm md:text-base opacity-90 max-w-3xl">
             Most families receive excellent medical care during pregnancy, but many still feel unsure about what labor actually looks like or how to navigate decisions that arise along the way.
           </p>
 
-          <p className="mt-6 text-base md:text-lg opacity-90 max-w-3xl italic">
-            Understanding how labor typically unfolds, how hospitals and birth centers operate, and how to ask thoughtful questions can make a significant difference in how calm and condfident families feel.
+          <p className="mt-3 text-sm md:text-base opacity-90 max-w-3xl italic">
+            Understanding how labor typically unfolds, how hospitals and birth centers operate, and how to ask thoughtful questions can make a significant difference in how calm and confident families feel.
           </p>
 
-          <div className="mt-8 pt-6 border-t border-black/10">
-            <p className="text-base font-medium">
-              The goal of The Prepare Birth is simple :
+          <div className="mt-4 pt-4 border-t border-black/10">
+            <p className="text-sm font-medium">
+              The goal of The Prepared Birth is simple: to help you walk into labor informed, prepared, and ready for whatever unfolds.
             </p>
-            <p className="text-base font-medium mt-2">
-            To help you walk into labor informed, prepared, and ready for whatever unfolds.
-          </p>
           </div>
         </div>
       </section>
@@ -100,6 +97,31 @@ export default function HomePage() {
           </ul>
 
           <p className="mt-4 text-base md:text-lg opacity-90 max-w-3xl"> The goal is not to predict birth, but to help families understand how these moments sometimes unfold.</p>
+
+        </div>
+      </section>
+
+      {/* Why Families Choose this instead of a childbirth class */}
+      <section className="container-page mt-12 md:mt-16">
+        <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-8 md:p-10">
+          <h2 className="font-serif text-2xl md:text-3xl">Why Families Choose this instead of a childbirth class...</h2>
+
+          <p className="mt-3 text-sm md:text-base opacity-90 max-w-3xl">Hospital chidlbirth classes are helpful, but they are typically large group classes covering general information.
+          </p>
+          
+          <p className="mt-3 text-sm md:text-base opacity-90 max-w-3xl italic">The Prepared Birth is different</p>
+
+          <p className="mt-3 text-sm md:text-base opacity-90 max-w-3xl">Here we prepare specifically for your pregnancy, your hospital or birth center care, and the real decisions that may arise during labor.</p>
+
+          <p>Families often choose this preparation when they want:</p>
+          
+          <ul className="mt-4 space-y-2 text-base md:text-lg opacity-85 max-w-3xl">
+            <li>• Deep understanding of labor and hospital routines</li>
+            <li>• Preparation for VBAC, cesarean, or unexpected changes</li>
+            <li>• Guidance on questions to ask providers during prenatal visits</li>
+            <li>• A partner who feels confident supporting them</li>
+            <li>• Someone to help them think through real birth scenarios ahead of time</li>
+          </ul>
 
         </div>
       </section>
@@ -127,7 +149,7 @@ export default function HomePage() {
             <p className="text-base mt-2">
             If thats you, I take a very small number of doula clients each year. For some, preparation naturally turns into deeper support during labor and postpartum.
           </p>
-                    
+
         </div>
       </section>
     </div>
