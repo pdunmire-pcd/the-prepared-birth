@@ -121,29 +121,65 @@ export default function AboutPage() {
         
         <section className="container-page mt-12 md:mt-16">
           <PackageCard
-            title="Private Childbirth Education"
-            subtitle="Three 60-minute private sessions providing individualized preparation and childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload."
+            title="The Prepared Birth Education"
+            subtitle="Personal birth preparation during pregnancy for Tacoma families"
             description="Focused prenatal & postpartum preparation · Ideal for families seeking steady guidance tailored to their circumstances"
             bullets={[
-              "Three one-on-one prenatal education sessions, paced for understanding",
-              "Private childbirth education tailored to your planned birth setting",
-              "Support with decision-making and collaborative birth planning",
-              "Clear orientation to common hospital and birth-center care pathways",
-              "Defined consulting access between sessions, with clear boundaries",
-              "Support in understanding provider recommendations and common clinical thresholds",
-              "Tools for asking questions and discussing options without creating tension",
-              "Clarifying timelines, explaining common interventions, and alternatives before decisions become time-sensitive",
-              "Practical frameworks for shared decision-making during prenatal visits and labor",
-              "Postpartum preparation addressing recovery and early adjustment",
-              "Feeding support (breast, bottle, or combination)",
-              "Support around early newborn rhythm and emotional adjustment",
-              "Four 60-minute postpartum check-ins within the first 6 weeks after birth",
-              "Session Formats: Virtual, In-person at The Birthing Inn, or Over the Phone"           
+              "how labor typically unfolds",
+              "understanding hospital routines and procedures",
+              "preparing for birth in hospital or birth center settings",
+              "understanding induction, epidural timing, and labor progression",
+              "preparing for vaginal birth, VBAC, or cesarean scenarios",
+              "Staying calm when plans change",
+              "questions to ask during prenatal appointments",
+              "guidance choosing where to give birth",
+              "Provider and birth resoure recommendations in Tacoma",
+              "debriefing after prenatal appointments if questions arise",
+              "practical childbirth education included",
+              "understanding stages of labor",
+              "common birth terminology and procedures",
+              "preparation that goes beyond standard hospital classes",
+              "how your partner can support you during labor",
+              "what partners can expect in the hospital or birth center",
+              "practical ways partners can stay calm and helpful",
+              "practical ways partner can stay calm and helpful",
+              "what the first days after birth actually look like",
+              "basic newborn care", 
+              "early feeding guidance and what to expect"
             ]}
           />
           </section>
+
+          <section className="container-page mt-12 md:mt-16">
+            <h2>Timeline of preparation</h2>
+            <p className="mt-3 text-sm md:text-base opacity-90 max-w-3xl">
+              Preparation can begin as early as 12 weeks of pregnancy
+            </p>
+            <p className="mt-3 text-sm md:text-base opacity-90 max-w-3xl">
+              Most families begin between 20 and 32 weeks, while there is still time to thoughfully prepare before labor approaches.
+            </p>
+            <p className="mt-3 text-sm md:text-base opacity-90 max-w-3xl">
+              Support can continue through the early postpartum period if questions arise.
+            </p>
+          </section>
         </div>
-        
+        <div className="mt-12 grid lg:grid-cols-2 gap-6 items-center">
+          <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-8">
+            <h3 className="font-serif text-2xl">How The Prepared Birth Works</h3>
+            <p className="mt-4 opacity-85 text-base">
+              <strong>1. Book a preparation call :</strong> We start with a short call to talk about your pregnancy, where you're planning to give birth, and what preparation would be most helpful for you. If it feels like a good fit, we schedule your preparation sessions.
+            </p>
+            <p className="mt-4 opacity-85 text-base">
+              <strong>2. Personalized preparation during pregnancy :</strong>Together we prepare for the real scenarios that can arise during labor, including hospital routines, birth center environments, and the decisions familiessometimes face. This includes practical childbirth education and preparing your partner to support you during labor.
+            </p>
+            <p className="mt-4 opacity-85 text-base">
+              <strong>3. Ongoing guidance as questions arise :</strong> During pregnancy, new questions often come up after prenatal appointments or as families think through birth plans. You can reach out with questions so we can talk through them together.
+            </p>
+            <p className="mt-4 opacity-85 text-base">
+              <strong>4. Walk into birth prepared :</strong> By the time labor begins, you and your partner understand what labor typically looks like, how hospital or birth center environments operate, and how to navigate decisions calmly. The goal is simple: you walk into birth prepared instead of uncertain.
+            </p>
+          </div>
+          </div>
       </section>
     </div>
   );
