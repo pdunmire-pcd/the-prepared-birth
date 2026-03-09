@@ -21,7 +21,7 @@ export default function HomePage() {
       <section className="container-page py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight">
-            Calm, practical birth preparation for Tacoma moms.
+            Walk into labor calm, informed, and ready
           </h1>
           <p className="mt-5 text-lg md:text-xl opacity-90">
             Prepare for real labor situations so you can walk into birth feeling informed, confident, and ready for whatever unfolds.
