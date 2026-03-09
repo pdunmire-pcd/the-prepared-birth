@@ -147,7 +147,7 @@ export default function HomePage() {
               Some families may want a more hands-on birth support person in addition to preparation, and that's wonderful :
             </p>
             <p className="text-base mt-2">
-            If thats you, I take a very small number of doula clients each year. For some, preparation naturally turns into deeper support during labor and postpartum.
+            If that's you, I take a very small number of doula clients each year. For some, preparation naturally turns into deeper support during labor and postpartum.
           </p>
 
         </div>
