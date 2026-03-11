@@ -95,6 +95,41 @@ export default function WorkingWithMePage() {
           </div>
         </aside>
       </section>
+
+      {/* Testimonial Section */}
+      <section className="bg-paper border-t border-black/10">
+        <div className="container-page py-14 md:py-20">
+          <h2 className="font-serif text-3xl md:text-4xl mb-10">What Families Say</h2>
+          <blockquote className="max-w-2xl">
+            <p className="text-lg md:text-xl opacity-90 leading-relaxed">
+              "I felt so much calmer going into birth. Sarah explained what actually happens during labor and helped us think through questions for our provider. It made a huge difference in how prepared we felt."
+            </p>
+            <footer className="mt-5 text-sm opacity-60 font-medium tracking-wide uppercase">— A Prepared Birth Family</footer>
+          </blockquote>
+        </div>
+      </section>
+
+      {/* Investment Section */}
+      <section className="border-t border-black/10">
+        <div className="container-page py-14 md:py-20">
+          <h2 className="font-serif text-3xl md:text-4xl mb-4">Investment</h2>
+          <p className="opacity-85 max-w-xl mb-8">
+            Extended personalized guidance through pregnancy and early postpartum is a concierge-style offering for families who want consistent, unhurried support from early pregnancy through the newborn weeks.
+          </p>
+          <div className="rounded-xl2 bg-paper border border-black/10 p-8 max-w-sm shadow-soft">
+            <p className="text-sm font-medium uppercase tracking-wide opacity-60 mb-1">Extended Guidance Package</p>
+            <p className="font-serif text-5xl mt-2">$1,200</p>
+            <p className="mt-4 text-sm opacity-75 leading-relaxed">
+              Reach out to learn more about what's included and whether this is the right fit for your family.
+            </p>
+            <Link
+              href="/contact"
+              className="mt-6 inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition">
+              Get in Touch
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
