@@ -38,18 +38,6 @@ export default function WorkingWithMePage() {
                 overwhelmed — so decisions feel familiar rather than frightening.
               </p>
             </div>
-
-            <div>
-              <h2 className="font-semibold text-lg">This work is a good fit if you:</h2>
-              <ul className="mt-4 grid gap-2 text-sm opacity-90">
-                <li>• Want fewer voices during labor, not more</li>
-                <li>• Value preparation and perspective</li>
-                <li>• Prefer calm, experience-based guidance</li>
-              </ul>
-              <p className="mt-4 text-sm opacity-80">
-                Most families begin with a private Birth Clarity Session to orient themselves and ask questions before deciding what kind of preparation they want. Appointments are limited. Postpartum support focuses on integration, recovery, and settling into early family life with steadiness and perspective.
-              </p>
-            </div>
           </div>
         </div>
 
@@ -75,24 +63,29 @@ export default function WorkingWithMePage() {
             </a>
           </div>
 
-          <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-7">
-            <h2 className="font-serif text-2xl">What this Support Looks Like</h2>
-            <p className="mt-3 opacity-85">
-              People usually find their way here because they feel stuck - overwhelmed by information, unsure how to interpret recommendations, or wanting support that doesn't add pressure or another role to their birth.
-            </p>
-            <p className="mt-3 opacity-85">
-              I help families: 
-            </p>
-            <ul className="mt-2">
-              <li>- Understand their options</li>
-              <li>- Prepare for decisions before labor begins</li>
-              <li>- Feel oriented rather than overwhelmed</li>
-              <li>- Gain confidence through clarity</li>
-            </ul>
-            <p className="mt-4 opacity-85">
-              Our work happens through focused, private conversations during pregnancy and often into postpartum. Some families opt for extended personalized guidance through pregnancy and early postpartum. This is a concierge-style option.
-            </p>
-          </div>
+          <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-8">
+              <h2 className="font-serif text-2xl">Find the Right Support for Your Birth</h2>
+
+              <p className="mt-4 text-base opacity-85">
+                Pregnancy and birth come with important decisions — where to give birth, what to expect during labor, and how to prepare in a way that fits your care setting and your values.
+              </p>
+
+              <p className="mt-4 text-base opacity-85">
+                My role is to help you understand your options, think through recommendations, and feel more confident going into birth.
+              </p>
+
+              <p className="mt-4 text-base opacity-85">
+                Through personalized preparation and steady guidance, I support families during pregnancy and into the early postpartum weeks.
+              </p>
+
+              <p className="mt-4 text-base opacity-85">
+                Preparation includes the core elements of childbirth education, along with support tailored to your pregnancy, your questions, and the kind of birth experience you’re preparing for.
+              </p>
+
+              <p className="mt-4 text-base opacity-85">
+                My approach is shaped by experience supporting hundreds of families in Tacoma hospitals and birth centers, with a focus on helping you feel informed, grounded, and prepared.
+              </p>
+            </div>
         </aside>
       </section>
 
