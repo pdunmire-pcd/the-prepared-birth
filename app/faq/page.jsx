@@ -15,23 +15,15 @@ export const metadata = {
 const faqs = [
   {
     q: "What do you offer?",
-    a: "Private, relationship-based birth preparation and consulting. This work is educational and supportive in nature and focuses on clarity, steadiness, and thoughtful preparation.",
+    a: "Private birth preparation for Tacoma families - so you feel clear, steady, and confident in your birth decisions before labor begins.",
   },
   {
     q: "Who do you work with?",
-    a: "Families planning hospital or birth-center care who value calm, experienced guidance.",
-  },
-  {
-    q: "How do we begin?",
-    a: "Most families begin with a private Birth Clarity Session to determine fit.",
-  },
-  {
-    q: "Do you list prices publicly?",
-    a: "Only the Birth Clarity Session fee is listed publicly. Ongoing work is discussed privately once scope and alignment are clear.",
+    a: "I work with Tacoma families planning birth at Saint Joseph, Tacoma General, or The Birthing Inn - first-time or returning parents who don't want to feel uncertain, rushed, or caught off guard when decisions matter most.",
   },
   {
     q: "Do you offer childbirth education classes?",
-    a: "Yes, these can be scheduled and are taught privately upon request.",
+    a: "There is no need for outside childbirth classes, childbirth classes is included in your personal preparation plan.",
   },
   {
     q: "Do you take insurance?",
@@ -39,16 +31,8 @@ const faqs = [
   },
   {
     q: "Is this a doula service?",
-    a: "No. This is education and preparation only. I dont attend births, but I offer thoughtful guidance to help parents feel ready and informed beforehand.",
-  },
-  {
-    q: "What happens during a Birth Clarity Session?",
-    a: "We focus on your questions, concerns, and preferences. You'll receive tailored clear information, practical guidance, and help sorting through your options so you can feel more confident moving forward.",
-  },
-  {
-    q: "What if I'm scared - or not sure what I want yet?",
-    a: "That's completely normal! Many parents feel uncertain or anxious. My role is to help you navigate those feelings with clear information and steady support so you can make the best decisions for you and your family. Preparation doesn't require certainty - it helps create clarity over time",
-  },
+    a: "This is preparation - not birth attendance. My work centers on private, in-depth birth preparation, so you feel steady and informed going into labor. I do not routinely attend births. A very limited number of birth attendance spots are offered each year, by request and availability. Please inquire if you do need doula support. I do have trusted resources.",
+  }
 ];
 
 function AccordionItem({ q, a }) {
