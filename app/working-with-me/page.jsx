@@ -109,7 +109,7 @@ export default function WorkingWithMePage() {
           <p className="opacity-85 max-w-xl mb-8">
             Extended personalized guidance through pregnancy and early postpartum is a concierge-style offering for families who want consistent, unhurried support from early pregnancy through the newborn weeks.
           </p>
-          <div className="rounded-xl2 bg-paper border border-black/10 p-8 max-w-sm shadow-soft">
+          {/* <div className="rounded-xl2 bg-paper border border-black/10 p-8 max-w-sm shadow-soft">
             <p className="text-sm font-medium uppercase tracking-wide opacity-60 mb-1">Extended Guidance Package</p>
             <p className="font-serif text-5xl mt-2">$1,200</p>
             <p className="mt-4 text-sm opacity-75 leading-relaxed">
@@ -120,7 +120,7 @@ export default function WorkingWithMePage() {
               className="mt-6 inline-flex items-center justify-center w-full no-underline px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition">
               Get in Touch
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
