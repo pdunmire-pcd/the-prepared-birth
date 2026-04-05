@@ -20,6 +20,7 @@ export default function BirthPreparationSlider() {
         "Exactly how birth works at St. Joseph Medical Center, Tacoma General, and The Birthing Inn",
         "What decisions actually matter",
         "How to prepare for your specific birth",
+        "Private preparation and doula support starting at $500. Tuesdays at the birthing inn - by appointment only."
       ],
     },
     {
@@ -48,6 +49,16 @@ export default function BirthPreparationSlider() {
         "The goal of The Prepared Birth is simple: to help you walk into labor informed, prepared, and ready for whatever unfolds.",
     },
     {
+      eyebrow: "Why It Matters",
+      title: "Experience you can feel",
+      layout: "text",
+      paragraphs: [
+        "As a former midwife assistant, certified birth and postpartum doula, childbirth educator, and Birth Consultant at the Birthing Inn. Trusted by hundreds of Tacoma families over the past 15+ years. I've worked inside hospital and birth center settings and collaborate with providers and local doulas throughout Tacoma. I understand how birth actually unfolds here. I'm known for working calmly and collaboratively within the care team - while helping families feel informed, supported, and not alone. Families I've supported often say they felt more prepared, more confident, and more at ease - even in uncertain moments.",
+        "This is personal, too",
+        "I had both of my babies by C-section at Tacoma General. I know what it feels like to walk into birth without fully knowing what to expect. And I know how different it feels when you do."
+      ]
+    },
+    {
       eyebrow: "Real Scenarios",
       title: "Common Birth Situations We Prepare For",
       layout: "list-with-note",
@@ -62,7 +73,7 @@ export default function BirthPreparationSlider() {
         "Understanding transfers from birth center to hospital if needed",
       ],
       note:
-        "The goal is not to predict birth, but to help families understand how these moments sometimes unfold.",
+        "The goal is not to predict birth, but to help families understand how these moments sometimes unfold.\n\nThere isn't one right way to give birth. I support hospital births, birth center births, VBAC, C-section, medicated and unmedicated. I also support families navigating fertility journeys or pregnancy later in life.",
     },
     {
       eyebrow: "Why Families Choose This",
@@ -93,7 +104,52 @@ export default function BirthPreparationSlider() {
       emphasis:
         "Some families may want a more hands-on birth support person in addition to preparation, and that’s wonderful.",
       note:
-        "If that’s you, I take a very small number of doula clients each year. For some, preparation naturally turns into deeper support during labor and postpartum.",
+        "If that’s you, I take a very small number of doula clients each year. For some, preparation naturally turns into deeper support during labor and postpartum. This includes labor support, postpartum recovery, and feeding support. Availability is limited and offered by application.",
+    },
+    {
+      eyebrow: "Start Here",
+      title: "Start where you are",
+      layout: "start-options",
+      introTitle: "Not sure where to start?",
+      introText:
+        "Most families begin with a consultation - and we figure it out together.",
+      options: [
+        {
+          title: "Workshop",
+          description: "3-week workshop at The Birthing Inn",
+          buttonLabel: "Reserve Spot",
+          buttonHref: "/contact",
+        },
+        {
+          title: "Private Preparation",
+          description: "Starting at $500",
+          buttonLabel: "Schedule Consultation",
+          buttonHref: "/inquiry",
+        },
+        {
+          title: "Full Support (Application Only)",
+          description: "Pregnancy + Birth + Postpartum",
+          buttonLabel: "Apply / Schedule",
+          buttonHref: "/inquiry",
+        },
+      ],
+      resourcesTitle: "Tacoma Birth Guide + Resources",
+      resourcesIntro:
+        "I connect families with trusted Tacoma and Puget Sound resources:",
+      resources: [
+        "Lactation support",
+        "Pelvic floor physical therapy",
+        "Prenatal chiropractic care",
+        "Perinatal mental health",
+        "Postpartum support",
+        "Pediatric providers",
+      ],
+      closing: [
+        "You don't need to have everything figured out right now.",
+        "You just need a place to start.",
+      ],
+      ctaLabel: "Schedule a Consultation",
+      ctaHref: "/inquiry",
     },
   ];
 
@@ -208,7 +264,7 @@ export default function BirthPreparationSlider() {
                 ))}
               </ul>
 
-              <p className="mt-8 max-w-3xl border-t border-black/8 pt-5 text-[15px] leading-7 text-black/65 md:text-base">
+              <p className="mt-8 max-w-3xl border-t border-black/8 pt-5 whitespace-pre-line text-[15px] leading-7 text-black/65 md:text-base">
                 {slide.note}
               </p>
             </div>
@@ -271,6 +327,83 @@ export default function BirthPreparationSlider() {
                     </li>
                   ))}
                 </ul>
+              </div>
+            </div>
+          )}
+
+          {slide.layout === "start-options" && (
+            <div className="max-w-5xl space-y-10">
+              <div className="max-w-3xl">
+                <p className="text-[15px] leading-8 text-black/78 md:text-lg">
+                  <span className="font-medium text-[var(--foreground)]">
+                    {slide.introTitle}
+                  </span>
+                  <br />
+                  {slide.introText}
+                </p>
+              </div>
+
+              <div className="grid gap-5 md:grid-cols-3">
+                {slide.options.map((option, index) => (
+                  <div
+                    key={index}
+                    className="rounded-2xl border border-black/8 bg-white/70 p-5 shadow-sm"
+                  >
+                    <h3 className="font-serif text-xl text-[var(--foreground)]">
+                      {option.title}
+                    </h3>
+                    <p className="mt-3 text-[15px] leading-7 text-black/70">
+                      {option.description}
+                    </p>
+                    <a
+                      href={option.buttonHref}
+                      className="mt-5 inline-flex items-center justify-center rounded-full border border-black/10 px-4 py-2 text-sm font-medium text-[var(--foreground)] transition hover:bg-black/5"
+                    >
+                      {option.buttonLabel}
+                    </a>
+                  </div>
+                ))}
+              </div>
+
+              <div className="rounded-2xl border border-black/8 bg-[#f8f5ef] p-6">
+                <h3 className="font-serif text-2xl text-[var(--foreground)]">
+                  {slide.resourcesTitle}
+                </h3>
+                <p className="mt-3 text-[15px] leading-7 text-black/72 md:text-base">
+                  {slide.resourcesIntro}
+                </p>
+
+                <ul className="mt-5 grid gap-x-10 gap-y-4 md:grid-cols-2">
+                  {slide.resources.map((item, index) => (
+                    <li
+                      key={index}
+                      className="flex gap-3 text-[15px] leading-7 text-black/75 md:text-base"
+                    >
+                      <span className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--foreground)]/60" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="max-w-3xl border-t border-black/8 pt-6">
+                {slide.closing.map((line, index) => (
+                  <p
+                    key={index}
+                    className={`text-[15px] leading-8 md:text-lg ${
+                      index === 1 ? "text-[var(--foreground)]" : "text-black/72"
+                    }`}
+                  >
+                    {line}
+                  </p>
+                ))}
+
+                <a
+                  href={slide.ctaHref}
+                  className="mt-6 inline-flex items-center justify-center rounded-full bg-[var(--foreground)] px-5 py-3 text-sm font-medium text-white transition hover:opacity-90"
+                >
+                  {slide.ctaLabel}
+                </a>
               </div>
             </div>
           )}

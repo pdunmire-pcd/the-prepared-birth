@@ -92,7 +92,7 @@ export default function AboutPage() {
           <p className="mt-6">
             You don't need to have everything figured out right now. Most people
             don't. What helps is having a place to talk things through - with
-            someone steady, experienced, and outside the swirl of opinions.
+            someone steady, experienced, and outside the swirl of opinions. <br /><br /> We've lived this ourselves. I'm a Tacoma native, a mom to my daughters, and a two-time C-section mom. My husband and I are rooted in this community, and the families I support are part of that.  I had both of my babies by C-section at Tacoma General over 20 years ago. <br /><br /> We understand how important it is to fell prepared - not just as a mom, but as a family. Partners are part of this too.
             <br />
             <br />
             If that sounds supportive, the best place to begin is with a

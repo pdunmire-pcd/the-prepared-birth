@@ -9,128 +9,186 @@ export default function PrivatePricingPage() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-20">
       <header className="max-w-3xl">
-        <h1 className="text-4xl md:text-5xl font-serif mb-4">Private Pricing</h1>
+        <p className="text-sm font-medium uppercase tracking-[0.18em] opacity-55 mb-3">
+          Private Pricing
+        </p>
+        <h1 className="text-4xl md:text-5xl font-serif mb-4">
+          Private Birth Preparation & Doula Support
+        </h1>
         <p className="text-lg opacity-80">
-          This page is shared privately with clients. Pricing and recommendations are typically reviewed after your Birth Clarity Session.
+          Support from pregnancy through postpartum.
         </p>
       </header>
 
       <div className="mt-12 grid gap-10 lg:grid-cols-3 items-start">
         <div className="lg:col-span-2 grid gap-8">
-          <Card title="Public entry point">
-            <PriceBlock title="Birth Clarity Session" price="$350" />
+          <Card title="Consultation">
+            <PriceBlock price="Free 20-Minute Call" />
             <p className="text-sm opacity-80 mt-3">
-              A focused conversation to help you feel oriented and clear · Everyone starts here
-            </p>
-            
-            <Divider />
-
-            <h3 className="font-medium mb-2">In this session, we will discuss:</h3>
-            <ul className="text-sm opacity-80 list-disc pl-5 space-y-1">
-              <li>Your care setting and what to realistically expect</li>
-              <li>Questions coming up in prenatal visits</li>
-              <li>Options you're weighing (and how to think them through)</li>
-              <li>Birth preferences and flexibility</li>
-              <li>Early postpartum and feeding considerations</li>
-            </ul>
-
-            <Divider />
-
-            <p className="text-sm opacity-80">
-              The session is tailored to you - there's no set agenda. The Birth Clarity Session is a 90-minute, one-on-one conversation designed to help you feel oriented, grounded, and clear about what matters most as you prepare for birth. This is not a checklist or a class. It's a focused, thoughtful space to talk through your questions, concerns, and decisions with someone who understands birth deeply and can help you make sense of the information you're already carrying.
-            </p>
-
-            <p className="text-sm opacity-80 mt-4">
-              Many families describe leaving this session feeling calmer, more oriented, and better able to move forward with confidence.
+              Tuesdays at the Birthing Inn or by phone
             </p>
 
             <Divider />
 
             <p className="text-sm opacity-80">
-              If you enroll in a preparation package, $150 of this fee will be applied toward the package total.
+              This is the best place to begin if you're not quite sure which level
+              of support is the right fit. We can talk briefly about your
+              pregnancy, what kind of support you're looking for, and whether one
+              of the private preparation or doula options feels like the best next
+              step.
             </p>
 
-            <div className="mt-5 rounded-lg bg-paper border border-black/10 p-4">
-              <h4 className="font-semibold text-sm mb-2">Listen to The Prepared Birth</h4>
-              <p className="text-sm opacity-80 mb-4">
-                Short, thoughtful conversations about birth preparation, decision-making, and what clarity actually means when you're planning for birth. Listen first and see if a Clarity Session is for you.
-              </p>
-              <a 
-                href="https://open.spotify.com/show/5XI2jRfhvve3eGbRhN9KZB?si=zm6VaP2aQRqVd6HlvHvcnQ"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-full px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition no-underline"
+            <div className="mt-6">
+              <a
+                href="/inquiry"
+                className="inline-flex items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white shadow-soft hover:bg-sage-800 transition no-underline"
               >
-                Listen on Spotify
+                Book your Consultation
               </a>
             </div>
           </Card>
 
-          <Card title="Prepared Birth Education">
-            <PriceBlock price="$1,250" />
+          <Card title="Essential">
+            <PriceBlock price="$500" />
             <p className="text-sm opacity-80 mt-3">
-              Focused prenatal preparation · Ideal for families seeking steady guidance tailored based on their new circumstances. Typically not newcomers
+              One-time private preparation session
             </p>
 
             <Divider />
 
             <p className="text-sm opacity-80">
-              Individualized prenatal preparation and private childbirth education for families who want steady, thoughtful guidance as pregnancy unfolds. This work is especially supportive for those navigating changing circumstances and seeking clarity - without information overload.
+              A focused one-on-one session for families who want thoughtful,
+              personalized guidance without ongoing support. This is a strong fit
+              if you want space to talk through decisions, prepare for your birth
+              setting, and leave feeling clearer and more grounded.
             </p>
 
             <Divider />
 
-            <h3 className="font-medium mb-2">What this includes</h3>
+            <h3 className="font-medium mb-2">Includes</h3>
             <ul className="text-sm opacity-80 list-disc pl-5 space-y-1">
-              <li>Two one-on-one prenatal education sessions, paced for understanding</li>
-              <li>Private childbirth education (4 hours total), divided across the two sessions and tailored to the planned birth setting</li>
-              <li>Support with decision-making and collaborative birth planning</li>
-              <li>Clear orientation to common hospital and birth-center care pathways</li>
-              <li>Defined consulting access between sessions, with clear boundaries</li>
-              <li>Guidance on what questions are most helpful at different stages of prenatal care</li>
-              <li>Support in understanding provider recommendations and common clinical thresholds</li>
-              <li>Tools for asking questions and discussing options without creating tension</li>
-              <li>Clarifying timelines, alternatives, and when decisions are time-sensitive</li>
-              <li>Practical frameworks for shared decision-making during prenatal visits and labor</li>
+              <li>Private session</li>
+              <li>Personalized birth preparation</li>
+              <li>Time to talk through your questions and circumstances</li>
+              <li>Guidance tailored to your hospital or birth center setting</li>
             </ul>
           </Card>
 
-          <Card title="Birth & Early Postpartum Guidance">
-            <PriceBlock price="$1,850" />
+          <Card title="Guided">
+            <div className="flex items-center gap-3 mb-3">
+              <PriceBlock price="$1,250" />
+              <span className="rounded-full bg-sage-700 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.14em] text-white">
+                Most Popular
+              </span>
+            </div>
+
             <p className="text-sm opacity-80 mt-3">
-              Prenatal preparation + early postpartum support · Most popular for first-time families
+              Ongoing support throughout pregnancy
             </p>
 
             <Divider />
 
             <p className="text-sm opacity-80">
-              Continuous guidance across pregnancy and into early postpartum. This is not event-based care - it is steady, relationship-based support that begins in pregnancy and continues as you settle into life with your newborn.
+              For families who want steady, relationship-based support throughout
+              pregnancy. This includes preparation that unfolds over time, help
+              processing questions as they come up, and support that helps you
+              feel less alone in the swirl of information and decision-making.
             </p>
 
             <Divider />
 
-            <h3 className="font-medium mb-2">What this includes</h3>
+            <h3 className="font-medium mb-2">Includes</h3>
             <ul className="text-sm opacity-80 list-disc pl-5 space-y-1">
-              <li>Ongoing prenatal preparation across the full nine months</li>
-              <li>Private childbirth education (4 hours total), divided across sessions and tailored to your planned birth setting</li>
-              <li>Decision-making support and collaborative birth planning</li>
-              <li>Orientation to early postpartum guidance focused on recovery and settling in</li>
-              <li>Feeding support (breast, bottle, or combination)</li>
-              <li>Support around early newborn rhythm and emotional adjustment</li>
-              <li>Defined consulting access throughout pregnancy and early postpartum</li>
+              <li>Private session</li>
+              <li>Ongoing support throughout pregnancy</li>
+              <li>Text support</li>
+              <li>Space to talk through appointments, decisions, and next steps</li>
+              <li>Preparation tailored to your values and care setting</li>
+            </ul>
+          </Card>
+
+          <Card title="Full Support">
+            <PriceBlock price="$2,800" />
+            <p className="text-sm opacity-80 mt-3">
+              Application only · Pregnancy · Birth · Postpartum · Feeding
+            </p>
+
+            <Divider />
+
+            <p className="text-sm opacity-80">
+              This is for families who want someone they trust already in the room
+              when it matters most. Full Support includes relationship-based care
+              from pregnancy through postpartum, including birth support and
+              feeding support as you transition into early life with your baby.
+            </p>
+
+            <Divider />
+
+            <h3 className="font-medium mb-2">Includes</h3>
+            <ul className="text-sm opacity-80 list-disc pl-5 space-y-1">
+              <li>Private session</li>
+              <li>Ongoing support</li>
+              <li>Text support</li>
+              <li>Birth support</li>
+              <li>Postpartum visits</li>
+              <li>Feeding support</li>
             </ul>
 
             <Divider />
 
             <p className="text-sm opacity-80">
-              <span className="font-medium">Important:</span> Postpartum support is virtual only and time-limited. This package does not include birth attendance or on-call support.
+              Because this is a high-touch offering, availability is limited and
+              offered by application.
             </p>
+          </Card>
+
+          <Card title="Booking Links">
+            <p className="text-sm opacity-80">
+              Use the private booking links below to reserve your consultation,
+              class, or session. These can be updated with your final booking page
+              links when ready.
+            </p>
+
+            <Divider />
+
+            <div className="grid gap-4 sm:grid-cols-2">
+              <a
+                href="/inquiry"
+                className="inline-flex items-center justify-center rounded-xl border border-black/10 bg-white px-5 py-3 text-sm font-medium shadow-soft hover:bg-black/5 transition no-underline"
+              >
+                Book Consultation
+              </a>
+
+              <a
+                href="https://thebirthinginn.com/birth-classes/"
+                className="inline-flex items-center justify-center rounded-xl border border-black/10 bg-white px-5 py-3 text-sm font-medium shadow-soft hover:bg-black/5 transition no-underline"
+              >
+                Book Class
+              </a>
+
+              <a
+                href="/inquiry"
+                className="inline-flex items-center justify-center rounded-xl border border-black/10 bg-white px-5 py-3 text-sm font-medium shadow-soft hover:bg-black/5 transition no-underline"
+              >
+                Book Essential Session
+              </a>
+
+              <a
+                href="/inquiry"
+                className="inline-flex items-center justify-center rounded-xl border border-black/10 bg-white px-5 py-3 text-sm font-medium shadow-soft hover:bg-black/5 transition no-underline"
+              >
+                Apply / Inquire for Full Support
+              </a>
+            </div>
           </Card>
 
           <Card>
             <h3 className="font-medium mb-2">About this work</h3>
             <p className="text-sm opacity-80">
-              The Prepared Birth provides education and consultative birth preparation services only. Services are non-medical and do not include diagnosis, treatment, or clinical care. These services do not replace care from a licensed medical provider or midwife. The Provider does not attend births and does not provide in-home postpartum care.
+              The Prepared Birth provides education and consultative birth
+              preparation services only. Services are non-medical and do not
+              include diagnosis, treatment, or clinical care. These services do
+              not replace care from a licensed medical provider or midwife.
             </p>
           </Card>
         </div>
@@ -138,63 +196,69 @@ export default function PrivatePricingPage() {
         <aside className="rounded-2xl bg-sage-50 p-6 h-fit">
           <h2 className="font-serif text-xl mb-3">Next steps</h2>
           <ol className="text-sm opacity-80 list-decimal pl-5 space-y-1">
-            <li>Review the options above</li>
-            <li>Download and read the service agreement</li>
-            <li>Reply with any questions before confirming</li>
+            <li>Start with a free consultation</li>
+            <li>Review the support options above</li>
+            <li>Choose the level of support that feels like the best fit</li>
+            <li>Use the private booking links when you're ready</li>
           </ol>
 
           <div className="mt-6">
-            <a 
-              className="inline-flex w-full items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white hover:opacity-90 no-underline" 
-              href="/docs/The_Prepared_Birth_Service_Agreement.pdf" 
-              download
+            <a
+              className="inline-flex w-full items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white hover:opacity-90 no-underline"
+              href="/inquiry"
             >
-              Download service agreement (PDF)
+              Schedule a Consultation
             </a>
           </div>
 
           <div className="mt-6 text-sm opacity-80 space-y-2">
             <p>
-              <span className="font-medium">Scheduling:</span> Sessions are scheduled by mutual agreement. After we confirm we are a good fit, you will receive a private scheduling link.
+              <span className="font-medium">Consultations:</span> Free 20-minute
+              calls available Tuesdays at The Birthing Inn or by phone.
             </p>
             <p>
-              <span className="font-medium">In-person:</span> Select Tuesdays at <Link className="underline" href="https://thebirthinginn.com" target="_blank">The Birthing Inn</Link> in Tacoma.
+              <span className="font-medium">In-person:</span> Select Tuesdays at{" "}
+              <Link
+                className="underline"
+                href="https://thebirthinginn.com"
+                target="_blank"
+              >
+                The Birthing Inn
+              </Link>{" "}
+              in Tacoma.
             </p>
             <p>
-              <span className="font-medium">Virtual:</span> Available by appointment outside clinic hours.
+              <span className="font-medium">Phone / virtual:</span> Available by
+              arrangement depending on the offering.
             </p>
           </div>
 
           <div className="mt-6 pt-6 border-t border-black/10">
-            <h3 className="font-medium text-sm mb-3">Available Hours</h3>
+            <h3 className="font-medium text-sm mb-3">Private booking notes</h3>
             <div className="text-sm opacity-80 space-y-2">
-              <div>
-                <span className="font-medium">Tuesdays:</span>
-                <ul className="ml-4 mt-1 space-y-1">
-                  <li>1st Tuesday: 9am–4pm</li>
-                  <li>2nd Tuesday: 9am–5pm</li>
-                  <li>3rd Tuesday: 9am–5pm</li>
-                  <li>4th Tuesday: 9am–7pm</li>
-                </ul>
-              </div>
-              <div>
-                <span className="font-medium">Thursdays:</span>
-                <ul className="ml-4 mt-1 space-y-1">
-                  <li>2nd Thursday: 9am–1pm</li>
-                  <li>3rd Thursday: 9am–1pm</li>
-                </ul>
-              </div>
+              <p>
+                Add your consultation booking link where marked above.
+              </p>
+              <p>
+                Add your class booking page or workshop registration link in the
+                booking section.
+              </p>
+              <p>
+                Full Support is offered by application only.
+              </p>
             </div>
           </div>
 
           <div className="mt-6 text-sm opacity-80 space-y-2">
             <p>
-              <span className="font-medium">Cancellation policy:</span> Sessions may be cancelled or rescheduled with at least 48 hours notice.
+              <span className="font-medium">Cancellation policy:</span> Sessions
+              may be cancelled or rescheduled with at least 48 hours notice.
             </p>
           </div>
 
           <div className="mt-6 text-xs opacity-70">
-            Education-based, non-medical support. The Prepared Birth does not provide diagnosis, clinical care, emergency services, on-call support, or birth attendance.
+            Education-based, non-medical support. The Prepared Birth does not
+            provide diagnosis, clinical care, emergency services, or medical care.
           </div>
         </aside>
       </div>

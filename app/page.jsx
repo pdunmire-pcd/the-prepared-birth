@@ -39,6 +39,8 @@ export default function HomePage() {
             Medical Center, Good Samaritan Hospital, and local birth centers
             like The Birthing Inn - I&apos;ll help you prepare for that exact
             experience.
+
+            No pressure - just a conversation to see if this is the right fit. for both of you- just one of you. Partners are part of this too. 
           </p>
 
           <div className="mt-6">
@@ -46,7 +48,15 @@ export default function HomePage() {
               href="/inquiry"
               className="inline-flex w-full items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white no-underline shadow-soft transition hover:bg-sage-800"
             >
-              Book a Preparation Session Now
+              Schedule a consultation
+            </Link>
+          </div>
+          <div className="mt-6">
+            <Link
+              href="https://thebirthinginn.com/birth-classes/"
+              className="inline-flex w-full items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white no-underline shadow-soft transition hover:bg-sage-800"
+            >
+              Join a Workshop
             </Link>
           </div>
         </div>
