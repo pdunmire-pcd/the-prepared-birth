@@ -20,7 +20,7 @@ export default function SiteHeader() {
         <Link href="/" className="no-underline">
           <div className="leading-tight">
             <div className="font-serif text-lg">The Prepared Birth.</div>
-            <div className="text-xs opacity-70">Education • Planning • Postpartum</div>
+            <div className="text-xs opacity-70">Education • Planning • Birth • Postpartum</div>
           </div>
         </Link>
 
