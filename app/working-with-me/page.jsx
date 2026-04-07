@@ -185,36 +185,12 @@ export default function WorkingWithMePage() {
             </a>
           </div>
 
-          <div className="rounded-xl2 bg-white shadow-soft border border-black/10 p-8">
-            <h2 className="font-serif text-2xl">Find the Right Support for Your Birth</h2>
-
-            <p className="mt-4 text-base opacity-85">
-              Pregnancy and birth come with important decisions — where to give
-              birth, what to expect during labor, and how to prepare in a way that
-              fits your care setting and your values.
-            </p>
-
-            <p className="mt-4 text-base opacity-85">
-              My role is to help you understand your options, think through
-              recommendations, and feel more confident going into birth.
-            </p>
-
-            <p className="mt-4 text-base opacity-85">
-              Through personalized preparation and steady guidance, I support
-              families during pregnancy and into the early postpartum weeks.
-            </p>
-
-            <p className="mt-4 text-base opacity-85">
-              Preparation includes the core elements of childbirth education, along
-              with support tailored to your pregnancy, your questions, and the kind
-              of birth experience you’re preparing for.
-            </p>
-
-            <p className="mt-4 text-base opacity-85">
-              My approach is shaped by experience supporting hundreds of families
-              in Tacoma hospitals and birth centers, with a focus on helping you
-              feel informed, grounded, and prepared.
-            </p>
+          <div className="overflow-hidden rounded-xl2 border border-black/10 shadow-soft">
+            <img
+              src="/images/sarah-with-girls.jpeg"
+              alt="The Prepared Birth"
+              className="h-[420px] w-full object-cover md:h-[520px]"
+            />
           </div>
         </aside>
       </section>
@@ -240,7 +216,7 @@ export default function WorkingWithMePage() {
         <p className="text-sm font-medium uppercase tracking-[0.16em] opacity-55">
           Essential
         </p>
-        <p className="mt-3 font-serif text-4xl">$500</p>
+        {/* <p className="mt-3 font-serif text-4xl">$500</p> */}
         <p className="mt-3 text-sm leading-6 opacity-75">
           One-time private preparation session
         </p>
@@ -281,7 +257,7 @@ export default function WorkingWithMePage() {
         <p className="text-sm font-medium uppercase tracking-[0.16em] opacity-55">
           Guided
         </p>
-        <p className="mt-3 font-serif text-4xl">$1,250</p>
+        {/* <p className="mt-3 font-serif text-4xl">$1,250</p> */}
         <p className="mt-3 text-sm leading-6 opacity-75">
           Ongoing support throughout pregnancy
         </p>
@@ -318,7 +294,7 @@ export default function WorkingWithMePage() {
         <p className="text-sm font-medium uppercase tracking-[0.16em] opacity-55">
           Full Support
         </p>
-        <p className="mt-3 font-serif text-4xl">$2,800</p>
+        {/* <p className="mt-3 font-serif text-4xl">$2,800</p> */}
         <p className="mt-3 text-sm leading-6 opacity-75">
           Application only · Pregnancy · Birth · Postpartum · Feeding
         </p>
