@@ -24,10 +24,12 @@ export default function HomePage() {
       <section className="container-page grid items-center gap-10 py-16 md:grid-cols-2 md:py-24">
         <div>
           <h1 className="font-serif text-4xl leading-tight md:text-5xl lg:text-6xl">
-            Walk into labor calm, informed, and ready
+            Tacoms's Birth Guide
           </h1>
 
           <p className="mt-5 text-lg opacity-90 md:text-xl">
+            I don’t teach birth in Tacoma.
+            I translate it.
             Prepare for real labor situations so you can walk into birth feeling
             informed, confident, and ready for whatever unfolds.
           </p>
@@ -50,10 +52,11 @@ export default function HomePage() {
             >
               Schedule a consultation
             </Link>
+            <p>Free 20-minute birth planning call</p>
           </div>
           <div className="mt-6">
             <Link
-              href="https://thebirthinginn.com/birth-classes/"
+              href="https://calendly.com/thepreparedbirth25?lid=ygjvde2x51fh&utm_medium=email&utm_source=braze&utm_campaign=2024Q4-NUR-TRIAL-ONB-ALL_ROLES-EN-Pers_Core_Onboarding&utm_content=user_url_text"
               className="inline-flex w-full items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white no-underline shadow-soft transition hover:bg-sage-800"
             >
               Join a Workshop
