@@ -124,13 +124,13 @@ export default function BirthPreparationSlider() {
           title: "Private Preparation",
           description: "Starting at $500",
           buttonLabel: "Schedule Consultation",
-          buttonHref: "/inquiry",
+          buttonHref: "https://calendly.com/thepreparedbirth25?lid=ygjvde2x51fh&utm_medium=email&utm_source=braze&utm_campaign=2024Q4-NUR-TRIAL-ONB-ALL_ROLES-EN-Pers_Core_Onboarding&utm_content=user_url_text",
         },
         {
           title: "Full Support (Application Only)",
           description: "Pregnancy + Birth + Postpartum",
           buttonLabel: "Apply / Schedule",
-          buttonHref: "/inquiry",
+          buttonHref: "https://calendly.com/thepreparedbirth25?lid=ygjvde2x51fh&utm_medium=email&utm_source=braze&utm_campaign=2024Q4-NUR-TRIAL-ONB-ALL_ROLES-EN-Pers_Core_Onboarding&utm_content=user_url_text",
         },
       ],
       resourcesTitle: "Tacoma Birth Guide + Resources",
@@ -149,7 +149,7 @@ export default function BirthPreparationSlider() {
         "You just need a place to start.",
       ],
       ctaLabel: "Schedule a Consultation",
-      ctaHref: "/inquiry",
+      ctaHref: "https://calendly.com/thepreparedbirth25?lid=ygjvde2x51fh&utm_medium=email&utm_source=braze&utm_campaign=2024Q4-NUR-TRIAL-ONB-ALL_ROLES-EN-Pers_Core_Onboarding&utm_content=user_url_text",
     },
   ];
 
