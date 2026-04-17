@@ -52,7 +52,9 @@ export default function HomePage() {
             >
               Schedule a consultation
             </Link>
-            <p>Free 20-minute birth planning call</p>
+            <p className="mt-3 text-center text-sm opacity-90">
+              Free 20-minute birth planning call
+            </p>
           </div>
           <div className="mt-6">
             <Link
