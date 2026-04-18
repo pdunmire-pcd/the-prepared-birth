@@ -24,7 +24,7 @@ export default function HomePage() {
       <section className="container-page grid items-center gap-10 py-16 md:grid-cols-2 md:py-24">
         <div>
           <h1 className="font-serif text-4xl leading-tight md:text-5xl lg:text-6xl">
-            Tacomas's Birth Guide
+            Tacoma's Birth Guide
           </h1>
 
           <p className="mt-5 text-lg opacity-90 md:text-xl">
