@@ -28,21 +28,16 @@ export default function HomePage() {
           </h1>
 
           <p className="mt-5 text-lg opacity-90 md:text-xl">
-            I don’t teach birth in Tacoma.
-            I translate it.
-            Prepare for real labor situations so you can walk into birth feeling
-            informed, confident, and ready for whatever unfolds.
+            You don't need multiple classes - you need one clear path through your birth, postpartum, and newborn care here in Tacoma.
           </p>
 
           <p className="mt-5 text-lg opacity-90 md:text-xl">
-            This is personalized birth preparation - not birth attendance - so
-            you walk into labor already informed, calm, and ready. I regularly
+            When things change. When decisions matter. When you want to feel steady - not overwhelmed - you have a guide. Guidance you can actually use - step by step.
+            This is personalized birth preparation from pregnancy into postpartum - so you're never left figuring it out on your own. I regularly
             help families preparing for birth at Tacoma General, St. Joseph
             Medical Center, Good Samaritan Hospital, and local birth centers
             like The Birthing Inn - I&apos;ll help you prepare for that exact
             experience.
-
-            No pressure - just a conversation to see if this is the right fit. for both of you- just one of you. Partners are part of this too. 
           </p>
 
           <div className="mt-6">
