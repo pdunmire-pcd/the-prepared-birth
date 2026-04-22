@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Private birth preparation for people who want clarity — without adding another person to the birth room. Tacoma and virtual nationwide.",
   keywords:
-    "childbirth education, childbirth classes, tacoma birth, puyallup birth, the birthing inn, Tacoma doula, pierce county birth, tacoma birth guide, birth help tacoma, pacific northwest moms, tacoma general, st. josephs, hospital birth preparation, birth-center care, prenatal education, birth clarity, JBLM, birth support, postpartum preparation, newborn care, birth planning, personalized birth prep, virtual birth classes, birth workshops, birth coaching, birth guidance, birth education, birth resources, birth support tacoma, birth preparation tacoma, birth classes tacoma, birth education tacoma, birth classes",
+    "childbirth education, childbirth classes, tacoma birth, puyallup birth, the birthing inn, Tacoma doula, pierce county birth, tacoma birth guide, birth help tacoma, pacific northwest moms, tacoma general, st. josephs, hospital birth preparation, birth-center care, prenatal education, birth clarity, JBLM, birth support, postpartum preparation, newborn care, birth planning, personalized birth prep, virtual birth classes, birth workshops, birth coaching, birth guidance, birth education, birth resources, birth support tacoma, birth preparation tacoma, birth classes tacoma, birth education tacoma, birth classes tacoma wa, birth preparation tacoma wa, birth support tacoma wa, birth education tacoma wa, birth coaching tacoma wa, birth workshops tacoma wa",
   openGraph: {
     title: "The Prepared Birth - Private Birth Preparation in Tacoma",
     description:
