@@ -1,12 +1,13 @@
 import Link from "next/link";
 import BirthPreparationSlider from "./BirthPreparationSlider";
+import CalendlyEmbed from "/components/CalendlyEmbed.jsx";
 
 export const metadata = {
   title: "The Prepared Birth - Private Birth Preparation in Tacoma, WA",
   description:
     "Private birth preparation for people who want clarity — without adding another person to the birth room. Tacoma and virtual nationwide.",
   keywords:
-    "childbirth education, childbirth classes, tacoma birth, puyallup birth, the birthing inn, Tacoma doula, pierce county birth, tacoma birth guide, birth help tacoma, pacific northwest moms, tacoma general, st. josephs, hospital birth preparation, birth-center care, prenatal education, birth clarity, JBLM",
+    "childbirth education, childbirth classes, tacoma birth, puyallup birth, the birthing inn, Tacoma doula, pierce county birth, tacoma birth guide, birth help tacoma, pacific northwest moms, tacoma general, st. josephs, hospital birth preparation, birth-center care, prenatal education, birth clarity, JBLM, birth support, postpartum preparation, newborn care, birth planning, personalized birth prep, virtual birth classes, birth workshops, birth coaching, birth guidance, birth education, birth resources, birth support tacoma, birth preparation tacoma, birth classes tacoma, birth education tacoma, birth classes",
   openGraph: {
     title: "The Prepared Birth - Private Birth Preparation in Tacoma",
     description:
@@ -53,7 +54,7 @@ export default function HomePage() {
           </div>
           <div className="mt-6">
             <Link
-              href="https://calendly.com/thepreparedbirth25?lid=ygjvde2x51fh&utm_medium=email&utm_source=braze&utm_campaign=2024Q4-NUR-TRIAL-ONB-ALL_ROLES-EN-Pers_Core_Onboarding&utm_content=user_url_text"
+              href="#book-workshop"
               className="inline-flex w-full items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white no-underline shadow-soft transition hover:bg-sage-800"
             >
               Join a Workshop
@@ -71,6 +72,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <CalendlyEmbed />
 
       <BirthPreparationSlider />
     </div>
