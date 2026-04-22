@@ -29,6 +29,11 @@ export default function SiteFooter() {
           <div className="opacity-80">
             Seattle–Tacoma • Puget Sound • Virtual when appropriate
           </div>
+          <div className="mt-4">
+            <a href="https://maps.app.goo.gl/vsH5nMCKoSgPVsqJA" target="_blank" rel="noopener noreferrer">
+  ⭐ See our Google Reviews
+</a>
+          </div>
 
           <div className="mt-4">
             <div className="font-semibold mb-2">Local resources</div>
