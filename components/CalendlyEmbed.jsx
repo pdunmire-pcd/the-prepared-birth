@@ -17,7 +17,7 @@ export default function CalendlyEmbed() {
   return (
     <section id="book-workshop" className="container-page py-16 md:py-24">
       <h2 className="font-serif text-3xl md:text-4xl mb-4 text-center">
-        Book a Workshop
+        Book a Birth Preparation Session
       </h2>
       <p className="text-center text-lg opacity-90 mb-8">
         Choose a time that works for you — spots fill up fast.

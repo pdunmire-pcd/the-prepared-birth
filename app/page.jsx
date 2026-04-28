@@ -25,11 +25,15 @@ export default function HomePage() {
       <section className="container-page grid items-center gap-10 py-16 md:grid-cols-2 md:py-24">
         <div>
           <h1 className="font-serif text-4xl leading-tight md:text-5xl lg:text-6xl">
-            Puget Sound Birth Guide
+            Private Birth Preparation That Replaces Classes in Tacoma
           </h1>
 
           <p className="mt-5 text-lg opacity-90 md:text-xl">
             You don't need multiple classes - you need one clear path through your birth, postpartum, and newborn care here in the Puget Sound Region; Tacoma, Puyallup, Seattle, and more.
+          </p>
+
+          <p className="mt-5 text-lg opacity-90 md:text-xl">
+            Most parents don't feel unprepared because they didn't try - they feel unprepared because no one shows them how it actually works.
           </p>
 
           <p className="mt-5 text-lg opacity-90 md:text-xl">
@@ -57,7 +61,7 @@ export default function HomePage() {
               href="#book-workshop"
               className="inline-flex w-full items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white no-underline shadow-soft transition hover:bg-sage-800"
             >
-              Join a Birth Course
+              Book your private birth preparation now
             </Link>
           </div>
         </div>
