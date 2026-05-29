@@ -79,6 +79,10 @@ export default function HomePage() {
 
       <CalendlyEmbed />
 
+      <p className="text-center text-sm text-gray-500 px-6 max-w-2xl mx-auto -mt-4">
+        While my primary focus is private childbirth education and birth preparation, limited doula support may be available for select families based on availability and fit.
+      </p>
+
       <BirthPreparationSlider />
     </div>
   );
