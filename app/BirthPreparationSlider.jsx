@@ -20,7 +20,7 @@ export default function BirthPreparationSlider() {
         "Exactly how birth works at St. Joseph Medical Center, Tacoma General, and The Birthing Inn",
         "What decisions actually matter",
         "How to prepare for your specific birth",
-        "Private preparation and doula support starting at $500. Tuesdays at the birthing inn - by appointment only."
+        "Private preparation and doula support — available virtually or in-home by appointment."
       ],
     },
     {
@@ -122,7 +122,7 @@ export default function BirthPreparationSlider() {
         },
         {
           title: "Private Preparation",
-          description: "Starting at $500",
+          description: "Virtual or in-home, by appointment",
           buttonLabel: "Schedule Consultation",
           buttonHref: "https://calendly.com/thepreparedbirth25?lid=ygjvde2x51fh&utm_medium=email&utm_source=braze&utm_campaign=2024Q4-NUR-TRIAL-ONB-ALL_ROLES-EN-Pers_Core_Onboarding&utm_content=user_url_text",
         },

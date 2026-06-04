@@ -122,8 +122,8 @@ export default function InquiryPage() {
           </p>
 
           <ul className="mt-4 text-sm opacity-80 space-y-1">
-            <li>In-person sessions: select Tuesdays at The Birthing Inn</li>
-            <li>Virtual sessions: outside clinic hours</li>
+            <li>In-person and in-home sessions available by appointment</li>
+            <li>Virtual sessions available</li>
             <li>24-hour notice required</li>
           </ul>
 

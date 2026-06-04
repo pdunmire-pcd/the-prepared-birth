@@ -25,7 +25,7 @@ export default function PrivatePricingPage() {
           <Card title="Consultation">
             <PriceBlock price="Free 20-Minute Call" />
             <p className="text-sm opacity-80 mt-3">
-              Tuesdays at the Birthing Inn or by phone
+              Virtual or in-home/in-person, by appointment
             </p>
 
             <Divider />
@@ -214,21 +214,13 @@ export default function PrivatePricingPage() {
           <div className="mt-6 text-sm opacity-80 space-y-2">
             <p>
               <span className="font-medium">Consultations:</span> Free 20-minute
-              calls available Tuesdays at The Birthing Inn or by phone.
+              calls available virtually or by phone.
             </p>
             <p>
-              <span className="font-medium">In-person:</span> Select Tuesdays at{" "}
-              <Link
-                className="underline"
-                href="https://thebirthinginn.com"
-                target="_blank"
-              >
-                The Birthing Inn
-              </Link>{" "}
-              in Tacoma.
+              <span className="font-medium">In-person / in-home:</span> Available by appointment.
             </p>
             <p>
-              <span className="font-medium">Phone / virtual:</span> Available by
+              <span className="font-medium">Virtual:</span> Available by
               arrangement depending on the offering.
             </p>
           </div>
