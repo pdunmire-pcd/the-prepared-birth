@@ -19,7 +19,7 @@ export const metadata = {
 
 const reviewData = {
   averageRating: 5.0,
-  totalReviews: 8,
+  totalReviews: 29,
   googleProfileUrl: "https://maps.app.goo.gl/xEyoGnPqouH1dbq97",
   reviews: [
     {

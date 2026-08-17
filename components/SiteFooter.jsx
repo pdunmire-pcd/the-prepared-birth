@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { GoogleReviewsFooterBadge } from "./GoogleReviewsBadge";
 
 export default function SiteFooter() {
   return (
@@ -30,9 +31,7 @@ export default function SiteFooter() {
             Seattle–Tacoma • Puget Sound • Virtual when appropriate
           </div>
           <div className="mt-4">
-            <a href="https://maps.app.goo.gl/vsH5nMCKoSgPVsqJA" target="_blank" rel="noopener noreferrer">
-  ⭐ See our Google Reviews
-</a>
+            <GoogleReviewsFooterBadge />
           </div>
 
           <div className="mt-4">

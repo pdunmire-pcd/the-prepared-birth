@@ -53,7 +53,7 @@ export default function BirthPreparationSlider() {
       title: "Experience you can feel",
       layout: "text",
       paragraphs: [
-        "As a former midwife assistant, certified birth and postpartum doula, childbirth educator, and Birth Consultant at the Birthing Inn. Trusted by hundreds of Tacoma families over the past 15+ years. I've worked inside hospital and birth center settings and collaborate with providers and local doulas throughout Tacoma. I understand how birth actually unfolds here. I'm known for working calmly and collaboratively within the care team - while helping families feel informed, supported, and not alone. Families I've supported often say they felt more prepared, more confident, and more at ease - even in uncertain moments.",
+        "As a former midwife assistant, certified birth and postpartum doula, childbirth educator, and Birth Consultant at the Birthing Inn. Trusted by hundreds of Tacoma families over the past 14+ years. I've worked inside hospital and birth center settings and collaborate with providers and local doulas throughout Tacoma. I understand how birth actually unfolds here. I'm known for working calmly and collaboratively within the care team - while helping families feel informed, supported, and not alone. Families I've supported often say they felt more prepared, more confident, and more at ease - even in uncertain moments.",
         "This is personal, too",
         "I had both of my babies by C-section at Tacoma General. I know what it feels like to walk into birth without fully knowing what to expect. And I know how different it feels when you do."
       ]
@@ -116,7 +116,7 @@ export default function BirthPreparationSlider() {
       options: [
         {
           title: "Workshop",
-          description: "3-week workshop at The Birthing Inn",
+          description: "Hospital birth workshops at Madrona Physical Therapy · Out-of-hospital prep at The Birthing Inn",
           buttonLabel: "Reserve Spot",
           buttonHref: "/contact",
         },

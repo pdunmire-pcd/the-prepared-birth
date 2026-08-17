@@ -1,6 +1,7 @@
 import "./globals.css";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import { GoogleReviewsFloatingBadge } from "../components/GoogleReviewsBadge";
 
 export const metadata = {
   title: {
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />
+        <GoogleReviewsFloatingBadge />
       </body>
     </html>
   );
