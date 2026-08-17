@@ -24,52 +24,56 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="container-page grid items-center gap-10 py-16 md:grid-cols-2 md:py-24">
-        <div>
-          <p className="text-sm font-medium uppercase tracking-widest opacity-60 mb-3">
-            Real-world birth preparation for Tacoma hospitals, birth centers, and home birth.
-          </p>
+      <section className="container-page py-8 md:py-14">
+        {/* Top: heading + photo side by side */}
+        <div className="grid items-start gap-10 md:grid-cols-2">
+          <div>
+            <p className="text-sm font-medium uppercase tracking-widest opacity-60 mb-3">
+              Real-world birth preparation for Tacoma hospitals, birth centers, and home birth.
+            </p>
 
-          <h1 className="font-serif text-4xl leading-tight md:text-5xl lg:text-6xl">
-            Walk Into Birth Feeling Ready. Come Home Prepared.
-          </h1>
+            <h1 className="font-serif text-4xl leading-tight md:text-5xl lg:text-6xl">
+              Walk Into Birth Feeling Ready. Come Home Prepared.
+            </h1>
 
-          <p className="mt-5 text-lg opacity-90 md:text-xl">
-            You deserve more than a class filled with information. You deserve to feel calm, capable, and connected—ready to make decisions together and prepared for the realities of birth and bringing your baby home.
-          </p>
+            <p className="mt-5 text-lg opacity-90 md:text-xl">
+              You deserve more than a class filled with information. You deserve to feel calm, capable, and connected—ready to make decisions together and prepared for the realities of birth and bringing your baby home.
+            </p>
 
-          <p className="mt-4 text-lg opacity-90 md:text-xl">
-            Learn how to recognize labor, when to leave for your birthplace, what to expect when you arrive, and how your partner can genuinely help. Practice useful comfort techniques, understand your options, and learn how to make informed decisions without feeling rushed or powerless.
-          </p>
-
-          <div className="mt-5">
-            <p className="font-medium mb-3">You&apos;ll leave with:</p>
-            <ul className="space-y-2 text-base opacity-90">
-              <li>• Your personalized birth plan and preferences</li>
-              <li>• Practical comfort measures and labor tools</li>
-              <li>• Clear guidance for navigating interventions and unexpected changes</li>
-              <li>• A partner who knows what to do and how to advocate alongside you</li>
-              <li>• Greater confidence in yourself, your choices, and your ability to adapt</li>
-            </ul>
+            <p className="mt-4 text-lg opacity-90 md:text-xl">
+              Learn how to recognize labor, when to leave for your birthplace, what to expect when you arrive, and how your partner can genuinely help. Practice useful comfort techniques, understand your options, and learn how to make informed decisions without feeling rushed or powerless.
+            </p>
           </div>
 
-          <div className="mt-8">
-            <Link
-              href="/working-with-me"
-              className="inline-flex w-full items-center justify-center rounded-xl bg-sage-700 px-5 py-3 text-white no-underline shadow-soft transition hover:bg-sage-800"
-            >
-              Explore Classes &amp; Private Preparation
-            </Link>
+          <div className="relative self-start md:-mt-6">
+            <div className="overflow-hidden rounded-xl2 border border-black/10 shadow-soft">
+              <img
+                src="/images/Sarah-homepage-photo.jpeg"
+                alt="The Prepared Birth"
+                className="h-[420px] w-full object-cover md:h-[520px]"
+              />
+            </div>
           </div>
         </div>
 
-        <div className="relative">
-          <div className="overflow-hidden rounded-xl2 border border-black/10 shadow-soft">
-            <img
-              src="/images/Sarah-homepage-photo.jpeg"
-              alt="The Prepared Birth"
-              className="h-[420px] w-full object-cover md:h-[520px]"
-            />
+        {/* Bottom: "You'll leave with" spans full width below the photo */}
+        <div className="mt-8">
+          <p className="font-medium mb-3">You&apos;ll leave with:</p>
+          <ul className="grid gap-x-10 gap-y-2 text-base opacity-90 md:grid-cols-2">
+            <li>• Your personalized birth plan and preferences</li>
+            <li>• Practical comfort measures and labor tools</li>
+            <li>• Clear guidance for navigating interventions and unexpected changes</li>
+            <li>• A partner who knows what to do and how to advocate alongside you</li>
+            <li>• Greater confidence in yourself, your choices, and your ability to adapt</li>
+          </ul>
+
+          <div className="mt-6">
+            <Link
+              href="#book"
+              className="inline-flex items-center justify-center rounded-xl bg-sage-700 px-6 py-3 text-white no-underline shadow-soft transition hover:bg-sage-800"
+            >
+              Explore Classes &amp; Private Preparation
+            </Link>
           </div>
         </div>
       </section>
@@ -109,7 +113,7 @@ export default function HomePage() {
 
           <div className="mt-6">
             <Link
-              href="/working-with-me"
+              href="#book"
               className="inline-flex items-center justify-center rounded-xl bg-sage-700 px-6 py-3 text-white no-underline shadow-soft transition hover:bg-sage-800"
             >
               Explore Classes &amp; Private Preparation
@@ -123,7 +127,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      <CalendlyEmbed />
+      <div id="book">
+        <CalendlyEmbed />
+      </div>
 
       <p className="text-center text-sm text-gray-500 px-6 max-w-2xl mx-auto -mt-4">
         While my primary focus is private childbirth education and birth preparation, limited doula support may be available for select families based on availability and fit.

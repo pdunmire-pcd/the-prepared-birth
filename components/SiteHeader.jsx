@@ -5,9 +5,8 @@ import { useState } from "react";
 
 const nav = [
   { href: "/", label: "Home" },
+  { href: "/working-with-me", label: "Birth Preparation" },
   { href: "/about", label: "About" },
-  { href: "/inquiry", label: "Inquiry" },
-  { href: "/working-with-me", label: "Working With Me" },
   { href: "/faq", label: "FAQ" },
 ];
 
@@ -20,7 +19,7 @@ export default function SiteHeader() {
         <Link href="/" className="no-underline">
           <div className="leading-tight">
             <div className="font-serif text-lg">The Prepared Birth.</div>
-            <div className="text-xs opacity-70">Education • Planning • Birth • Postpartum</div>
+            <div className="text-xs opacity-70">Birth Preparation • Advocacy • Partner Support • Postpartum</div>
           </div>
         </Link>
 
@@ -35,6 +34,12 @@ export default function SiteHeader() {
               {item.label}
             </Link>
           ))}
+          <Link
+            href="/inquiry"
+            className="no-underline rounded-full bg-sage-700 px-4 py-1.5 text-white transition hover:bg-sage-800"
+          >
+            Inquire
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -74,6 +79,13 @@ export default function SiteHeader() {
                 {item.label}
               </Link>
             ))}
+            <Link
+              href="/inquiry"
+              className="no-underline inline-flex items-center justify-center rounded-full bg-sage-700 px-4 py-2 text-sm text-white transition hover:bg-sage-800 mt-1"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Inquire
+            </Link>
           </nav>
         </div>
       )}

@@ -15,15 +15,15 @@ export const metadata = {
 const faqs = [
   {
     q: "What do you offer?",
-    a: "Private birth preparation for Tacoma families - so you feel clear, steady, and confident in your birth decisions before labor begins.",
+    a: "I offer small-group workshops and private birth preparation for Tacoma and Pierce County families. You'll gain practical tools, a personalized plan, and the confidence to make informed decisions—even if birth unfolds differently than expected.",
   },
   {
     q: "Who do you work with?",
-    a: "I work with Tacoma families planning birth at Saint Joseph, Tacoma General, or The Birthing Inn - first-time or returning parents who don't want to feel uncertain, rushed, or caught off guard when decisions matter most.",
+    a: "I support first-time and experienced parents preparing for hospital, birth-center, or home birth. My preparation is especially valuable for families who want to understand their options, involve their support person, and feel confident advocating for themselves and their baby.",
   },
   {
     q: "Do you offer childbirth education classes?",
-    a: "There is no need for outside childbirth classes, childbirth classes is included in your personal preparation plan.",
+    a: "Yes. Choose a small-group birth workshop or private preparation tailored to your birthplace, concerns, and goals. Every option includes practical childbirth education, partner preparation, informed consent and advocacy, comfort techniques, birth preferences, and preparation for the early postpartum transition.",
   },
   {
     q: "Do you take insurance?",

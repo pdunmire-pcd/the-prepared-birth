@@ -26,28 +26,29 @@ export default function SiteFooter() {
         </div>
 
         <div className="text-sm">
-          <div className="font-semibold mb-2">Service area</div>
+          <div className="font-semibold mb-2">Service Area</div>
           <div className="opacity-80">
-            Seattle–Tacoma • Puget Sound • Virtual when appropriate
+            Tacoma • Puyallup • JBLM • Pierce County
           </div>
+          <div className="mt-1 opacity-70">
+            Virtual birth preparation available nationwide
+          </div>
+
           <div className="mt-4">
             <GoogleReviewsFooterBadge />
           </div>
 
-          <div className="mt-4">
-            <div className="font-semibold mb-2">Local resources</div>
+          <div className="mt-5">
+            <div className="font-semibold mb-2">Local Partners &amp; Resources</div>
             <div className="grid gap-1 opacity-85">
               <Link href="https://thebirthinginn.com" target="_blank" className="no-underline hover:underline">
                 The Birthing Inn
               </Link>
+              <span className="opacity-80">Madrona Physical Therapy</span>
               <Link href="https://allaboutbirthmidwifery.com" target="_blank" className="no-underline hover:underline">
                 All About Birth Midwifery
               </Link>
             </div>
-          </div>
-
-          <div className="mt-4 opacity-70 text-xs">
-            Education-based, non-medical support. No labor or birth attendance.
           </div>
         </div>
       </div>
