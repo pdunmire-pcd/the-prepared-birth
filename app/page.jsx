@@ -48,7 +48,7 @@ export default function HomePage() {
           <div className="relative self-start md:-mt-6">
             <div className="overflow-hidden rounded-xl2 border border-black/10 shadow-soft">
               <img
-                src="/images/Sarah-homepage-photo.jpeg"
+                src="/images/new_photo_of_Sarah.png"
                 alt="The Prepared Birth"
                 className="h-[420px] w-full object-cover md:h-[520px]"
               />
