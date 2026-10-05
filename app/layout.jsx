@@ -2,6 +2,8 @@ import "./globals.css";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import { GoogleReviewsFloatingBadge } from "../components/GoogleReviewsBadge";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: {
@@ -23,6 +25,8 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <SiteFooter />
         <GoogleReviewsFloatingBadge />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
