@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Card, PackageCard } from "../../components/AboutCards";
 
 export const metadata = {
-  title: "About - The Prepared Birth",
+  title: "About",
   description:
     "Learn about The Prepared Birth - thoughtful birth education and consultation for families in the Puget Sound region. Over 15 years of experience supporting hospital and birth-center births with calm, experienced guidance.",
   keywords:

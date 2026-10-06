@@ -118,7 +118,7 @@ export default function BirthPreparationSlider() {
           title: "Workshop",
           description: "Hospital birth workshops at Madrona Physical Therapy · Out-of-hospital prep at The Birthing Inn",
           buttonLabel: "Reserve Spot",
-          buttonHref: "/contact",
+          buttonHref: "/inquiry",
         },
         {
           title: "Private Preparation",

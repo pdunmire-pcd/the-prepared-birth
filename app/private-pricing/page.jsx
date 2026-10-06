@@ -1,8 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Private Pricing | The Prepared Birth",
-  robots: { index: false, follow: false },
+  title: "Private Birth Preparation Pricing",
+  description:
+    "Explore private birth preparation and doula support options, pricing, and consultation details for families in the Tacoma and Puget Sound region.",
 };
 
 export default function PrivatePricingPage() {

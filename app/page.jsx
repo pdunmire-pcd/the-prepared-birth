@@ -4,15 +4,15 @@ import CalendlyEmbed from "/components/CalendlyEmbed.jsx";
 import { GoogleReviewsStrip } from "/components/GoogleReviewsBadge.jsx";
 
 export const metadata = {
-  title: "The Prepared Birth - Private Birth Preparation in Tacoma, WA",
+  title: "Childbirth Classes in Tacoma, WA | The Prepared Birth",
   description:
-    "Real-world birth preparation for Tacoma hospitals, birth centers, and home birth. Walk in feeling ready. Come home prepared.",
+    "Small-group childbirth classes and private birth preparation in Tacoma and Pierce County. Prepare for hospital, birth-center, or home birth with practical local guidance.",
   keywords:
     "childbirth education, childbirth classes, tacoma birth, puyallup birth, the birthing inn, Tacoma doula, pierce county birth, tacoma birth guide, birth help tacoma, pacific northwest moms, tacoma general, st. josephs, hospital birth preparation, birth-center care, prenatal education, birth clarity, JBLM, birth support, postpartum preparation, newborn care, birth planning, personalized birth prep, virtual birth classes, birth workshops, birth coaching, birth guidance, birth education, birth resources, birth support tacoma, birth preparation tacoma, birth classes tacoma, birth education tacoma, birth classes tacoma wa, birth preparation tacoma wa, birth support tacoma wa, birth education tacoma wa, birth coaching tacoma wa, birth workshops tacoma wa",
   openGraph: {
-    title: "The Prepared Birth - Private Birth Preparation in Tacoma",
+    title: "Childbirth Classes in Tacoma, WA | The Prepared Birth",
     description:
-      "Real-world birth preparation for Tacoma hospitals, birth centers, and home birth.",
+      "Small-group childbirth classes and private birth preparation in Tacoma and Pierce County.",
     url: "https://thepreparedbirth.com",
     siteName: "The Prepared Birth",
     locale: "en_US",

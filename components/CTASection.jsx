@@ -14,7 +14,7 @@ export default function CTASection({
           </div>
           <div className="flex flex-wrap gap-3">
             <Link
-              href="/contact"
+              href="/inquiry"
               className="no-underline inline-flex items-center justify-center px-5 py-3 rounded-xl bg-sage-700 text-white shadow-soft hover:bg-sage-800 transition"
             >
               Inquiry Form

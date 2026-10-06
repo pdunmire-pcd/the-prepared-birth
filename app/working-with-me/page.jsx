@@ -1,7 +1,7 @@
 import GoogleReviewsSection from "@/components/GoogleReviewsSection";
 
 export const metadata = {
-  title: "Working With Me - The Prepared Birth",
+  title: "Working With Me",
   description:
     "Independent birth education and consultation practice serving families in the Puget Sound region. Calm, experienced guidance for hospital and birth-center births without adding another person at your birth.",
   keywords:

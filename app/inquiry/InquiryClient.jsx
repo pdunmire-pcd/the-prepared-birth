@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { track } from "@vercel/analytics";
 
 
 export default function InquiryPage() {
@@ -23,6 +24,7 @@ export default function InquiryPage() {
       if (!res.ok) throw new Error("Request failed");
 
       setStatus("success");
+      track("inquiry_submitted");
       form.reset();
       // Scroll to top so the confirmation is visible on mobile.
       window.scrollTo({ top: 0, behavior: "smooth" });

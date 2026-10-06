@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "FAQ - The Prepared Birth",
+  title: "FAQ",
   description: "Frequently asked questions about birth education and consultation services. Learn about the Birth Clarity Session, pricing, insurance, and how we work with families in the Puget Sound region.",
   keywords: "birth education FAQ, childbirth class questions, Tacoma birth support, doula vs educator, birth preparation questions",
   openGraph: {

@@ -1,7 +1,7 @@
 import InquiryClient from "./InquiryClient";
 
 export const metadata = {
-  title: "Inquiry - The Prepared Birth",
+  title: "Inquiry",
   description: "Start your birth preparation journey. Submit an inquiry to determine if we're a good fit for thoughtful, individualized birth education and consultation in the Puget Sound region.",
   keywords: "birth inquiry, contact birth educator, Tacoma birth support, schedule birth consultation",
   openGraph: {
