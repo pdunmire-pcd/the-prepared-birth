@@ -28,6 +28,14 @@ export default function HomePage() {
         {/* Top: heading + photo side by side */}
         <div className="grid items-start gap-10 md:grid-cols-2">
           <div>
+            <p className="mb-5 inline-flex max-w-full flex-wrap items-center gap-x-1.5 gap-y-1 rounded-[18px] border border-[#c9d7cd] bg-gradient-to-r from-[#f8fbf8] via-[#f2f8f3] to-[#eef6ef] px-4 py-2 text-xs font-bold leading-relaxed text-sage-900 shadow-[0_8px_22px_rgba(83,110,93,0.08)] sm:text-sm">
+              <span>Now accepting Washington Apple Health (Medicaid) for doula services.</span>
+              <Link href="/inquiry" className="font-semibold italic text-sage-900 underline decoration-2 underline-offset-2">
+                Contact me
+              </Link>
+              <span>to discuss your coverage and availability.</span>
+            </p>
+
             <p className="text-sm font-medium uppercase tracking-widest opacity-60 mb-3">
               Real-world birth preparation for Tacoma hospitals, birth centers, and home birth.
             </p>
